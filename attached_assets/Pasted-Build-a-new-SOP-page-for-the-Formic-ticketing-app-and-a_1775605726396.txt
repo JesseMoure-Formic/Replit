@@ -1,0 +1,119 @@
+Build a new SOP page for the Formic ticketing app and add an entry point to it from the Dev Changes page.
+
+What I want:
+On the Dev Changes page, place a clear icon and label for the SOP. When the user clicks it, it should open a separate SOP page or view. Do not show the full SOP directly inside the Dev Changes page.
+
+Main behavior:
+
+Add an icon to the Dev Changes page near the top or in a clear actions area
+The icon should represent help, training, guide, or documentation
+Add a label next to it that says: Ticketing SOP
+When clicked, open a separate SOP page
+The SOP page should feel like part of the app, not an external document
+The SOP page should be easy to update later
+
+SOP page requirements:
+Create a clean internal training page for new Formic employees on how to use the Formic ticketing app.
+
+The SOP page should include:
+
+Title
+Purpose
+Who should use it
+When to create a ticket
+Step by step instructions
+Priority guidance
+Assignment guidance
+Escalation guidance
+Good notes examples
+Common mistakes
+Best practices
+Quick reference checklist
+
+Step by step sections to include:
+
+Logging in
+Finding the correct customer or system
+Creating a new ticket
+Selecting the right priority
+Assigning the ticket
+Writing a useful issue summary
+Writing detailed notes
+Adding photos or attachments
+Updating ticket status
+Reassigning or escalating a ticket
+Recording work performed
+Closing the ticket correctly
+Reviewing ticket history
+
+Image and screenshot requirements:
+
+Include screenshot placeholders throughout the SOP page
+Each major section should have its own placeholder
+Format them like this:
+[Insert Screenshot: Login Screen]
+[Insert Screenshot: New Ticket Form]
+[Insert Screenshot: Priority Selection]
+Add a short caption under each placeholder explaining what the employee should be looking at
+Make screenshot placeholders visually obvious in the UI
+
+UI requirements:
+Dev Changes page:
+
+Add a clickable icon and label for the SOP
+Make it look native to the current app style
+Keep it simple and easy to find
+
+SOP page:
+
+Add a strong title at the top: Formic Ticketing App SOP
+Add a matching top icon on the SOP page
+Use a clean layout with sections, numbered steps, and visual separation between sections
+Make the page scrollable
+Use cards, dividers, accordions, or section blocks if helpful
+Include a back button or close action so the user can return to Dev Changes
+Keep typography and spacing polished
+Make it responsive for smaller screens
+
+Technical requirements:
+
+Build the SOP as a separate page, route, or dedicated view
+Add navigation from the Dev Changes page to the SOP page
+If the app uses React routing, use the existing routing pattern
+If the app uses a component system, create a reusable SOP page component
+Reuse the existing design system and UI styles where possible
+Use an existing icon library if available
+Match the current app structure and naming conventions
+
+Content style:
+
+Write for brand new employees with no prior experience
+Use plain language
+Keep sentences short
+Be direct and practical
+No fluff
+Make it useful for onboarding and daily reference
+
+Important constraints:
+
+Do not place the full SOP on the Dev Changes page
+Do not make it a modal unless routing is impossible
+Do not output raw text only
+Do not invent Formic-specific workflow rules if they are not provided
+Use clear placeholders anywhere app-specific details are missing
+
+Use placeholders like:
+
+[Add Formic-specific priority definitions here]
+[Add actual escalation path here]
+[Insert live app screenshot here]
+[Add ticket ownership rules here]
+
+At the end, make sure the build includes:
+
+Dev Changes page icon and label
+Click action that opens the SOP page
+Separate SOP page with full structured content
+Screenshot placeholders
+Back navigation to Dev Changes
+Quick reference checklist on the SOP page

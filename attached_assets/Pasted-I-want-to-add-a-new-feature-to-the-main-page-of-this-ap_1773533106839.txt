@@ -1,0 +1,78 @@
+I want to add a new feature to the main page of this app.
+
+At the bottom of the main page, add a small link or button labeled "Dev Changes". When clicked, it should open a modal or slide-out panel that shows a development summary page styled to match the rest of the app.
+
+This is for a Formic ticketing system, not a game app.
+
+Build the Dev Changes view with these sections:
+
+1. Major Functions
+At the top, show a section called "Major Functions". This should list the main functional areas of the ticketing system in clean cards or rows. Each item should include:
+- Function name
+- Short description
+- Estimated token count or code size if available
+- Estimated cost if that data exists
+Examples of functions could include:
+- Ticket Dashboard
+- Ticket Detail View
+- Work Order Management
+- Assignment / Dispatch
+- Status Tracking
+- Notes and Activity Log
+- Reporting
+- User Roles / Permissions
+- Notifications
+- Admin Panel
+
+2. Minor Features
+Under that, show a section called "Minor Features". This should list smaller supporting features such as:
+- Filters
+- Search
+- Sort options
+- Saved views
+- Export tools
+- Audit trail
+- SLA indicators
+- Priority tags
+- Attachments
+- Internal comments
+Each should have a short one-line description.
+
+3. Version History
+Below that, add a "Version History" section that automatically reviews previous changes and generates a list of version entries.
+Each version entry should include:
+- Version number
+- Change type: Major or Minor
+- Date
+- Short title
+- Bullet list of what changed
+
+Use this logic to classify releases:
+- Major change = 10% or greater increase in code size, or 25% or greater change in code base
+- Minor change = 2% or greater increase in code size, or 10% or greater change in code base
+
+If exact code comparison data is not available, create the structure now and use best-effort generated summaries from git history, commit history, file diffs, or recent feature additions. Make the system easy to replace later with true automated calculations.
+
+Functional requirements:
+- Add a "Dev Changes" link at the bottom of the main page
+- Clicking it opens a modal, drawer, or overlay window
+- It should be scrollable
+- It should support dark mode and match the app’s current visual style
+- Use clean section headers, rounded cards, subtle borders, and compact spacing similar to a modern SaaS admin tool
+- Keep it professional and internal-facing, consistent with Formic branding
+- Do not make it look like a game UI
+
+Technical requirements:
+- Reuse existing app styling and components where possible
+- If the app has a component library, use it
+- Create a dedicated component for the Dev Changes view
+- Make the version history data-driven so entries can be expanded later
+- Seed the page with placeholder entries if real history cannot yet be pulled automatically
+- Structure the code so version entries can later be pulled from git metadata or a JSON changelog file
+
+If possible, also create:
+- a simple changelog data model
+- a sample seed file with a few example entries
+- helper logic that determines Major vs Minor release labels based on percent thresholds
+
+Please implement this feature directly and keep the UI polished.

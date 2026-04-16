@@ -1,0 +1,1020 @@
+import { WebClient } from "@slack/web-api";
+
+const createContextBlock = ({ text }) => ({
+  type: "context",
+  elements: [
+    {
+      type: "plain_text",
+      text: text,
+      emoji: true,
+    },
+  ],
+});
+
+const createButtonBlock = ({ text, blockId, actionId }) => ({
+  block_id: blockId,
+  type: "actions",
+  elements: [
+    {
+      type: "button",
+      text: {
+        type: "plain_text",
+        text: text,
+        emoji: true,
+      },
+      value: "add-contact-button",
+      action_id: actionId,
+    },
+  ],
+});
+
+const plainTextBlock = (text) => ({
+  type: "section",
+  text: {
+    type: "plain_text",
+    text: text,
+    emoji: true,
+  },
+});
+
+const createSelectBlock = ({
+  label,
+  blockId,
+  actionId,
+  optionGroups,
+  options,
+  optional,
+  dispatchAction = false,
+}) => {
+  return {
+    dispatch_action: dispatchAction,
+    type: "input",
+    block_id: blockId,
+    element: {
+      type: "static_select",
+      placeholder: {
+        type: "plain_text",
+        text: "Select option",
+        emoji: true,
+      },
+      option_groups: optionGroups,
+      options: options,
+      action_id: actionId,
+    },
+    label: {
+      type: "plain_text",
+      text: label,
+      emoji: true,
+    },
+    optional: optional,
+  };
+};
+
+const createRadioBlock = ({
+  label,
+  blockId,
+  actionId,
+  options,
+  optional,
+  dispatchAction = false,
+}) => {
+  return {
+    dispatch_action: dispatchAction,
+    type: "input",
+    block_id: blockId,
+    element: {
+      type: "radio_buttons",
+      options: options,
+      action_id: actionId,
+    },
+    label: {
+      type: "plain_text",
+      text: label,
+      emoji: true,
+    },
+    optional: optional,
+  };
+};
+
+const createOption = (text, value) => {
+  const abbrText = text.length > 75 ? text.slice(0, 74) : text;
+  return {
+    text: {
+      type: "plain_text",
+      text: abbrText,
+    },
+    value: value,
+  };
+};
+
+const createEmailInputBlock = ({
+  label,
+  blockId,
+  actionId,
+  optional = false,
+}) => ({
+  type: "input",
+  block_id: blockId,
+  element: {
+    action_id: actionId,
+    type: "email_text_input",
+  },
+  label: {
+    type: "plain_text",
+    text: label,
+    emoji: true,
+  },
+  optional: optional,
+});
+
+const createPlainTextInputBlock = ({
+  label,
+  blockId,
+  actionId,
+  optional,
+  multiline,
+}) => ({
+  type: "input",
+  block_id: blockId,
+  element: {
+    action_id: actionId,
+    type: "plain_text_input",
+    multiline: multiline,
+  },
+  label: {
+    type: "plain_text",
+    text: label,
+    emoji: true,
+  },
+  optional: optional,
+});
+
+const createMultiUserSelectBlock = ({
+  label,
+  blockId,
+  actionId,
+  optional,
+}) => ({
+  type: "input",
+  block_id: blockId,
+  element: {
+    type: "multi_users_select",
+    placeholder: {
+      type: "plain_text",
+      text: "Select user",
+      emoji: true,
+    },
+    action_id: actionId,
+  },
+  label: {
+    type: "plain_text",
+    text: label,
+    emoji: true,
+  },
+  optional: optional,
+});
+
+const createSingleUserSelectBlock = ({
+  label,
+  blockId,
+  actionId,
+  optional,
+}) => ({
+  type: "input",
+  block_id: blockId,
+  element: {
+    type: "users_select",
+    placeholder: {
+      type: "plain_text",
+      text: "Select user",
+      emoji: true,
+    },
+    action_id: actionId,
+  },
+  label: {
+    type: "plain_text",
+    text: label,
+    emoji: true,
+  },
+  optional: optional,
+});
+
+const RECEIPT = {
+  SUPPORT_PHONE: "Support Phone Line (RingCentral)",
+  SUPPORT_EMAIL: "Support Email (support@formic.co)",
+  DIRECT_PHONE: "Direct Phone Call",
+  DIRECT_TEXT: "Direct Text / SMS",
+  DIRECT_EMAIL: "Direct Email (user@formic.co)",
+  OTHER: "Other",
+};
+
+const receiptOptions = [
+  createOption(RECEIPT.SUPPORT_PHONE, RECEIPT.SUPPORT_PHONE),
+  createOption(RECEIPT.SUPPORT_EMAIL, RECEIPT.SUPPORT_EMAIL),
+  createOption(RECEIPT.DIRECT_PHONE, RECEIPT.DIRECT_PHONE),
+  createOption(RECEIPT.DIRECT_TEXT, RECEIPT.DIRECT_TEXT),
+  createOption(RECEIPT.DIRECT_EMAIL, RECEIPT.DIRECT_EMAIL),
+  createOption(RECEIPT.OTHER, RECEIPT.OTHER),
+];
+
+const PRIORITY = {
+  P1: "FS: P1: Robot Down, Production Blocked",
+  "P1-2": "FE: P1-2: Sustaining Engineering Escalation",
+  "P1-3": "SW: P1-3: Software Engineering Escalation",
+  P2: "FS: P2: Robot Down, Production Not Blocked",
+  "P3-1": "FS: P3-1: Adjustment / Repair / Parts Delay",
+  "P3-2": "FS: P3-2: Install / Production Support",
+  "P3-3": "FS: P3-3: Investigation / Monitor",
+  "P4-1": "CI: P4-1: Recipe Add / Modification",
+  "P4-2": "CI: P4-2: Project (Internal)",
+  "P4-3": "CI: P4-3: Project (External SI / Vendor)",
+  P5: "CS: P5: Customer Success Activity",
+  P6: "AT: P6: ANT Connectivity / Data Issue",
+};
+
+const priorityOptions = [
+  createOption(PRIORITY["P1"], PRIORITY["P1"]),
+  createOption(PRIORITY["P1-2"], PRIORITY["P1-2"]),
+  createOption(PRIORITY["P1-3"], PRIORITY["P1-3"]),
+  createOption(PRIORITY["P2"], PRIORITY["P2"]),
+  createOption(PRIORITY["P3-1"], PRIORITY["P3-1"]),
+  createOption(PRIORITY["P3-2"], PRIORITY["P3-2"]),
+  createOption(PRIORITY["P3-3"], PRIORITY["P3-3"]),
+  createOption(PRIORITY["P4-1"], PRIORITY["P4-1"]),
+  createOption(PRIORITY["P4-2"], PRIORITY["P4-2"]),
+  createOption(PRIORITY["P4-3"], PRIORITY["P4-3"]),
+  createOption(PRIORITY["P5"], PRIORITY["P5"]),
+  createOption(PRIORITY["P6"], PRIORITY["P6"]),
+];
+
+const commsDirOptions = [
+  createOption("Inbound", "Inbound"),
+  createOption("Outbound", "Outbound"),
+  createOption("Internal", "Internal"),
+];
+
+const yesNoRadioOptions = [
+  createOption("Yes", "Yes"),
+  createOption("No", "No"),
+];
+
+const getCustomerSelectBlock = async ({ airtableReqOptions }) => {
+  const customersRes = await fetch(
+    `${process.env.TABLE_BASE_URL}/formic_customers`,
+    airtableReqOptions,
+  );
+  const customersData = await customersRes.json();
+  console.log("customersData", customersData);
+  let customersRecords = customersData.records;
+  let offset = customersData.offset;
+
+  while (offset) {
+    const nextCustomersRes = await fetch(
+      `${process.env.TABLE_BASE_URL}/formic_customers?offset=${offset}`,
+      airtableReqOptions,
+    );
+    const nextCustomersData = await nextCustomersRes.json();
+    console.log("nextCustomersData", nextCustomersData);
+
+    const nextCustomersRecords = nextCustomersData.records;
+    customersRecords = [...customersRecords, ...nextCustomersRecords];
+    offset = nextCustomersData.offset;
+  }
+
+  const letterCategories = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
+  const numericCategories = "#";
+  const sections = [numericCategories, ...letterCategories];
+
+  const sortedCustomersRecords = customersRecords.sort((a, b) =>
+    a.fields.name.localeCompare(b.fields.name),
+  );
+
+  const sectionedSortedCustomersRecords = sections.reduce((acc, curr) => {
+    if (curr === "#") {
+      const filteredRecords = sortedCustomersRecords.filter((record) =>
+        parseInt(record.fields.name[0]),
+      );
+      if (filteredRecords.length > 0) {
+        const options = filteredRecords.map((record) => {
+          return createOption(record.fields.name, record.id);
+        });
+        const optionGroup = {
+          label: {
+            type: "plain_text",
+            text: curr,
+          },
+          options: options,
+        };
+        acc.push(optionGroup);
+      }
+    } else {
+      const filteredRecords = sortedCustomersRecords.filter(
+        (record) => record.fields.name[0] === curr,
+      );
+      if (filteredRecords.length > 0) {
+        const options = filteredRecords.map((record) => {
+          return createOption(record.fields.name, record.id);
+        });
+        const optionGroup = {
+          label: {
+            type: "plain_text",
+            text: curr,
+          },
+          options: options,
+        };
+        acc.push(optionGroup);
+      }
+    }
+    return acc;
+  }, []);
+  const customerOptions = sortedCustomersRecords.map((record) =>
+    createOption(record.fields.name, record.id),
+  );
+
+  const customerSelectBlock = createSelectBlock({
+    label: "Which customer?",
+    blockId: "customer",
+    actionId: "customer",
+    optionGroups: sectionedSortedCustomersRecords,
+    optional: false,
+    dispatchAction: true,
+  });
+  return customerSelectBlock;
+};
+
+const onOpenModal = async ({ $, airtableReqOptions, webClient, triggerId }) => {
+  const loadingBlock = plainTextBlock("One moment...");
+  const loadingView = {
+    trigger_id: triggerId,
+    view: {
+      type: "modal",
+      callback_id: "ticket_form",
+      title: {
+        type: "plain_text",
+        text: "Inbound support request",
+      },
+      blocks: [loadingBlock],
+      close: {
+        type: "plain_text",
+        text: "Cancel",
+      },
+    },
+  };
+  const viewInfo = await webClient.views.open(loadingView);
+
+  const customerSelectBlock = await getCustomerSelectBlock({
+    airtableReqOptions,
+  });
+  const view = {
+    view_id: viewInfo.view.id,
+    view: {
+      type: "modal",
+      callback_id: "ticket_form",
+      title: {
+        type: "plain_text",
+        text: "Inbound support request",
+      },
+      blocks: [customerSelectBlock],
+      close: {
+        type: "plain_text",
+        text: "Cancel",
+      },
+    },
+  };
+  await webClient.views.update(view);
+};
+
+const getTicketFormBlocks = async ({
+  airtableReqOptions,
+  selectedCustomerName,
+}) => {
+  console.log("selectedCustomerName", selectedCustomerName);
+
+  const sitesFetchUrl = `${process.env.TABLE_BASE_URL}/formic_customer_sites?field=address&field=city&field=state_province&filterByFormula=FIND("${encodeURIComponent(selectedCustomerName)}",customer)`;
+  const sitesRes = await fetch(sitesFetchUrl, airtableReqOptions);
+  const sitesData = await sitesRes.json();
+  console.log("sites", sitesData);
+
+  const systemsFetchUrl = `${process.env.TABLE_BASE_URL}/jobsdb_sync?fields[]=asa&fields[]=system_id&fields[]=system_alias&filterByFormula=FIND("${encodeURIComponent(selectedCustomerName)}",linked_customer)`;
+  const systemsRes = await fetch(systemsFetchUrl, airtableReqOptions);
+  const systemsData = await systemsRes.json();
+  console.log("systems", systemsData);
+
+  if (systemsData.records.length === 0 || sitesData.records.length === 0) {
+    const noSitesBlock = plainTextBlock(
+      ":rotating_light: No sites associated with this customer, add one to create a support request.",
+    );
+    const noSystemsBlock = plainTextBlock(
+      ":rotating_light: No system IDs associated with this customer, add one to create a support request.",
+    );
+    const blocks = [
+      ...(sitesData.records.length === 0 ? [noSitesBlock] : []),
+      ...(systemsData.records.length === 0 ? [noSystemsBlock] : []),
+    ];
+    return blocks;
+  }
+
+  const contactFetchUrl = `${process.env.TABLE_BASE_URL}/formic_customer_contacts?fields[]=first_name&fields[]=last_name&fields[]=title&filterByFormula=FIND("${encodeURIComponent(selectedCustomerName)}",customer)`;
+  const contactsRes = await fetch(contactFetchUrl, airtableReqOptions);
+  const contactsData = await contactsRes.json();
+  console.log("contacts", contactsData);
+
+  const contactOptions = contactsData.records?.map((contact) => {
+    const label = `${contact.fields.first_name} ${contact.fields.last_name}${contact.fields.title ? ` - ${contact.fields.title}` : ""}`;
+    return createOption(label, contact.id);
+  });
+
+  const systemOptions = systemsData.records.map((record) => {
+    const label = record.fields.system_alias
+      ? `${record.fields.system_id} - ${record.fields.system_alias}`
+      : `${record.fields.system_id}`;
+    return createOption(label, record.id);
+  });
+
+  const siteOptions = sitesData.records.map((record) => {
+    return createOption(
+      `${record.fields.address}, ${record.fields.city} ${record.fields.state_province}`,
+      record.id,
+    );
+  });
+
+  const siteSelectBlock = createSelectBlock({
+    label: "Which site?",
+    blockId: `site-${selectedCustomerName}`,
+    actionId: "site",
+    options: siteOptions,
+    optional: false,
+    dispatchAction: true,
+  });
+  const contactSelectBlock = createSelectBlock({
+    label: "Which contact?",
+    blockId: `contact-${selectedCustomerName}`,
+    actionId: "contact",
+    options: contactOptions,
+    optional: false,
+    dispatchAction: true,
+  });
+  const addContactTextBlock = plainTextBlock(
+    ":rotating_light: No contacts associated with this customer, add one to create an ISR.",
+  );
+  const addNewContactButtonBlock = createButtonBlock({
+    text: "Add new contact",
+    blockId: "add-contact",
+    actionId: "add-contact",
+  });
+  const commsDirectionSelectBlock = createSelectBlock({
+    label: "Comms direction?",
+    blockId: "comms_direction",
+    actionId: "comms_direction",
+    options: commsDirOptions,
+    optional: false,
+  });
+  const openWORadioBlock = createRadioBlock({
+    label: "Open MaintainX WO?",
+    blockId: "open_wo",
+    actionId: "open_wo",
+    options: yesNoRadioOptions,
+    optional: false,
+  });
+  const prioritySelectBlock = createSelectBlock({
+    label: "What's the priority?",
+    blockId: "priority",
+    actionId: "priority",
+    options: priorityOptions,
+    optional: false,
+  });
+  const systemSelectBlock = createSelectBlock({
+    label: "Formic System ID",
+    blockId: `asa_${selectedCustomerName}`,
+    actionId: "asa",
+    options: systemOptions,
+    optional: false,
+  });
+  const systemContextBlock = createContextBlock({
+    text: "Select the Formic system this request is about",
+  });
+  const receiptSelectBlock = createSelectBlock({
+    label: "How did you receive this escalation?",
+    blockId: "receipt_method",
+    actionId: "receipt_method",
+    options: receiptOptions,
+    optional: false,
+  });
+  const assigneeSelectBlock = createSingleUserSelectBlock({
+    label: "Assignee (required)",
+    blockId: "assignee",
+    actionId: "assignee",
+    optional: false,
+  });
+  const assigneeContextBlock = createContextBlock({
+    text: "Who is responsible for solving this problem?",
+  });
+  const notifySelectBlock = createSingleUserSelectBlock({
+    label: "Notify (optional, select 1)",
+    blockId: "notify",
+    actionId: "notify",
+    optional: true,
+  });
+  const notifyContextBlock = createContextBlock({
+    text: "Who should be notified about this issue?",
+  });
+  const descriptionBlock = createPlainTextInputBlock({
+    label: "Enter description",
+    blockId: "description",
+    actionId: "description",
+    optional: false,
+    multiline: true,
+    context:
+      "Description of issue including fault, current status, and next steps when possible.",
+  });
+  const descriptionContextBlock = createContextBlock({
+    text: "Description of issue including fault, current status, and next steps when possible",
+  });
+  const attachmentBlock = {
+    optional: true,
+    type: "input",
+    block_id: "attachments",
+    label: {
+      type: "plain_text",
+      text: "Attachments",
+    },
+    element: {
+      type: "file_input",
+      action_id: "attachments",
+      filetypes: ["jpg", "png", "pdf", "html"],
+      max_files: 5,
+    },
+  };
+  const attachmentContextBlock = createContextBlock({
+    text: "Optional screenshots, emails, or docs related to this issue.",
+  });
+
+  const blocks = [
+    siteSelectBlock,
+    contactOptions.length > 0 ? contactSelectBlock : addContactTextBlock,
+    addNewContactButtonBlock,
+    systemSelectBlock,
+    systemContextBlock,
+    commsDirectionSelectBlock,
+    //openWORadioBlock,
+    descriptionBlock,
+    descriptionContextBlock,
+    prioritySelectBlock,
+    receiptSelectBlock,
+    notifySelectBlock,
+    notifyContextBlock,
+    assigneeSelectBlock,
+    assigneeContextBlock,
+    attachmentBlock,
+    attachmentContextBlock,
+  ];
+
+  return blocks;
+};
+
+const onCustomerSelect = async ({
+  airtableReqOptions,
+  webClient,
+  viewId,
+  selectedCustomerName,
+  existingBlocks,
+}) => {
+  const formBlocks = await getTicketFormBlocks({
+    airtableReqOptions,
+    selectedCustomerName,
+  });
+  const blocks = [...existingBlocks, ...formBlocks];
+  const newView = {
+    view_id: viewId,
+    view: {
+      type: "modal",
+      callback_id: "ticket_form",
+      title: {
+        type: "plain_text",
+        text: "Inbound support request",
+      },
+      blocks: blocks,
+      submit: {
+        type: "plain_text",
+        text: "Submit",
+      },
+      close: {
+        type: "plain_text",
+        text: "Cancel",
+      },
+    },
+  };
+  await webClient.views.update(newView);
+};
+
+const flattenSlackViewState = (state) => {
+  const result = {};
+  const values = state.values;
+  const blockKeys = Object.keys(values);
+  for (const blockKey of blockKeys) {
+    const actionKeys = Object.keys(values[blockKey]);
+    for (const actionKey of actionKeys) {
+      const type = values[blockKey][actionKey].type;
+      switch (type) {
+        case "plain_text_input":
+          result[actionKey] = values[blockKey][actionKey].value;
+          break;
+        case "email_text_input":
+          result[actionKey] = values[blockKey][actionKey].value;
+          break;
+        case "number_input":
+          result[actionKey] = values[blockKey][actionKey].value;
+          break;
+        case "radio_buttons":
+          result[actionKey] = values[blockKey][actionKey].selected_option.value;
+          break;
+        case "static_select":
+          if (
+            actionKey === "customer" ||
+            actionKey === "contact" ||
+            actionKey === "site"
+          ) {
+            result[actionKey] = [
+              values[blockKey][actionKey].selected_option.value,
+            ];
+            break;
+          } else if (actionKey === "asa") {
+            result[actionKey] = [
+              values[blockKey][actionKey].selected_option.value,
+            ];
+            result["system_name"] =
+              values[blockKey][actionKey].selected_option.text.text;
+            break;
+          }
+          result[actionKey] = values[blockKey][actionKey].selected_option.value;
+          break;
+        case "users_select":
+          result[actionKey] = values[blockKey][actionKey].selected_user;
+          break;
+        case "multi_users_select":
+          result[actionKey] =
+            values[blockKey][actionKey].selected_users.join(",");
+          break;
+        case "file_input":
+          result[actionKey] = values[blockKey][actionKey].files
+            .map((file) => file.permalink)
+            .join(",");
+        default:
+          break;
+      }
+    }
+  }
+  return result;
+};
+
+const onSubmitTicket = async ({
+  $,
+  payload,
+  airtableReqOptions,
+  webClient,
+}) => {
+  await $.respond({
+    status: "200",
+    body: {
+      response_action: "clear",
+    },
+  });
+
+  const state = payload.view.state;
+  const submitterId = payload.user.id;
+  const flattenedViewState = flattenSlackViewState(state);
+  console.log("flattenedViewState", flattenedViewState);
+  const { system_name, ...viewStateForSubmit } = flattenedViewState;
+  const assigneeInfo = await webClient.users.info({
+    user: flattenedViewState.assignee,
+  });
+  const notifyInfo = flattenedViewState.notify
+    ? await webClient.users.info({ user: flattenedViewState.notify })
+    : "";
+  const submitterInfo = await webClient.users.info({ user: submitterId });
+
+  const submitFields = {
+    ...viewStateForSubmit,
+    assignee_name: assigneeInfo.user.real_name,
+    submitter_name: submitterInfo.user.real_name,
+    submitter: submitterId,
+  };
+
+  if (notifyInfo?.user?.real_name) {
+    submitFields.notify_name = notifyInfo.user.real_name;
+  }
+
+  const submitPayload = JSON.stringify({ fields: submitFields });
+  console.log("submitPayload", submitPayload);
+
+  const submit = await fetch(
+    `${process.env.TABLE_BASE_URL}/inboundescalations_2`,
+    {
+      method: "POST",
+      body: submitPayload,
+      ...airtableReqOptions,
+    },
+  );
+  const submitInfo = await submit.json();
+  console.log("submitInfo", submitInfo);
+
+  const recordId = submitInfo.fields.record_id;
+  const updateFields = { record_id_slack: recordId };
+  const updatePayload = JSON.stringify({ fields: updateFields });
+  console.log(updatePayload);
+  const update = await fetch(
+    `${process.env.TABLE_BASE_URL}/inboundescalations_2/${recordId}`,
+    {
+      method: "PATCH",
+      body: updatePayload,
+      ...airtableReqOptions,
+    },
+  );
+  const updateInfo = await update.json();
+  console.log("update", updateInfo);
+
+  const webhookBody = {
+    contact_phone_number: submitInfo.fields.contact_phone_number[0],
+    record_id: submitInfo.fields.record_id,
+    ticket_id: submitInfo.fields.ticket_id,
+    description: submitInfo.fields.description,
+    assignee: submitInfo.fields.assignee,
+    customer_name: submitInfo.fields.customer_name[0],
+    submitter: submitInfo.fields.submitter,
+    priority: submitInfo.fields.priority,
+    system_id: submitInfo.fields.asa[0],
+    system_name: flattenedViewState.system_name,
+    cs_channel:
+      process.env.ENV === "TEST"
+        ? "C0A68D2UN57"
+        : submitInfo.fields.cs_channel[0],
+    contact_name: submitInfo.fields.contact_full_name[0],
+    comms_direction: submitInfo.fields.comms_direction,
+    follow_up: submitInfo.fields.follow_up,
+  };
+  if (submitInfo.fields.notify) {
+    webhookBody.notify = submitInfo.fields.notify;
+  }
+  switch (submitInfo.fields.priority) {
+    case PRIORITY["P5"]:
+      webhookBody.main_channel =
+        process.env.CUSTOMER_SUCCESS_ACTIVITY_CHANNEL_ID;
+      break;
+    case PRIORITY["P6"]:
+      webhookBody.main_channel =
+        process.env.ANT_CONNECTIVITY_DATA_ISSUES_CHANNEL_ID;
+      break;
+    default:
+      webhookBody.main_channel =
+        process.env.INBOUND_SUPPORT_ESCALATIONS_CHANNEL_ID;
+      break;
+  }
+  console.log("webhookBody", webhookBody);
+
+  const webhookUrl =
+    "https://hooks.slack.com/triggers/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";
+  const webhookUrlNotify =
+    "https://hooks.slack.com/triggers/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";
+
+  const hitWebhook = async (url, body) =>
+    await fetch(url, {
+      headers: {
+        "Content-Type": "application/json",
+      },
+      method: "POST",
+      body: JSON.stringify(body),
+    });
+  const webhookStream = await hitWebhook(
+    submitInfo.fields.notify ? webhookUrlNotify : webhookUrl,
+    webhookBody,
+  );
+  const webhookJson = await webhookStream.json();
+  console.log("webhookJson", webhookJson);
+};
+
+const getContactFormBlocks = () => {
+  const firstNameBlock = createPlainTextInputBlock({
+    label: "First name",
+    blockId: "first_name",
+    actionId: "first_name",
+    optional: false,
+    multiline: false,
+  });
+  const lastNameBlock = createPlainTextInputBlock({
+    label: "Last name",
+    blockId: "last_name",
+    actionId: "last_name",
+    optional: false,
+    multiline: false,
+  });
+  const numberBlock = createPlainTextInputBlock({
+    label: "Phone number",
+    blockId: "phone_number",
+    actionId: "phone_number",
+    optional: false,
+    multiline: false,
+  });
+  const titleBlock = createPlainTextInputBlock({
+    label: "Title",
+    blockId: "title",
+    actionId: "title",
+    optional: true,
+    multiline: false,
+  });
+  const emailBlock = createEmailInputBlock({
+    label: "Email",
+    blockId: "email",
+    actionId: "email",
+    optional: true,
+  });
+
+  const blocks = [
+    firstNameBlock,
+    lastNameBlock,
+    numberBlock,
+    titleBlock,
+    emailBlock,
+  ];
+  return blocks;
+};
+
+const onAddContact = async ({ webClient, viewId, triggerId, state }) => {
+  const selectedCustomerId =
+    state.values.customer.customer.selected_option.value;
+  const selectedCustomerName =
+    state.values.customer.customer.selected_option.text.text;
+  const blocks = getContactFormBlocks();
+  const private_metadata = JSON.stringify({
+    selectedCustomerId,
+    selectedCustomerName,
+    viewId,
+  });
+
+  const contactFormView = {
+    trigger_id: triggerId,
+    view: {
+      type: "modal",
+      callback_id: "contact_form",
+      title: {
+        type: "plain_text",
+        text: "Add new contact",
+      },
+      blocks,
+      submit: {
+        type: "plain_text",
+        text: "Add",
+      },
+      close: {
+        type: "plain_text",
+        text: "Back",
+      },
+      private_metadata: `${private_metadata}`,
+    },
+  };
+  await webClient.views.push(contactFormView);
+};
+
+const onSubmitContact = async ({ $, webClient, view, airtableReqOptions }) => {
+  const state = view.state;
+  const private_metadata = view.private_metadata;
+  const privateMetadata = JSON.parse(private_metadata);
+  const selectedCustomerId = privateMetadata.selectedCustomerId;
+  const selectedCustomerName = privateMetadata.selectedCustomerName;
+  const viewId = privateMetadata.viewId;
+
+  const fields = {
+    ...flattenSlackViewState(state),
+    customer: [selectedCustomerId],
+  };
+  const payload = JSON.stringify({
+    fields: fields,
+  });
+  const submit = await fetch(
+    `${process.env.TABLE_BASE_URL}/formic_customer_contacts`,
+    {
+      method: "POST",
+      body: payload,
+      ...airtableReqOptions,
+    },
+  );
+  const submitInfo = await submit.json();
+  console.log("submitinfo", submitInfo);
+  await $.respond({
+    status: "200",
+  });
+
+  const customerSelectBlock = await getCustomerSelectBlock({
+    airtableReqOptions,
+  });
+  const ticketFormBlocks = await getTicketFormBlocks({
+    airtableReqOptions,
+    selectedCustomerName,
+  });
+  const blocks = [customerSelectBlock, ...ticketFormBlocks];
+
+  const newView = {
+    view_id: viewId,
+    view: {
+      type: "modal",
+      callback_id: "ticket_form",
+      title: {
+        type: "plain_text",
+        text: "Inbound support request",
+      },
+      blocks,
+      submit: {
+        type: "plain_text",
+        text: "Submit",
+      },
+      close: {
+        type: "plain_text",
+        text: "Cancel",
+      },
+    },
+  };
+
+  await webClient.views.update(newView);
+  await $.respond({
+    status: "200",
+  });
+};
+
+export default defineComponent({
+  async run({ steps, $ }) {
+    const payload = JSON.parse(steps.trigger.event.body.payload);
+    const airtableReqOptions = {
+      headers: {
+        Authorization: process.env.AIRTABLE_TOKEN,
+        "Content-Type": "application/json",
+      },
+    };
+    const token = process.env.SLACK_TOKEN;
+    const webClient = new WebClient(token);
+    const triggerId = payload.trigger_id;
+
+    if (payload.type === "view_submission") {
+      const callbackId = payload.view.callback_id;
+      switch (callbackId) {
+        case "ticket_form":
+          await onSubmitTicket({
+            $,
+            payload,
+            airtableReqOptions,
+            webClient,
+          });
+          break;
+        case "contact_form":
+          await onSubmitContact({
+            $,
+            view: payload.view,
+            airtableReqOptions,
+            webClient,
+          });
+          break;
+        default:
+          break;
+      }
+      return;
+    } else if (payload.type === "block_actions") {
+      await $.respond({
+        status: "200",
+      });
+      const viewId = payload.view.id;
+      for (const action of payload.actions) {
+        const payloadBlocks = payload.view.blocks;
+        switch (action.action_id) {
+          case "customer":
+            const selectedCustomerOption = action.selected_option;
+            await onCustomerSelect({
+              $,
+              airtableReqOptions,
+              webClient,
+              viewId,
+              selectedCustomerName: selectedCustomerOption.text.text,
+              selectedCustomerId: selectedCustomerOption.value,
+              existingBlocks: payloadBlocks.slice(0, 1),
+            });
+            break;
+          case "add-contact":
+            await onAddContact({
+              $,
+              airtableReqOptions,
+              webClient,
+              viewId,
+              triggerId,
+              state: payload.view.state,
+            });
+            break;
+          default:
+            break;
+        }
+      }
+      return;
+    } else {
+      await $.respond({
+        status: "200",
+      });
+      await onOpenModal({ $, airtableReqOptions, webClient, triggerId });
+    }
+  },
+});

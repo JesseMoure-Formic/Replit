@@ -1,0 +1,71 @@
+Build a Python script that uses the MaintainX REST API to return all open work orders where Work Type = Preventive, but do not try to pull the entire dataset in one request chain if the result set is too large.
+
+Requirements:
+
+Use the MaintainX API key from the environment variable MAINTAINX_API_KEY.
+Use Bearer authentication.
+Use the MaintainX v1 API.
+Before coding the final query, inspect the current MaintainX work orders endpoint docs and confirm:
+the correct endpoint
+the supported status filters
+the supported work type filters
+the supported date range filters
+the pagination model using nextCursor
+
+Query strategy:
+
+Do not run one broad query across all time.
+First determine which date field is safest to batch on, such as created date, updated date, due date, or planned start date, based on what the MaintainX API actually supports.
+Pull data in time windows so each batch stays under the 2000-result ceiling.
+Start with monthly windows.
+If any month still returns too many records or hits the limit, automatically split that month into weekly windows.
+If any week still returns too many records, automatically split again into daily windows.
+Use nextCursor inside each time window until nextCursor is null.
+Merge all batches together.
+Deduplicate by work order id in case windows overlap.
+Filter for open statuses using the actual MaintainX status values from the docs.
+Filter for Work Type = Preventive using the real field name from the API response.
+Add a short delay between requests and retry gracefully on 429 responses.
+
+Output:
+
+Return a JSON array of all matching work orders.
+Write a CSV file named open_preventive_workorders.csv.
+Print a console summary with:
+total matching work orders
+number of API requests made
+number of time windows used
+number of duplicates removed
+
+Fields to include:
+
+id
+title
+status
+workType
+assetName
+dueDate
+createdAt
+updatedAt
+assignees
+
+Technical requirements:
+
+Use requests.
+Handle nextCursor pagination correctly.
+Handle 401, 429, and 5xx responses.
+Use exponential backoff for 429 and 5xx.
+Keep the API key out of the code.
+Add clear comments.
+Log progress so I can see which date window is currently being pulled.
+
+Also provide:
+a sample .env file
+a requirements.txt file
+a short README
+a sample curl request for one date window
+
+Important:
+If the API supports filtering by status and work type directly, apply those server-side first.
+If it does not, still batch by date window first, then filter locally in code.
+If the exact filter field names are unclear, print one sample work order payload and map the fields before continuing.

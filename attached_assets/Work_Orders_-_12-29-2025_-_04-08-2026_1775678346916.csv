@@ -1,0 +1,876 @@
+﻿ID,Status,Work Type,Assigned to,Due date,Location,Asset,Categories
+491,IN PROGRESS,PREVENTIVE,"60 - ORD - Charlson Price,60 - ORD - Hector Martinez",2026-04-17,Georgia Nut Site 1 (NA2_GEONUT_S1),SYS2 Sourcelink Palletizer (GEONUT_SYS2),Preventive
+833,DONE,REACTIVE,95 - SMF - Israel Perez,2026-02-15 11:00:00,Berber Food Manufacturing Inc. (Mi Rancho) Site 1 (NA4_MIRANCHO_S1),SYS6 BeRobox Palletizer (Mega Line 5 flour) (MIRANCHO_SYS6),Inventory
+885,DONE,CYCLE_COUNT,FE - Erick Pedraza,2026-02-18,,,
+923,OPEN,PREVENTIVE,19 - PHL - Andrew Feeney,2026-04-23 11:00:00,,,Preventive
+924,OPEN,PREVENTIVE,19 - PHL - Andrew Feeney,2026-04-23 11:00:00,"ABC Polymer Industries, LLC Site 1 (NA1_ABCPOLYM_S1)",SYS1 Raumak Case Packer (ABCPOLYM_SYS1),Preventive
+925,OPEN,PREVENTIVE,19 - PHL - Andrew Feeney,2026-04-23 11:00:00,"ABC Polymer Industries, LLC Site 1 (NA1_ABCPOLYM_S1)",SYS2 Raumak Case Packer (ABCPOLYM_SYS2),Preventive
+926,OPEN,PREVENTIVE,19 - PHL - Andrew Feeney,2026-04-23 11:00:00,"ABC Polymer Industries, LLC Site 1 (NA1_ABCPOLYM_S1)",SYS3 Raumak Palletizer (ABCPOLYM_SYS3),Preventive
+927,OPEN,PREVENTIVE,19 - PHL - Andrew Feeney,2026-04-23 11:00:00,"ABC Polymer Industries, LLC Site 1 (NA1_ABCPOLYM_S1)",SYS4 Raumak Feeder (ABCPOLYM_SYS4),Preventive
+928,OPEN,PREVENTIVE,19 - PHL - Andrew Feeney,2026-04-23 11:00:00,"ABC Polymer Industries, LLC Site 1 (NA1_ABCPOLYM_S1)",SYS5 Raumak Feeder (ABCPOLYM_SYS5),Preventive
+929,OPEN,PREVENTIVE,75 - DFW- Alan Clement,2026-02-21 11:00:00,,,Preventive
+930,OPEN,PREVENTIVE,"03 - DTW - Michael Hughbanks,75 - DFW- Alan Clement",2026-02-21 11:00:00,Abimar Foods Inc. Site 1 (NA2_ABIMARFO_S1),SYS1 Case Packer (ABIMARFO_SYS1),Preventive
+931,OPEN,PREVENTIVE,"03 - DTW - Michael Hughbanks,75 - DFW- Alan Clement",2026-02-21 11:00:00,Abimar Foods Inc. Site 1 (NA2_ABIMARFO_S1),SYS2 Palletizer (ABIMARFO_SYS2),Preventive
+932,OPEN,PREVENTIVE,75 - DFW- Alan Clement,2026-03-21 11:00:00,"ALTA Foods ""LLC"" Site 1 (NA1_ALTAFOOD_S1)",SYS1 Palletizer (ALTAFOOD_SYS1),Preventive
+933,DONE,PREVENTIVE,19 - PHL - Andrew Feeney,2026-01-22 16:00:00,"Apex Display Group, LLC Site 1 (NA1_APEXDISP_S1)",SYS1 Apex Display Palletizer (APEXDISP_SYS1),Preventive
+934,DONE,PREVENTIVE,"95 - SMF - Uriel Alvarez,95 - Jesse Moure",2025-11-30,,,Preventive
+935,DONE,PREVENTIVE,95 - SMF - Uriel Alvarez,2025-11-30,Berber Food Manufacturing Inc. (Mi Rancho) Site 1 (NA4_MIRANCHO_S1),SYS1 BeRobox Palletizer (MEGA 1) (MIRANCHO_SYS1),Preventive
+936,DONE,PREVENTIVE,95 - SMF - Uriel Alvarez,2025-11-30,Berber Food Manufacturing Inc. (Mi Rancho) Site 1 (NA4_MIRANCHO_S1),SYS2 BeRobox Palletizer (MEGA 2) (MIRANCHO_SYS2),Preventive
+937,DONE,PREVENTIVE,95 - SMF - Uriel Alvarez,2025-11-29,Berber Food Manufacturing Inc. (Mi Rancho) Site 1 (NA4_MIRANCHO_S1),SYS3 BeRobox Palletizer (MEGA 3) (MIRANCHO_SYS3),Preventive
+938,DONE,PREVENTIVE,95 - SMF - Uriel Alvarez,2025-11-29,Berber Food Manufacturing Inc. (Mi Rancho) Site 1 (NA4_MIRANCHO_S1),SYS4 BeRobox Palletizer (MEGA 4) (MIRANCHO_SYS4),Preventive
+940,DONE,PREVENTIVE,95 - SMF - Uriel Alvarez,2025-11-29,Berber Food Manufacturing Inc. (Mi Rancho) Site 1 (NA4_MIRANCHO_S1),SYS6 BeRobox Palletizer (Mega Line 5 flour) (MIRANCHO_SYS6),Preventive
+942,DONE,PREVENTIVE,95 - SMF - Uriel Alvarez,2025-11-29,Berber Food Manufacturing Inc. (Mi Rancho) Site 1 (NA4_MIRANCHO_S1),SYS8 BeRobox Palletizer (Corn Line 5) (MIRANCHO_SYS8),Preventive
+943,DONE,PREVENTIVE,95 - SMF - Uriel Alvarez,2025-11-29,Berber Food Manufacturing Inc. (Mi Rancho) Site 1 (NA4_MIRANCHO_S1),SYS9 BeRobox Palletizer (Corn Line 4) (MIRANCHO_SYS9),Preventive
+970,OPEN,PREVENTIVE,,2026-03-07 11:00:00,Dajcor Aluminum Inc. Site 1 (NA1_DAJCORAL_S1),SYS1 THG Welding Cell (DAJCORAL_SYS1),Preventive
+979,DONE,PREVENTIVE,55 - MSP - Kevin Magner,2026-02-14 11:00:00,Gordan Aluminum Site 1 (NA2_GORDON_S1),SYS1 KC1-88 Press Tending Cell (GORDON_SYS1),Preventive
+997,DONE,PREVENTIVE,"02 - BOS - Brad Rasberry,19 - PHL - Andrew Feeney",2025-12-30 16:00:00,"Kari-Out LLC, Site 1 (NA1_KARIOUTF_S1)",Palletizer SYS3 (KARIOUTF_SYS3),Preventive
+1006,OPEN,PREVENTIVE,75 - DFW- Alan Clement,2026-03-01 11:00:00,"Lone Star Bakery, Inc. Site 1 (NA2_LONESTAR-S1)",SYS1 Palletizer (LONESTAR_SYS1),Preventive
+1007,OPEN,PREVENTIVE,,2026-03-21 11:00:00,,,Preventive
+1008,OPEN,PREVENTIVE,,2026-03-21 11:00:00,Louisville Distilling Company LLC dba Angel's Envy Site 1 (NA1_ANGELSEN_S1),SYS1 Angel's Envy Palletizer (ANGELSEN_SYS1),Preventive
+1009,OPEN,PREVENTIVE,,2026-03-21 11:00:00,Louisville Distilling Company LLC dba Angel's Envy Site 1 (NA1_ANGELSEN_S1),SYS2 Angel's Envy De-Casing (ANGELSEN_SYS2),Preventive
+1019,OPEN,PREVENTIVE,,2026-03-22 11:00:00,,,Preventive
+1020,OPEN,PREVENTIVE,75 - DFW- Alan Clement,2026-03-22 11:00:00,"Mid-Continent Packaging, LLC Site1 (NA2_MIDCONTI_S1)",SYS1 Focus Palletizer (MIDCONTI_SYS1),Preventive
+1021,OPEN,PREVENTIVE,75 - DFW- Alan Clement,2026-03-22 11:00:00,"Mid-Continent Packaging, LLC Site1 (NA2_MIDCONTI_S1)",SYS2 Focus Palletizer (MIDCONTI_SYS2),Preventive
+1022,DONE,PREVENTIVE,02 - BOS - Brad Rasberry,2026-02-26 08:00:00,"CAAP Co., Inc. (NA4_CAAPCO_S1)",SYS1 BeRobox Palletizer Paltz 2366 (CAAPCO_SYS1),Preventive
+1023,DONE,PREVENTIVE,19 - PHL - Andrew Feeney,2026-02-20 16:00:00,,,Preventive
+1024,DONE,PREVENTIVE,19 - PHL - Andrew Feeney,2026-02-13 18:00:00,"Mycone Dental Supply Co., Inc. dba Keystone Industries, Site 1 (NA1_KEYSTONE_S1)",SYS1 Palletizer (KEYSTONE_SYS1),Preventive
+1025,DONE,PREVENTIVE,19 - PHL - Andrew Feeney,2026-02-20 16:00:00,"Mycone Dental Supply Co., Inc. dba Keystone Industries, Site 2  (NA1_KEYSTONE_S2)",SYS2 Palletizer (KEYSTONE_SYS2),Preventive
+1029,DONE,PREVENTIVE,55 - MSP - Kevin Magner,2025-12-31 11:00:00,"Pharmaceutical Specialties, Inc. Site 1  (NA2_PHARMACE_S1)",SYS1 BeRobox Palletizer (PHARMACE_SYS1),Preventive
+1031,DONE,PREVENTIVE,"FE - Erick Pedraza,60 - ORD - Charlson Price",2026-03-13 11:00:00,"PMA Friction Products, Inc Site 1 (NA2_PMAFRICT_S1)",SYS1 Matrix Press Tender (PMAFRICT_SYS1),Preventive
+1035,DONE,PREVENTIVE,19 - PHL - Andrew Feeney,2026-01-23 16:00:00,Polysciences Inc Site 1 (NA1_POLYSCIE_S1),SYS1 BeRobox PALTZ Palletizer J*** (POLYSCIE_SYS1),Preventive
+1036,DONE,PREVENTIVE,55 - MSP - Kevin Magner,2026-01-09,"Precision Paper Converters, LLC Site1 (NA2_PRECISIO_S1)",SYS1 Focus Palletizer (PRECISIO_SYS1),Preventive
+1046,DONE,PREVENTIVE,48 - DTW - Jonathan Matzke,2026-01-31 11:00:00,"S&F Foods, Inc. Site 1 (NA1_SNFFOODS_S1)",SYS1 Palletizer (SNFFOODS_SYS1),Preventive
+1048,DONE,PREVENTIVE,FE - Erick Pedraza,2026-01-21 11:00:00,Sheet Metal Supply LTD Site 1 (NA2_SHEETMET_S1),SYS1 Tile Bender (SHEETMET_SYS1),Preventive
+1053,OPEN,PREVENTIVE,30 - ATL - Augustine Asante,2026-03-14 11:00:00,"Statesboro Logistics Solutions, LLC Site 1 (NA1_STATESBO_S1)",SYS1 Focus Palletizer (STATESBO_SYS1),Preventive
+1054,DONE,PREVENTIVE,95 - SMF - Israel Perez,2025-11-14,,,Preventive
+1060,OPEN,PREVENTIVE,,2026-03-07 11:00:00,,,Preventive
+1061,OPEN,PREVENTIVE,03 - DTW - Michael Hughbanks,2026-03-07 11:00:00,"Thompson Plastics, Inc Site 1 (NA1_THOMSONP_S1)",SYS1 INTCAI Gantry (Press 199) (THOMSONP_SYS1),Preventive
+1062,OPEN,PREVENTIVE,03 - DTW - Michael Hughbanks,2026-03-07 11:00:00,"Thompson Plastics, Inc Site 1 (NA1_THOMSONP_S1)",SYS2 INTCAI Gantry (Press 198) (THOMSONP_SYS2),Preventive
+1063,OPEN,PREVENTIVE,03 - DTW - Michael Hughbanks,2026-03-07 11:00:00,"Thompson Plastics, Inc Site 1 (NA1_THOMSONP_S1)",SYS3 INTCAI Gantry (Press 133) (THOMSONP_SYS3),Preventive
+1064,OPEN,PREVENTIVE,03 - DTW - Michael Hughbanks,2026-03-07 11:00:00,"Thompson Plastics, Inc Site 1 (NA1_THOMSONP_S1)",SYS4 INTCAI Gantry (Press) (THOMSONP_SYS4),Preventive
+1065,DONE,PREVENTIVE,55 - MSP - Kevin Magner,2026-04-01 11:00:00,Trident Seafoods Corporation Site 1 MN(NA2_TRIDENTS_S1),SYS3 Palletizer (TRIDENTS_SYS3),Preventive
+1066,OPEN,PREVENTIVE,,2026-03-29 11:00:00,,,Preventive
+1067,OPEN,PREVENTIVE,,2026-03-29 11:00:00,Valentine Enterprises Inc Site 1 (NA1_VALENTIN_S1),SYS1 IPLA Palletizer (VALENTIN_SYS1),Preventive
+1068,OPEN,PREVENTIVE,03 - DTW - Michael Hughbanks,2026-03-07 11:00:00,Valentine Enterprises Inc Site 1 (NA1_VALENTIN_S1),SYS2 Raumak Boxer (VALENTIN_SYS2),Preventive
+1069,OPEN,PREVENTIVE,03 - DTW - Michael Hughbanks,2026-03-07 11:00:00,Valentine Enterprises Inc Site 1 (NA1_VALENTIN_S1),SYS3 Raumak P Wrapper (VALENTIN_SYS3),Preventive
+1086,DONE,PREVENTIVE,55 - MSP - Kevin Magner,2026-03-24 08:00:00,"Ver-Tech Laboratories, Inc. Site 1 (NA2_VERTECHL_S1)",Case Packer SYS2 (VERTECHL_SYS2),Preventive
+1087,DONE,PREVENTIVE,"FE - 84 - Rootbeer Weaver,55 - MSP - Kevin Magner",2026-02-25 11:00:00,"Warner Manufacturing Company, Site1 (NA2_WARNERMA_S1)",SYS1 Machine Tending Cell (WARNERMA_SYS1),Preventive
+1097,DONE,REACTIVE,19 - PHL - Andrew Feeney,2026-04-01 12:00:00,"Mycone Dental Supply Co., Inc. dba Keystone Industries, Site 2  (NA1_KEYSTONE_S2)",SYS2 Palletizer (KEYSTONE_SYS2),Corrective (On site)
+1104,OPEN,PREVENTIVE,FE - Erick Pedraza,2026-04-26,"The Jel Sert Co, Site1 (NA2_THEJELSE_S1)",SYS1 Palletizer (THEJELSE_SYS1),Preventive
+1105,DONE,PREVENTIVE,60 - ORD - Charlson Price,2026-01-20,Georgia Nut Site 1 (NA2_GEONUT_S1),SYS1 Susie The Robot (GEONUT_SYS1),Preventive
+1106,DONE,PREVENTIVE,"FE - Erick Pedraza,60 - ORD - Charlson Price",2026-01-20,Georgia Nut Site 1 (NA2_GEONUT_S1),SYS2 Sourcelink Palletizer (GEONUT_SYS2),Preventive
+1139,DONE,PREVENTIVE,95 - SMF - Israel Perez,2026-01-30,Rumiano Cheese Co. Site 1 (NA4_RUMIANOC_S1),SYS1 Palletizer (RUMIANOC_SYS1),Preventive
+1147,DONE,PREVENTIVE,FE - Erick Pedraza,2026-01-14,,,Preventive
+1148,DONE,PREVENTIVE,FE - Erick Pedraza,2026-01-14,Compact Industries Inc Site 1 (NA2_COMPACT_S1),SYS1 Rosie (COMPACT_SYS1),Preventive
+1149,DONE,PREVENTIVE,FE - Erick Pedraza,2026-01-14,Compact Industries Inc Site 1 (NA2_COMPACT_S1),SYS2 WALL-E (COMPACT_SYS2),Preventive
+1153,DONE,REACTIVE,60 - ORD - Charlson Price,2026-01-30 11:00:00,"Harvest Food Group, Inc Site 1 (NA2_HARVESTF_S1)",SYS3 Palletizer (HARVESTF_SYS3),Inspection
+1176,DONE,PREVENTIVE,95 - SMF - Israel Perez,2026-01-30,"Taffy Town, Inc. Site 1 (NA3_TAFFYTOW_S1)",SYS1 Palletizer (TAFFYTOW_SYS1),Preventive
+1180,DONE,PREVENTIVE,48 - DTW - Jonathan Matzke,2026-01-21,"Cul-Mac Industries, LLC Site 1 (NA1_CULMACIN_S1)",SYS1 Palletizer (CULMACIN_SYS1),Preventive
+1190,DONE,PREVENTIVE,95 - SMF - Israel Perez,2026-01-29,,,Preventive
+1191,DONE,PREVENTIVE,95 - SMF - Israel Perez,2026-01-29,"Venus Laboratories Inc. dba Earth Friendly Products, Lacy WA Site 2 (NA4_VENUSPS1_S2)",SYS2 Focus Palletizer (Lacey WA) (VENUSPS1_SYS2),Preventive
+1192,DONE,PREVENTIVE,95 - SMF - Israel Perez,2026-01-29,"Venus Laboratories Inc. dba Earth Friendly Products, Lacy WA Site 2 (NA4_VENUSPS1_S2)",SYS7 Focus Palletizer (Lacey WA Line 2) (VENUSPS1_SYS7),Preventive
+1193,DONE,PREVENTIVE,95 - SMF - Israel Perez,2026-01-29,"Venus Laboratories Inc. dba Earth Friendly Products, Lacy WA Site 2 (NA4_VENUSPS1_S2)",SYS8 Focus Palletizer (Lacey WA Lane 3) (VENUSPS1_SYS8),Preventive
+1214,DONE,PREVENTIVE,48 - DTW - Jonathan Matzke,2026-03-11,"Spray Products Corporation, Site1 (NA1_SPRAYPRO_S1)",ATLAS 0002 Palletizer (SPRAYPRO_SYS1),Preventive
+1224,DONE,REACTIVE,FE - 60 - Ryan Bryson,2025-10-29,CaramelCrisp LLC dba Garrett Popcorn Shops Site 1 (NA2_GARRETTP_S1),SYS1 Focus Palletizer (GARRETTP_SYS1),Continuous Improvement
+1225,DONE,REACTIVE,48 - DTW - Jonathan Matzke,2026-01-03 11:00:00,"Wyandot Snacks, LLC Site 1 (NA1_WYANDOTS_S1)",SYS3 Conveyor (WYANDOTS_SYS3),Installation
+1229,DONE,PREVENTIVE,48 - DTW - Jonathan Matzke,2026-03-18,,,Preventive
+1230,DONE,PREVENTIVE,"03 - DTW - Michael Hughbanks,48 - DTW - Jonathan Matzke",2026-03-04,Pridgeon and Clay Inc. Site 1 (NA1_PRIDGEON_S1),SYS1 Focus Palletizer (PRIDGEON_SYS1),Preventive
+1231,DONE,PREVENTIVE,48 - DTW - Jonathan Matzke,2026-03-18,Pridgeon and Clay Inc. Site 1 (NA1_PRIDGEON_S1),SYS2 Focus Palletizer (PRIDGEON_SYS2),Preventive
+1232,DONE,REACTIVE,FE - 60 - Ryan Bryson,2025-12-31,CaramelCrisp LLC dba Garrett Popcorn Shops Site 1 (NA2_GARRETTP_S1),SYS1 Focus Palletizer (GARRETTP_SYS1),Continuous Improvement
+1235,DONE,REACTIVE,FE - 60 - Ryan Bryson,2025-12-31,"ALTA Foods ""LLC"" Site 1 (NA1_ALTAFOOD_S1)",SYS1 Palletizer (ALTAFOOD_SYS1),Corrective (Remote Support)
+1236,OPEN,REACTIVE,,2026-04-05 11:00:00,"Iatric Manufacturing Solutions LLC, Site 1 (NA1_IATRICMA_S1)",Iatric Manufacturing SYS1 (IATRICMA_SYS1),Preventive
+1238,DONE,PREVENTIVE,48 - DTW - Jonathan Matzke,2026-01-29,"Boxed Water is Better LLC MI, Site 1 (NA1_TBD_S1)",SL20 Palletizer (BOXEDWAT_SYS1),Preventive
+1254,DONE,PREVENTIVE,"60 - ORD - Charlson Price,FE - 60 - Ryan Bryson",2026-02-14,CaramelCrisp LLC dba Garrett Popcorn Shops Site 1 (NA2_GARRETTP_S1),SYS1 Focus Palletizer (GARRETTP_SYS1),Preventive
+1257,DONE,PREVENTIVE,FE - Erick Pedraza,2026-02-22 11:00:00,,,Preventive
+1259,DONE,PREVENTIVE,"FE - Erick Pedraza,60 - ORD - Charlson Price",2026-02-18 11:00:00,"Matt Pak, Inc. Site 1 (NA2_MATTPAK_S1)",SYS1 Palletizer (MATTPAK_SYS1),Preventive
+1260,DONE,PREVENTIVE,"FE - Erick Pedraza,60 - ORD - Charlson Price",2026-02-22 11:00:00,"Matt Pak, Inc. Site 1 (NA2_MATTPAK_S1)",SYS2 Palletizer (MATTPAK_SYS2),Preventive
+1261,DONE,PREVENTIVE,"FE - Erick Pedraza,60 - ORD - Charlson Price",2026-02-18 11:00:00,"Matt Pak, Inc. Site 1 (NA2_MATTPAK_S1)",ATLAS 0005 Palletizer (MATTPAK_SYS3),Preventive
+1273,DONE,PREVENTIVE,FE - Erick Pedraza,2025-11-28 11:00:00,,,Preventive
+1274,DONE,PREVENTIVE,FE - Erick Pedraza,2025-11-28 11:00:00,Create-A-Pack Foods Inc Site 1 (NA2_CREATEAP_S1),SYS1 Rotary 8 (CREATEAP_SYS1),Preventive
+1275,DONE,PREVENTIVE,FE - Erick Pedraza,2025-11-13 11:00:00,Create-A-Pack Foods Inc Site 1 (NA2_CREATEAP_S1),SYS2 Rotary 4 (CREATEAP_SYS2),Preventive
+1276,DONE,PREVENTIVE,FE - Erick Pedraza,2025-11-13 11:00:00,Create-A-Pack Foods Inc Site 1 (NA2_CREATEAP_S1),SYS3 Rotary 24 (CREATEAP_SYS3),Preventive
+1277,DONE,PREVENTIVE,FE - Erick Pedraza,2025-11-13 11:00:00,Create-A-Pack Foods Inc Site 1 (NA2_CREATEAP_S1),SYS4 (CREATEAP_SYS4),Preventive
+1290,DONE,PREVENTIVE,95 - SMF - Israel Perez,2026-02-06,,,Preventive
+1291,DONE,PREVENTIVE,95 - SMF - Israel Perez,2026-02-06,"Venus Laboratories Inc. dba Earth Friendly Products, Cypress CA Site 4 (NA4_VENUSPS2_S4)",SYS10 Focus Palletizer (Cypress CA) (VENUSPS2_SYS10),Preventive
+1292,DONE,PREVENTIVE,95 - SMF - Israel Perez,2026-02-06,"Venus Laboratories Inc. dba Earth Friendly Products, Cypress CA Site 4 (NA4_VENUSPS2_S4)",SYS11 Focus Palletizer (Cypress CA) (VENUSPS2_SYS11),Preventive
+1293,DONE,PREVENTIVE,95 - SMF - Israel Perez,2026-02-06,"Venus Laboratories Inc. dba Earth Friendly Products, Cypress CA Site 4 (NA4_VENUSPS2_S4)",SYS4 Focus Palletizer (Cypress CA) (VENUSPS2_SYS4),Preventive
+1294,DONE,PREVENTIVE,95 - SMF - Israel Perez,2026-02-06,"Venus Laboratories Inc. dba Earth Friendly Products, Cypress CA Site 4 (NA4_VENUSPS2_S4)",SYS9 Focus Palletizer (Cypress CA) (VENUSPS2_SYS9),Preventive
+1314,DONE,PREVENTIVE,FE - Erick Pedraza,2026-01-28,,,Preventive
+1315,DONE,PREVENTIVE,FE - Erick Pedraza,2026-01-28,"Venus Laboratories Inc. dba Earth Friendly Products, Addison IL Site 3 (NA2_VENUSCS1_S3)",SYS3 Focus Palletizer (Addison IL) (VENUSCS1_SYS3),Preventive
+1316,DONE,PREVENTIVE,FE - Erick Pedraza,2026-01-28,"Venus Laboratories Inc. dba Earth Friendly Products, Addison IL Site 3 (NA2_VENUSCS1_S3)",SYS5 Focus Palletizer (Addison IL) (VENUSCS1_SYS5),Preventive
+1317,DONE,PREVENTIVE,FE - Erick Pedraza,2026-01-28,"Venus Laboratories Inc. dba Earth Friendly Products, Addison IL Site 3 (NA2_VENUSCS1_S3)",SYS6 Focus Palletizer (Addison IL) (VENUSCS1_SYS6),Preventive
+1332,DONE,PREVENTIVE,48 - DTW - Jonathan Matzke,2026-02-22 11:00:00,,,Preventive
+1333,DONE,PREVENTIVE,48 - DTW - Jonathan Matzke,2026-02-22 11:00:00,"Wyandot Snacks, LLC Site 1 (NA1_WYANDOTS_S1)",ATLAS 0003 Palletizer (WYANDOTS_SYS1),Preventive
+1334,DONE,PREVENTIVE,48 - DTW - Jonathan Matzke,2026-02-22 11:00:00,"Wyandot Snacks, LLC Site 1 (NA1_WYANDOTS_S1)",Atlas 0004 Palletizer (WYANDOTS_SYS2),Preventive
+1335,DONE,PREVENTIVE,48 - DTW - Jonathan Matzke,2026-02-22 11:00:00,"Wyandot Snacks, LLC Site 1 (NA1_WYANDOTS_S1)",SYS3 Conveyor (WYANDOTS_SYS3),Preventive
+1339,DONE,PREVENTIVE,19 - PHL - Andrew Feeney,2026-01-27 17:00:00,"Levi's Building Components, LLC, Site 1 (NA1_LEVISBUI_S1)",SYS1 Focus Palletizer (LEVISBUI_SYS1),Preventive
+1353,DONE,REACTIVE,FE - 60 - Ryan Bryson,2025-12-31,,,Programming
+1355,DONE,REACTIVE,FE - 60 - Ryan Bryson,2025-12-31,"Wyandot Snacks, LLC Site 1 (NA1_WYANDOTS_S1)",Atlas 0004 Palletizer (WYANDOTS_SYS2),Programming
+1381,DONE,REACTIVE,95 - SMF - Israel Perez,2026-03-03 11:00:00,"T.M. Duche' Nut Co., Inc. Site1 (NA4_TMDUCHEN_S1)",SYS1 Focus Palletizer (TMDUCHEN_SYS1),"Corrective (On site),Installation"
+1387,DONE,PREVENTIVE,19 - PHL - Andrew Feeney,2026-01-29 22:00:00,,,Preventive
+1388,DONE,PREVENTIVE,19 - PHL - Andrew Feeney,2026-01-29 22:00:00,"Star Snacks Co., LLC Site 1 (NA1_STARSNAC_S1)",SYS1 Palletizer (STARSNAC_SYS1),Preventive
+1389,DONE,PREVENTIVE,19 - PHL - Andrew Feeney,2026-01-29 22:00:00,"Star Snacks Co., LLC Site 1 (NA1_STARSNAC_S1)",SYS3 Palletizer (STARSNAC_SYS3),Preventive
+1417,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-01-02 16:00:00,Formic Technologies (NA2_FORMIC),Woodridge Warehouse,OoO
+1418,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-01-12 16:00:00,Formic Technologies (NA2_FORMIC),Woodridge Warehouse,OoO
+1419,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-01-01 16:00:00,Formic Technologies (NA2_FORMIC),Woodridge Warehouse,OoO
+1420,DONE,REACTIVE,60 - ORD - Charlson Price,2025-12-19,"Harvest Food Group, Inc Site 1 (NA2_HARVESTF_S1)",SYS2 HCM Systems Case Packer (HARVESTF_SYS2),Corrective (On site)
+1459,IN PROGRESS,PREVENTIVE,"03 - DTW - Michael Hughbanks,48 - DTW - Jonathan Matzke",2026-04-30,,,Preventive
+1461,DONE,PREVENTIVE,48 - DTW - Jonathan Matzke,2026-02-18,CPI Card Group Inc. (Indiana) Site 1 (NA1_CPICARDG_S1),SYS2 BeRobox PALTZ Palletizer (CPICARDG_SYS2),Preventive
+1471,DONE,REACTIVE,48 - DTW - Jonathan Matzke,2025-11-25 17:00:00,General,,Admin
+1478,DONE,PREVENTIVE,"02 - BOS - Brad Rasberry,19 - PHL - Andrew Feeney",2026-02-03 16:00:00,,,Preventive
+1479,DONE,PREVENTIVE,19 - PHL - Andrew Feeney,2026-02-03 16:00:00,Van Ness Plastic Molding Company Inc. Site 1 (NA1_VANNESSP_S1),SYS1 RG Group Material Handling Cell (VANNESSP_SYS1),Preventive
+1480,DONE,PREVENTIVE,19 - PHL - Andrew Feeney,2026-02-03 16:00:00,Van Ness Plastic Molding Company Inc. Site 1 (NA1_VANNESSP_S1),SYS2 RG Group Material Handling Cell (VANNESSP_SYS2),Preventive
+1481,DONE,PREVENTIVE,"02 - BOS - Brad Rasberry,19 - PHL - Andrew Feeney",2026-02-02 16:00:00,,,Preventive
+1482,DONE,PREVENTIVE,19 - PHL - Andrew Feeney,2026-02-02 16:00:00,"Rockline Industries Inc, Site1 (NA1_ROCKLINE_S1)",SYS1 BeRobox PALTZ Palletizer (ROCKLINE_SYS1),Preventive
+1483,DONE,PREVENTIVE,19 - PHL - Andrew Feeney,2026-02-02 16:00:00,"Rockline Industries Inc, Site1 (NA1_ROCKLINE_S1)",SYS2 BeRobox PALTZ Palletizer (Line 1) (ROCKLINE_SYS2),Preventive
+1486,DONE,PREVENTIVE,60 - ORD - Charlson Price,2026-03-13,,,Preventive
+1487,DONE,PREVENTIVE,60 - ORD - Charlson Price,2026-03-13,"Green Sustainable Packaging, Inc. Site1 (NA2_GREENSUS_S1)",Atlas 0001 Palletizer (GREENSUS_SYS2),Preventive
+1490,DONE,PREVENTIVE,02 - BOS - Brad Rasberry,2026-02-27 16:00:00,"Garden of Light, Inc. Site 1 (NA1_GARDENOF_S1)",SYS1 Palletizer (GARDENOF_SYS1),Preventive
+1494,DONE,PREVENTIVE,FE - Erick Pedraza,2026-02-18 08:00:00,,,Preventive
+1495,DONE,PREVENTIVE,"FE - Erick Pedraza,60 - ORD - Charlson Price",2026-02-18 08:00:00,Georgia Nut Site 1 (NA2_GEONUT_S1),SYS1 Susie The Robot (GEONUT_SYS1),Preventive
+1496,DONE,PREVENTIVE,"FE - Erick Pedraza,60 - ORD - Charlson Price",2026-02-18 08:00:00,Georgia Nut Site 1 (NA2_GEONUT_S1),SYS2 Sourcelink Palletizer (GEONUT_SYS2),Preventive
+1515,DONE,REACTIVE,Tyler Matijevich,2025-12-05,Formic Technologies (NA2_FORMIC),Atlas 0015 Palletizer (Software Team),Deployment
+1519,CANCELED,REACTIVE,19 - PHL - Andrew Feeney,2026-02-07 11:00:00,"Monogram Food Solutions, LLC (NA1_MONOGRAM_S1)",SYS1 Palletizer (MONOGRAM_SYS1),Corrective (On site)
+1520,DONE,REACTIVE,"FE - 84 - Rootbeer Weaver,Tyler Matijevich,95 - Jesse Moure",2025-12-13 11:00:00,"Wyandot Snacks, LLC Site 1 (NA1_WYANDOTS_S1)",SYS4 Ant Cabinet FPI (WYANDOTS_SYS4),"Installation,Programming"
+1553,DONE,CYCLE_COUNT,FE - Erick Pedraza,2026-05-18,,,
+1558,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-01-24 11:00:00,Formic Office (NA2_FORMIC_S1),Atlas 0014 Palletizer (HSBAKING_SYS1),Installation
+1559,DONE,REACTIVE,"FE - 90 - Paul Clark,19 - PHL - Andrew Feeney",2026-01-17 11:00:00,Pioneer Frozen Site 1 (NA2_ PNRFROZN),Atlas 0010 Palletizer (PNRFROZN_SYS1),Installation
+1560,DONE,REACTIVE,48 - DTW - Jonathan Matzke,2026-02-10 10:30:00,Formic Technologies (NA2_FORMIC),Woodridge Warehouse,Installation
+1561,DONE,REACTIVE,FE - 84 - Rootbeer Weaver,2025-12-09,,,Admin
+1562,DONE,REACTIVE,FE - 84 - Rootbeer Weaver,2025-12-09,"Harvest Food Group, Inc Site 1 (NA2_HARVESTF_S1)",SYS1 HCM Systems Palletizer (HARVESTF_SYS1),Admin
+1563,DONE,REACTIVE,FE - 84 - Rootbeer Weaver,2025-12-09,"Harvest Food Group, Inc Site 1 (NA2_HARVESTF_S1)",SYS2 HCM Systems Case Packer (HARVESTF_SYS2),Admin
+1564,DONE,REACTIVE,FE - 84 - Rootbeer Weaver,2025-12-09,"Harvest Food Group, Inc Site 1 (NA2_HARVESTF_S1)",SYS3 Palletizer (HARVESTF_SYS3),Admin
+1566,DONE,REACTIVE,"Tyler Matijevich,FE - Shawn Castelino,FE - Panos Malamis",2025-12-09,Formic Office (NA2_FORMIC_S1),Atlas 0016 Palletizer (HAVILAND_SYS1),Inventory
+1569,DONE,REACTIVE,95 - SMF - Israel Perez,2025-12-19,"Venus Laboratories Inc. dba Earth Friendly Products, Lacy WA Site 2 (NA4_VENUSPS1_S2)",SYS7 Focus Palletizer (Lacey WA Line 2) (VENUSPS1_SYS7),Corrective (Remote Support)
+1573,DONE,PREVENTIVE,19 - PHL - Andrew Feeney,2026-01-28 15:00:00,"Kari-Out LLC, Site 1 (NA1_KARIOUTF_S1)",Palletizer SYS3 (KARIOUTF_SYS3),Preventive
+1574,DONE,REACTIVE,19 - PHL - Andrew Feeney,2026-01-28 16:00:00,"Kari-Out LLC, Site 1 (NA1_KARIOUTF_S1)",SYS1 BeRobox PALTZ Palletizer (KARIOUTF_SYS1),Preventive
+1578,DONE,PREVENTIVE,02 - BOS - Brad Rasberry,2026-03-11 16:00:00,"Monogram Food Solutions, LLC (NA1_MONOGRAM_S1)",SYS1 Palletizer (MONOGRAM_SYS1),Preventive
+1579,DONE,REACTIVE,"02 - BOS - Brad Rasberry,19 - PHL - Andrew Feeney",2025-12-13 16:00:00,"Love Beets Production, LLC Site 1 (NA1_LOVEBEET_S1)",SYS3 Focus Palletizer (LOVEBEET_SYS3),Corrective (Remote Support)
+1585,DONE,PREVENTIVE,FE - Erick Pedraza,2026-03-04 11:00:00,,,Preventive
+1586,DONE,PREVENTIVE,FE - Erick Pedraza,2026-03-04 11:00:00,Polar Hardware Site 1 (NA2_POLAR_S1),SYS1 Floyd (POLAR_SYS1),Preventive
+1587,DONE,PREVENTIVE,FE - Erick Pedraza,2026-03-04 11:00:00,Polar Hardware Site 1 (NA2_POLAR_S1),SYS2 Fred (POLAR_SYS2),Preventive
+1591,OPEN,REACTIVE,,2026-02-15 11:00:00,Cameron's Coffee and Distribution Company Site1 (NA2_CAMERONS_S1),SYS4 BeRobox Palletizer (CAMERONS_SYS4),Inventory
+1594,DONE,REACTIVE,95 - SMF - Israel Perez,2025-12-31,Mariani Packing Company Inc. Site1 (NA4_MARIANIP_S1),Palletizer SYS2 (MARIANIP_SYS2),Inventory
+1597,DONE,REACTIVE,60 - ORD - Charlson Price,2026-01-31 11:00:00,"Venus Laboratories Inc. dba Earth Friendly Products, Addison IL Site 3 (NA2_VENUSCS1_S3)",SYS3 Focus Palletizer (Addison IL) (VENUSCS1_SYS3),Corrective (On site)
+1601,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-02-05 16:00:00,"Sunrise Family Farms, Inc. (NA1_SUNRISEF_S1)",SYS1 Palletizer (SUNRFARM_SYS1),Preventive
+1616,DONE,OTHER,02 - BOS - Brad Rasberry,2026-02-08 22:59:00,General,Field Service Remote Work,Production Support
+1618,DONE,REACTIVE,FE - 84 - Rootbeer Weaver,2026-02-08 11:00:00,Abimar Foods Inc. Site 1 (NA2_ABIMARFO_S1),SYS1 Case Packer (ABIMARFO_SYS1),Inventory
+1619,CANCELED,REACTIVE,60 - ORD - Charlson Price,2026-01-03 11:00:00,"Venus Laboratories Inc. dba Earth Friendly Products, Addison IL Site 3 (NA2_VENUSCS1_S3)",SYS3 Focus Palletizer (Addison IL) (VENUSCS1_SYS3),Corrective (On site)
+1620,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-03-12 16:00:00,"Venus Wafers, Inc.",Atlas 0011 Palletizer (VENUSWAF_SYS1),Preventive
+1625,DONE,REACTIVE,60 - ORD - Charlson Price,2025-12-20 11:00:00,"Harvest Food Group, Inc Site 1 (NA2_HARVESTF_S1)",SYS1 HCM Systems Palletizer (HARVESTF_SYS1),Corrective (On site)
+1632,DONE,REACTIVE,02 - BOS - Brad Rasberry,2025-12-16 16:00:00,"Love Beets Production, LLC Site 1 (NA1_LOVEBEET_S1)",SYS2 Focus Palletizer (LOVEBEET_SYS2),Corrective (On site)
+1634,DONE,PREVENTIVE,02 - BOS - Brad Rasberry,2026-02-11 16:00:00,,,Preventive
+1635,DONE,PREVENTIVE,02 - BOS - Brad Rasberry,2026-02-11 16:00:00,"Love Beets Production, LLC Site 1 (NA1_LOVEBEET_S1)",SYS2 Focus Palletizer (LOVEBEET_SYS2),Preventive
+1636,DONE,PREVENTIVE,02 - BOS - Brad Rasberry,2026-02-11 16:00:00,"Love Beets Production, LLC Site 1 (NA1_LOVEBEET_S1)",SYS3 Focus Palletizer (LOVEBEET_SYS3),Preventive
+1638,DONE,REACTIVE,"Parts - Vince Schiavone,19 - PHL - Andrew Feeney",2026-02-20,,,Inventory
+1639,DONE,REACTIVE,"Parts - Vince Schiavone,19 - PHL - Andrew Feeney",2026-02-20,Van Ness Plastic Molding Company Inc. Site 1 (NA1_VANNESSP_S1),SYS1 RG Group Material Handling Cell (VANNESSP_SYS1),Inventory
+1640,DONE,REACTIVE,"Parts - Vince Schiavone,19 - PHL - Andrew Feeney",2026-02-20,Van Ness Plastic Molding Company Inc. Site 1 (NA1_VANNESSP_S1),SYS2 RG Group Material Handling Cell (VANNESSP_SYS2),Inventory
+1641,CANCELED,REACTIVE,60 - ORD - Charlson Price,2026-01-10 11:00:00,General,,Admin
+1649,DONE,REACTIVE,"FE - 90 - Paul Clark,Parts - Vince Schiavone,FE - Shawn Castelino,Andy Larson",2026-01-11,Formic Office (NA2_FORMIC_S1),Atlas 0014 Palletizer (HSBAKING_SYS1),Refurbish / Commissioning
+1655,DONE,REACTIVE,"03 - DTW - Michael Hughbanks,48 - DTW - Jonathan Matzke",2026-01-05 11:00:00,"S&F Foods, Inc. Site 1 (NA1_SNFFOODS_S1)",SYS1 Palletizer (SNFFOODS_SYS1),Corrective (On site)
+1657,DONE,PREVENTIVE,02 - BOS - Brad Rasberry,2026-03-18 16:00:00,,,Preventive
+1658,DONE,PREVENTIVE,02 - BOS - Brad Rasberry,2026-03-18 11:00:00,"Once Again Nut Butter Collective Inc, Site1 (NA1_ONCEAGAI_S1)",SYS1 Palletizer (ONCEAGAI_SYS1),Preventive
+1659,DONE,PREVENTIVE,02 - BOS - Brad Rasberry,2026-03-18 16:00:00,"Once Again Nut Butter Collective Inc, Site1 (NA1_ONCEAGAI_S1)",SYS2 Case Packer (ONCEAGAI_SYS2),Preventive
+1667,DONE,REACTIVE,03 - DTW - Michael Hughbanks,2025-12-27 11:00:00,General,Field Service Remote Work,Corrective (Remote Support)
+1672,DONE,REACTIVE,"Parts - Vince Schiavone,Tyler Matijevich,FE - Shawn Castelino,FE - Panos Malamis,Parts - Clarence Young",2026-01-03 11:00:00,Formic Office (NA2_FORMIC_S1),Atlas 0014 Palletizer (HSBAKING_SYS1),Refurbish / Commissioning
+1673,DONE,REACTIVE,FE - Erick Pedraza,2026-01-03 11:00:00,Georgia Nut Site 1 (NA2_GEONUT_S1),SYS2 Sourcelink Palletizer (GEONUT_SYS2),Installation
+1674,DONE,REACTIVE,60 - ORD - Charlson Price,2026-01-03 11:00:00,Marquis Extraction Technology Holdings LLC Site 1 (NA1_TBD_SYS1),FocusCube Palletizer (MARQUISX_SYS1)),Corrective (On site)
+1677,DONE,OTHER,95 - SMF - Israel Perez,2026-01-02,General,Field Service Remote Work,OoO
+1678,DONE,OTHER,95 - SMF - Israel Perez,2026-01-06,General,Field Service Remote Work,OoO
+1682,DONE,PREVENTIVE,02 - BOS - Brad Rasberry,2026-04-02 16:00:00,"Kari-Out LLC, Site 2 (NA1_KARIOUTF_S2)",Atlas 0006 Palletizer (KARIOUTF_SYS2),Preventive
+1683,DONE,REACTIVE,FE - Erick Pedraza,2025-12-27 11:00:00,Sheet Metal Supply LTD Site 1 (NA2_SHEETMET_S1),SYS1 Tile Bender (SHEETMET_SYS1),Corrective (On site)
+1684,DONE,REACTIVE,95 - SMF - Israel Perez,2026-01-02,"ALTA Foods ""LLC"" Site 1 (NA1_ALTAFOOD_S1)",SYS1 Palletizer (ALTAFOOD_SYS1),"Corrective (Remote Support),Inventory"
+1686,DONE,REACTIVE,FE - Erick Pedraza,2025-12-27 11:00:00,"Connie's Pizza, Inc. Site 1 (NA2_CONNIESP_S1)",Palletizer SYS1 (CONNIESP_SYS1),Corrective (On site)
+1687,DONE,REACTIVE,FE - Erick Pedraza,2026-01-04 22:59:00,General,Field Service Remote Work,Admin
+1688,DONE,PREVENTIVE,55 - MSP - Kevin Magner,2026-04-08 09:00:00,,,Preventive
+1689,DONE,PREVENTIVE,55 - MSP - Kevin Magner,2026-04-08 09:00:00,Cameron's Coffee and Distribution Company Site1 (NA2_CAMERONS_S1),SYS1 BeRobox Palletizer (CAMERONS_SYS1),Preventive
+1690,DONE,PREVENTIVE,55 - MSP - Kevin Magner,2026-04-08 09:00:00,Cameron's Coffee and Distribution Company Site1 (NA2_CAMERONS_S1),SYS2 BeRobox Palletizer (CAMERONS_SYS2),Preventive
+1691,DONE,PREVENTIVE,55 - MSP - Kevin Magner,2026-04-08 09:00:00,Cameron's Coffee and Distribution Company Site1 (NA2_CAMERONS_S1),SYS3 Focus Palletizer (CAMERONS_SYS3),Preventive
+1692,DONE,PREVENTIVE,55 - MSP - Kevin Magner,2026-04-08 09:00:00,Cameron's Coffee and Distribution Company Site1 (NA2_CAMERONS_S1),SYS4 BeRobox Palletizer (CAMERONS_SYS4),Preventive
+1693,DONE,PREVENTIVE,55 - MSP - Kevin Magner,2026-04-08 09:00:00,Cameron's Coffee and Distribution Company Site1 (NA2_CAMERONS_S1),SYS5 BeRobox Palletizer (CAMERONS_SYS5),Preventive
+1694,DONE,PREVENTIVE,55 - MSP - Kevin Magner,2026-04-08 09:00:00,Cameron's Coffee and Distribution Company Site1 (NA2_CAMERONS_S1),SYS6 BeRobox Palletizer (CAMERONS_SYS6),Preventive
+1695,DONE,REACTIVE,95 - SMF - Israel Perez,2026-01-09,Mariani Packing Company Inc. Site1 (NA4_MARIANIP_S1),Palletizer SYS2 (MARIANIP_SYS2),Inventory
+1700,DONE,REACTIVE,95 - SMF - Uriel Alvarez,2025-12-30,Berber Food Manufacturing Inc. (Mi Rancho) Site 1 (NA4_MIRANCHO_S1),SYS4 BeRobox Palletizer (MEGA 4) (MIRANCHO_SYS4),Corrective (Remote Support)
+1701,DONE,REACTIVE,"02 - BOS - Brad Rasberry,19 - PHL - Andrew Feeney",2025-12-29 16:00:00,General,,Admin
+1702,DONE,REACTIVE,"03 - DTW - Michael Hughbanks,48 - DTW - Jonathan Matzke",2025-12-31 11:00:00,General,Field Service Remote Work,OoO
+1703,DONE,REACTIVE,FE - Erick Pedraza,2026-01-03 11:00:00,"Connie's Pizza, Inc. Site 1 (NA2_CONNIESP_S1)",Palletizer SYS1 (CONNIESP_SYS1),Corrective (On site)
+1704,DONE,REACTIVE,48 - DTW - Jonathan Matzke,2026-01-03 11:00:00,General,,Admin
+1705,DONE,REACTIVE,FE - Panos Malamis,2025-12-29,Formic Asset Inventory (NA2_FORMIC_S2),Atlas 0008 Palletizer (GEONUT_SYS3),Deployment
+1706,DONE,OTHER,95 - SMF - Israel Perez,2026-01-23 11:00:00,"Mariani Nut Company, Inc (NA1_MARIANIN_S1)",Palletizer SYS2 (MARIANIN_SYS2),Installation
+1707,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-01-16 16:00:00,"Kari-Out LLC, Site 2 (NA1_KARIOUTF_S2)",Atlas 0006 Palletizer (KARIOUTF_SYS2),Corrective (On site)
+1708,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-01-23 16:00:00,"Iatric Manufacturing Solutions LLC, Site 1 (NA1_IATRICMA_S1)",Iatric Manufacturing SYS2 (IATRICMA_SYS2),Installation
+1709,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-01-03 11:00:00,General,,Admin
+1710,DONE,REACTIVE,"FE - Erick Pedraza,60 - ORD - Charlson Price",2026-01-10 11:00:00,Georgia Nut Site 1 (NA2_GEONUT_S1),SYS2 Sourcelink Palletizer (GEONUT_SYS2),Installation
+1711,DONE,REACTIVE,48 - DTW - Jonathan Matzke,2026-01-06 13:00:00,"S&F Foods, Inc. Site 1 (NA1_SNFFOODS_S1)",SYS1 Palletizer (SNFFOODS_SYS1),Corrective (On site)
+1712,DONE,REACTIVE,19 - PHL - Andrew Feeney,2025-12-30 17:00:00,General,Field Service Remote Work,Admin
+1713,DONE,REACTIVE,FE - Erick Pedraza,2026-01-03 11:00:00,"PMA Friction Products, Inc Site 1 (NA2_PMAFRICT_S1)",SYS1 Matrix Press Tender (PMAFRICT_SYS1),Corrective (On site)
+1714,DONE,REACTIVE,FE - Erick Pedraza,2026-01-10 11:00:00,Sheet Metal Supply LTD Site 1 (NA2_SHEETMET_S1),SYS1 Tile Bender (SHEETMET_SYS1),Corrective (On site)
+1716,DONE,REACTIVE,02 - BOS - Brad Rasberry,2025-12-30 16:00:00,"Sunrise Family Farms, Inc. (NA1_SUNRISEF_S1)",SYS1 Palletizer (SUNRFARM_SYS1),Programming
+1717,DONE,REACTIVE,02 - BOS - Brad Rasberry,2025-12-30 16:00:00,"Sunrise Family Farms, Inc. (NA1_SUNRISEF_S1)",SYS1 Palletizer (SUNRFARM_SYS1),Admin
+1718,DONE,REACTIVE,02 - BOS - Brad Rasberry,2025-12-30 16:00:00,"Sunrise Family Farms, Inc. (NA1_SUNRISEF_S1)",SYS1 Palletizer (SUNRFARM_SYS1),Programming
+1719,DONE,REACTIVE,"60 - ORD - Charlson Price,FE - 60 - Ryan Bryson,55 - MSP - Kevin Magner",2025-12-30,Trident Seafoods Corporation Site 2 GA(NA2_TRIDENTS_S2),FocusCube Palletizer (TRIDENTS_SYS2),Corrective (Remote Support)
+1720,DONE,REACTIVE,FE - Erick Pedraza,2026-01-10 11:00:00,Georgia Nut Site 1 (NA2_GEONUT_S1),SYS2 Sourcelink Palletizer (GEONUT_SYS2),Installation
+1721,DONE,REACTIVE,19 - PHL - Andrew Feeney,2025-12-31 17:00:00,General,Field Service Remote Work,Admin
+1722,DONE,REACTIVE,19 - PHL - Andrew Feeney,2026-01-06 17:00:00,"Star Snacks Co., LLC Site 1 (NA1_STARSNAC_S1)",SYS3 Palletizer (STARSNAC_SYS3),Corrective (On site)
+1723,DONE,REACTIVE,19 - PHL - Andrew Feeney,2026-01-09 17:00:00,"CAAP Co., Inc. (NA4_CAAPCO_S1)",SYS1 BeRobox Palletizer Paltz 2366 (CAAPCO_SYS1),Corrective (On site)
+1724,DONE,PREVENTIVE,55 - MSP - Kevin Magner,2026-03-25 11:00:00,"Pharmaceutical Specialties, Inc. Site 1  (NA2_PHARMACE_S1)",SYS1 BeRobox Palletizer (PHARMACE_SYS1),Preventive
+1725,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-01-01 09:00:00,General,,Admin
+1726,DONE,REACTIVE,FE - Erick Pedraza,2026-01-03 11:00:00,General,,Admin
+1727,DONE,REACTIVE,60 - ORD - Charlson Price,2026-01-03 11:00:00,General,,Admin
+1728,DONE,REACTIVE,48 - DTW - Jonathan Matzke,2026-01-03 11:00:00,General,,Admin
+1729,DONE,REACTIVE,02 - BOS - Brad Rasberry,2025-12-31 11:00:00,General,,Admin
+1730,OPEN,REACTIVE,Parts - Vince Schiavone,2026-02-28,,,Refurbish / Commissioning
+1731,OPEN,REACTIVE,Parts - Vince Schiavone,2026-02-28,Pioneer Frozen Site 1 (NA2_ PNRFROZN),Atlas 0010 Palletizer (PNRFROZN_SYS1),Refurbish / Commissioning
+1732,OPEN,REACTIVE,Parts - Vince Schiavone,2026-02-28,HS Baking Enterprises LLC (NA2_HSBAKING),Atlas 0014 Palletizer (HSBAKING_SYS1),Refurbish / Commissioning
+1733,OPEN,REACTIVE,Parts - Vince Schiavone,2026-02-28,Formic Office (NA2_FORMIC_S1),Atlas 0015 Palletizer (Software Team),Refurbish / Commissioning
+1734,OPEN,REACTIVE,Parts - Vince Schiavone,2026-02-28,Haviland Products Company (NA1_HAVILAND_S1),Atlas 0016 Palletizer (HAVILAND_SYS1),Refurbish / Commissioning
+1735,OPEN,REACTIVE,Parts - Vince Schiavone,2026-02-28,HS Baking Enterprises LLC (NA2_HSBAKING),ATLAS 0017 Palletizer (HSBAKING_SYS2),Refurbish / Commissioning
+1736,OPEN,REACTIVE,Parts - Vince Schiavone,2026-02-28,Fresca Mexican Foods LLC (NA_FRESCMEX_S1),ATLAS 0018 Palletizer (FRESCMEX_SYS3),Refurbish / Commissioning
+1737,DONE,REACTIVE,"FE - Shawn Castelino,FE - Panos Malamis",2025-12-31,Formic Office (NA2_FORMIC_S1),Atlas 0016 Palletizer (HAVILAND_SYS1),Refurbish / Commissioning
+1738,DONE,REACTIVE,FE - Erick Pedraza,2026-01-03 11:00:00,General,,Admin
+1739,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-01-03 11:00:00,General,,Admin
+1740,DONE,REACTIVE,48 - DTW - Jonathan Matzke,2026-01-03 11:00:00,General,,Admin
+1741,OPEN,REACTIVE,95 - SMF - Israel Perez,2026-03-01 11:00:00,"Venus Laboratories Inc. dba Earth Friendly Products, Cypress CA Site 4 (NA4_VENUSPS2_S4)",SYS4 Focus Palletizer (Cypress CA) (VENUSPS2_SYS4),Continuous Improvement
+1742,DONE,REACTIVE,48 - DTW - Jonathan Matzke,2026-01-29 11:00:00,"Boxed Water is Better LLC MI, Site 1 (NA1_TBD_S1)",SL20 Palletizer (BOXEDWAT_SYS1),Corrective (On site)
+1743,DONE,OTHER,60 - ORD - Charlson Price,2026-01-10,General,Field Service Remote Work,OoO
+1744,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-01-11 22:59:00,General,Field Service Remote Work,Admin
+1745,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-01-11 08:00:00,General,,Admin
+1746,DONE,REACTIVE,19 - PHL - Andrew Feeney,2026-01-05 11:00:00,General,Field Service Remote Work,Admin
+1747,DONE,REACTIVE,"Parts - Vince Schiavone,FE - Shawn Castelino,FE - Luis Rodriguez",2026-01-12,Formic Office (NA2_FORMIC_S1),Atlas 0016 Palletizer (HAVILAND_SYS1),Inventory
+1748,DONE,REACTIVE,FE - Shawn Castelino,2026-01-31,Formic Office (NA2_FORMIC_S1),ATLAS 0017 Palletizer (HSBAKING_SYS2),Inventory
+1749,DONE,REACTIVE,FE - Shawn Castelino,2026-04-05,Formic Office (NA2_FORMIC_S1),ATLAS 0018 Palletizer (FRESCMEX_SYS3),Inventory
+1750,DONE,REACTIVE,19 - PHL - Andrew Feeney,2026-01-05 22:00:00,"Star Snacks Co., LLC Site 1 (NA1_STARSNAC_S1)",SYS3 Palletizer (STARSNAC_SYS3),Corrective (On site)
+1751,DONE,REACTIVE,03 - DTW - Michael Hughbanks,2026-01-05 11:00:00,"Pinnacle Industrial Enterprises, Inc. Site 1 (NA1_PINNACLE)",Atlas 0007 Palletizer (PINNACLE_SYS1),Corrective (Remote Support)
+1752,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-01-07 09:00:00,General,,Admin
+1753,DONE,REACTIVE,95 - SMF - Uriel Alvarez,2026-01-05,Berber Food Manufacturing Inc. (Mi Rancho) Site 1 (NA4_MIRANCHO_S1),SYS3 BeRobox Palletizer (MEGA 3) (MIRANCHO_SYS3),Corrective (Remote Support)
+1754,DONE,REACTIVE,48 - DTW - Jonathan Matzke,2026-01-06 17:00:00,General,,Admin
+1755,DONE,REACTIVE,03 - DTW - Michael Hughbanks,2026-01-06 17:00:00,General,Field Service Remote Work,Corrective (Remote Support)
+1756,DONE,REACTIVE,48 - DTW - Jonathan Matzke,2026-01-27 15:00:00,"Western Diesel Services, Inc. dba Hayes Manufacturing Site 1 (NA1_HAYESMAN_S1)",SYS1 Machine Tending (HAYESMAN_SYS1),"Admin,Corrective (Remote Support)"
+1757,DONE,REACTIVE,48 - DTW - Jonathan Matzke,2026-03-13 19:30:00,Shape Corp Site 1 (NA1_SHAPECOR_S1),SYS1 Machine Tender (SHAPECOR_SYS1),Inventory
+1758,DONE,REACTIVE,"Tyler Matijevich,FE - Shawn Castelino,FE - Luis Rodriguez",2026-01-08 16:00:00,Formic Office (NA2_FORMIC_S1),ATLAS 0017 Palletizer (HSBAKING_SYS2),Refurbish / Commissioning
+1759,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-01-07 09:00:00,"Once Again Nut Butter Collective Inc, Site1 (NA1_ONCEAGAI_S1)",SYS1 Palletizer (ONCEAGAI_SYS1),Corrective (Remote Support)
+1760,DONE,REACTIVE,48 - DTW - Jonathan Matzke,2026-01-07 17:00:00,General,,Admin
+1761,OPEN,PREVENTIVE,,2026-04-08,,,Preventive
+1762,OPEN,PREVENTIVE,60 - ORD - Charlson Price,2026-04-08,Compact Industries Inc Site 1 (NA2_COMPACT_S1),SYS1 Rosie (COMPACT_SYS1),Preventive
+1763,OPEN,PREVENTIVE,60 - ORD - Charlson Price,2026-04-08,Compact Industries Inc Site 1 (NA2_COMPACT_S1),SYS2 WALL-E (COMPACT_SYS2),Preventive
+1764,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-01-08 09:00:00,General,,Admin
+1765,DONE,REACTIVE,03 - DTW - Michael Hughbanks,2026-01-09 11:00:00,"Spray Products Corporation, Site1 (NA1_SPRAYPRO_S1)",ATLAS 0013 (SPRAYPRO_SYS2),Corrective (On site)
+1766,DONE,REACTIVE,48 - DTW - Jonathan Matzke,2026-01-07 18:00:00,General,,Admin
+1767,DONE,REACTIVE,"FE - 90 - Jonathan Rangel,FE - 60 - Ryan Bryson,55 - MSP - Kevin Magner",2026-01-08 09:00:00,Trident Seafoods Corporation Site 1 MN(NA2_TRIDENTS_S1),SYS3 Palletizer (TRIDENTS_SYS3),Programming
+1768,DONE,OTHER,95 - SMF - Israel Perez,2026-01-07,General,,"Admin,Corrective (Remote Support)"
+1769,DONE,REACTIVE,"Jared Wagler,55 - MSP - Kevin Magner",2026-01-08 09:00:00,Trident Seafoods Corporation Site 1 MN(NA2_TRIDENTS_S1),SYS3 Palletizer (TRIDENTS_SYS3),Refurbish / Commissioning
+1770,DONE,REACTIVE,"60 - ORD - Charlson Price,55 - MSP - Kevin Magner",2026-01-08 09:00:00,"Connie's Pizza, Inc. Site 1 (NA2_CONNIESP_S1)",Palletizer SYS1 (CONNIESP_SYS1),Corrective (Remote Support)
+1773,DONE,REACTIVE,95 - SMF - Israel Perez,2026-01-09,Ciuti International Inc. Site1 (NA4_CIUTIINT_S1),SYS1 Focus Palletizer (CIUTIINT_SYS1),"Corrective (Remote Support),Inventory"
+1774,DONE,OTHER,95 - SMF - Israel Perez,2026-01-08,General,,Admin
+1775,DONE,REACTIVE,FE - Erick Pedraza,2026-01-10 08:00:00,General,,Admin
+1776,DONE,REACTIVE,95 - SMF - Israel Perez,2026-01-09,"Heritage Specialty Foods, LLC (NA1_HRTGFOOD_S1)",Palletizer SYS1 (HRTGFOOD_SYS1),"Corrective (Remote Support),Programming"
+1777,DONE,REACTIVE,FE - Erick Pedraza,2026-01-11 08:00:00,"PMA Friction Products, Inc Site 1 (NA2_PMAFRICT_S1)",SYS1 Matrix Press Tender (PMAFRICT_SYS1),Corrective (On site)
+1778,DONE,REACTIVE,FE - Erick Pedraza,2026-01-10 11:00:00,Sheet Metal Supply LTD Site 1 (NA2_SHEETMET_S1),SYS1 Tile Bender (SHEETMET_SYS1),Corrective (On site)
+1779,DONE,REACTIVE,19 - PHL - Andrew Feeney,2026-01-11 08:00:00,"Sunrise Family Farms, Inc. (NA1_SUNRISEF_S1)",SYS1 Palletizer (SUNRFARM_SYS1),Corrective (On site)
+1780,DONE,REACTIVE,19 - PHL - Andrew Feeney,2026-01-09 20:00:00,"CAAP Co., Inc. (NA4_CAAPCO_S1)",SYS1 BeRobox Palletizer Paltz 2366 (CAAPCO_SYS1),Corrective (On site)
+1781,DONE,REACTIVE,19 - PHL - Andrew Feeney,2026-01-07 11:00:00,"Sunrise Family Farms, Inc. (NA1_SUNRISEF_S1)",SYS1 Palletizer (SUNRFARM_SYS1),Corrective (On site)
+1782,DONE,REACTIVE,48 - DTW - Jonathan Matzke,2026-01-30 08:00:00,"Boxed Water is Better LLC MI, Site 1 (NA1_TBD_S1)",SL20 Palletizer (BOXEDWAT_SYS1),Corrective (On site)
+1783,DONE,PREVENTIVE,55 - MSP - Kevin Magner,2026-03-28 09:00:00,"Precision Paper Converters, LLC Site1 (NA2_PRECISIO_S1)",SYS1 Focus Palletizer (PRECISIO_SYS1),Preventive
+1784,DONE,REACTIVE,03 - DTW - Michael Hughbanks,2026-01-09 11:00:00,Trident Seafoods Corporation Site 1 MN(NA2_TRIDENTS_S1),SYS3 Palletizer (TRIDENTS_SYS3),Corrective (Remote Support)
+1785,DONE,REACTIVE,"03 - DTW - Michael Hughbanks,48 - DTW - Jonathan Matzke",2026-01-09 11:00:00,General,Field Service Remote Work,Corrective (Remote Support)
+1786,DONE,REACTIVE,48 - DTW - Jonathan Matzke,2026-01-09 16:00:00,General,Field Service Remote Work,Admin
+1787,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-01-11 09:00:00,General,,Admin
+1788,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-01-14 09:00:00,Cameron's Coffee and Distribution Company Site1 (NA2_CAMERONS_S1),SYS6 BeRobox Palletizer (CAMERONS_SYS6),Corrective (On site)
+1789,DONE,REACTIVE,"Parts - Vince Schiavone,48 - DTW - Jonathan Matzke",2026-01-16 17:00:00,"Wyandot Snacks, LLC Site 1 (NA1_WYANDOTS_S1)",Atlas 0004 Palletizer (WYANDOTS_SYS2),Corrective (On site)
+1790,DONE,REACTIVE,FE - Erick Pedraza,,"Green Sustainable Packaging, Inc. Site1 (NA2_GREENSUS_S1)",Atlas 0001 Palletizer (GREENSUS_SYS2),Corrective (On site)
+1791,DONE,REACTIVE,48 - DTW - Jonathan Matzke,2026-01-13 16:00:00,Pridgeon and Clay Inc. Site 1 (NA1_PRIDGEON_S1),SYS1 Focus Palletizer (PRIDGEON_SYS1),Corrective (On site)
+1792,DONE,REACTIVE,48 - DTW - Jonathan Matzke,2026-01-19 16:00:00,General,,Admin
+1793,DONE,REACTIVE,48 - DTW - Jonathan Matzke,2026-01-12 16:00:00,General,Field Service Remote Work,Admin
+1794,DONE,REACTIVE,"FE - Erick Pedraza,60 - ORD - Charlson Price",2026-01-19,"Connie's Pizza, Inc. Site 1 (NA2_CONNIESP_S1)",Palletizer SYS1 (CONNIESP_SYS1),Corrective (On site)
+1795,DONE,OTHER,55 - MSP - Kevin Magner,2026-01-15 09:00:00,Trident Seafoods Corporation Site 1 MN(NA2_TRIDENTS_S1),SYS3 Palletizer (TRIDENTS_SYS3),Installation
+1796,DONE,REACTIVE,60 - ORD - Charlson Price,2026-01-24,Georgia Nut Site 1 (NA2_GEONUT_S1),SYS1 Susie The Robot (GEONUT_SYS1),Corrective (On site)
+1797,DONE,REACTIVE,FE - Erick Pedraza,,Create-A-Pack Foods Inc Site 1 (NA2_CREATEAP_S1),SYS4 (CREATEAP_SYS4),Admin
+1798,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-01-13 09:00:00,General,,Admin
+1799,DONE,REACTIVE,95 - SMF - Israel Perez,2026-01-12,General,Field Service Remote Work,Admin
+1800,DONE,REACTIVE,FE - Erick Pedraza,2026-01-12 10:00:00,Georgia Nut Site 1 (NA2_GEONUT_S1),Atlas 0008 Palletizer (GEONUT_SYS3),Corrective (Remote Support)
+1801,DONE,REACTIVE,FE - Erick Pedraza,2026-01-17 11:00:00,General,,Admin
+1802,DONE,REACTIVE,48 - DTW - Jonathan Matzke,2026-01-14 19:00:00,General,Field Service Remote Work,Admin
+1803,DONE,REACTIVE,60 - ORD - Charlson Price,2026-01-24,"Harvest Food Group, Inc Site 1 (NA2_HARVESTF_S1)",SYS1 HCM Systems Palletizer (HARVESTF_SYS1),Corrective (On site)
+1804,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-01-13 09:00:00,"CAAP Co., Inc. (NA4_CAAPCO_S1)",SYS1 BeRobox Palletizer Paltz 2366 (CAAPCO_SYS1),Corrective (Remote Support)
+1805,DONE,REACTIVE,95 - SMF - Israel Perez,2026-01-13,General,,Admin
+1806,DONE,REACTIVE,FE - Erick Pedraza,2026-01-12,Taylor Farms,CompactIndustrial Palletizer (TYLRFMIL_SYS1),Corrective (On site)
+1807,DONE,REACTIVE,FE - Erick Pedraza,2026-01-18 11:00:00,Taylor Farms,CompactIndustrial Palletizer (TYLRFMIL_SYS1),Corrective (On site)
+1808,DONE,REACTIVE,"FE - Erick Pedraza,60 - ORD - Charlson Price",2026-01-18 11:00:00,"Connie's Pizza, Inc. Site 1 (NA2_CONNIESP_S1)",Palletizer SYS1 (CONNIESP_SYS1),Corrective (On site)
+1809,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-01-18 11:00:00,General,,Admin
+1810,DONE,REACTIVE,19 - PHL - Andrew Feeney,2026-01-12 11:00:00,General,,Admin
+1812,DONE,REACTIVE,"FE - Erick Pedraza,60 - ORD - Charlson Price",2026-01-17,"Matt Pak, Inc. Site 1 (NA2_MATTPAK_S1)",ATLAS 0005 Palletizer (MATTPAK_SYS3),Corrective (On site)
+1813,DONE,REACTIVE,FE - Erick Pedraza,2026-01-17 11:00:00,Create-A-Pack Foods Inc Site 1 (NA2_CREATEAP_S1),SYS4 (CREATEAP_SYS4),Corrective (On site)
+1814,DONE,REACTIVE,95 - SMF - Israel Perez,2026-01-17 11:00:00,General,,Admin
+1815,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-01-15 09:00:00,General,,Admin
+1816,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-01-14 12:00:00,General,,Admin
+1817,DONE,REACTIVE,48 - DTW - Jonathan Matzke,2026-01-15 17:00:00,General,Field Service Remote Work,Admin
+1818,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-01-16 09:00:00,General,,Admin
+1819,DONE,REACTIVE,"FE - Erick Pedraza,95 - SMF - Israel Perez",,"Mariani Nut Company, Inc (NA1_MARIANIN_S1)",Palletizer SYS1 (MARIANIN_SYS1),Corrective (Remote Support)
+1820,DONE,REACTIVE,FE - 84 - Rootbeer Weaver,2026-02-08 11:00:00,"Satellite Industries, Inc, Site 1 (NA2_SATELLIT_S1)",Palletizer SYS1 (SATELLIT_SYS1),Inventory
+1821,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-01-16 09:00:00,Cameron's Coffee and Distribution Company Site1 (NA2_CAMERONS_S1),SYS6 BeRobox Palletizer (CAMERONS_SYS6),Corrective (Remote Support)
+1822,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-01-15 11:30:00,"Kari-Out LLC, Site 1 (NA1_KARIOUTF_S1)",Palletizer SYS3 (KARIOUTF_SYS3),Inventory
+1823,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-01-17 09:00:00,General,,Admin
+1824,DONE,REACTIVE,48 - DTW - Jonathan Matzke,2026-01-16 18:00:00,General,,Admin
+1825,DONE,REACTIVE,"FE - Erick Pedraza,60 - ORD - Charlson Price",2026-01-16,Georgia Nut Site 1 (NA2_GEONUT_S1),SYS1 Susie The Robot (GEONUT_SYS1),Corrective (On site)
+1826,DONE,REACTIVE,FE - 60 - Ryan Bryson,2026-01-14,"Harvest Food Group, Inc Site 1 (NA2_HARVESTF_S1)",SYS1 HCM Systems Palletizer (HARVESTF_SYS1),Installation
+1827,DONE,REACTIVE,FE - 60 - Ryan Bryson,2026-01-23,"Matt Pak, Inc. Site 1 (NA2_MATTPAK_S1)",ATLAS 0005 Palletizer (MATTPAK_SYS3),"Corrective (On site),Inspection"
+1828,DONE,REACTIVE,60 - ORD - Charlson Price,2026-01-16,Georgia Nut Site 1 (NA2_GEONUT_S1),Atlas 0008 Palletizer (GEONUT_SYS3),Corrective (On site)
+1829,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-01-20 09:00:00,General,,Admin
+1830,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-01-21 09:00:00,General,,Admin
+1831,DONE,REACTIVE,95 - SMF - Israel Perez,2026-01-14,"Mariani Nut Company, Inc (NA1_MARIANIN_S1)",Palletizer SYS1 (MARIANIN_SYS1),Corrective (Remote Support)
+1832,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-01-31,"Ver-Tech Laboratories, Inc. Site 1 (NA2_VERTECHL_S1)",SYS1 Palletizer (VERTECHL_SYS1),Inspection
+1833,CANCELED,REACTIVE,55 - MSP - Kevin Magner,2026-03-21 11:00:00,"Ver-Tech Laboratories, Inc. Site 1 (NA2_VERTECHL_S1)",SYS1 Palletizer (VERTECHL_SYS1),Corrective (On site)
+1834,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-02-21 09:00:00,"Precision Paper Converters, LLC Site1 (NA2_PRECISIO_S1)",SYS1 Focus Palletizer (PRECISIO_SYS1),Continuous Improvement
+1835,DONE,REACTIVE,FE - Erick Pedraza,2026-01-19 11:00:00,"PMA Friction Products, Inc Site 1 (NA2_PMAFRICT_S1)",SYS1 Matrix Press Tender (PMAFRICT_SYS1),Corrective (On site)
+1836,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-01-19 11:00:00,General,,Admin
+1837,DONE,REACTIVE,19 - PHL - Andrew Feeney,2026-01-20 17:00:00,General,,Admin
+1838,DONE,REACTIVE,FE - 60 - Ryan Bryson,2026-01-22,"Coastal Wipers, Inc. (NA2_COASTWIP_S1)",SYS1 Focus Palletizer (COASTWIP_SYS1),Programming
+1839,DONE,REACTIVE,60 - ORD - Charlson Price,2026-01-19,Compact Industries Inc Site 1 (NA2_COMPACT_S1),SYS2 WALL-E (COMPACT_SYS2),Corrective (On site)
+1840,DONE,REACTIVE,60 - ORD - Charlson Price,2026-01-19,Georgia Nut Site 1 (NA2_GEONUT_S1),SYS2 Sourcelink Palletizer (GEONUT_SYS2),Corrective (On site)
+1841,DONE,REACTIVE,19 - PHL - Andrew Feeney,2026-01-19 14:00:00,Pioneer Flour Site 1 (NA2_PNRFLOUR),Atlas 0009 Palletizer (PNRFLOUR_SYS1),Corrective (Remote Support)
+1842,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-01-19 16:00:00,Warner Manufacturing Company (NA2_WARNERMA),,Inventory
+1843,DONE,REACTIVE,48 - DTW - Jonathan Matzke,2026-01-19 21:00:00,"Heritage Specialty Foods, LLC (NA1_HRTGFOOD_S1)",Palletizer SYS1 (HRTGFOOD_SYS1),Corrective (Remote Support)
+1844,DONE,REACTIVE,48 - DTW - Jonathan Matzke,2026-01-20 08:00:00,CaramelCrisp LLC dba Garrett Popcorn Shops Site 1 (NA2_GARRETTP_S1),SYS1 Focus Palletizer (GARRETTP_SYS1),Corrective (Remote Support)
+1845,DONE,REACTIVE,"FE - 84 - Rootbeer Weaver,60 - ORD - Charlson Price",2026-01-20,"Harvest Food Group, Inc Site 1 (NA2_HARVESTF_S1)",SYS3 Palletizer (HARVESTF_SYS3),Corrective (On site)
+1846,DONE,REACTIVE,48 - DTW - Jonathan Matzke,2026-01-20 16:00:00,Trident Seafoods Corporation Site 2 GA(NA2_TRIDENTS_S2),FocusCube Palletizer (TRIDENTS_SYS2),Programming
+1847,DONE,REACTIVE,95 - SMF - Israel Perez,2026-01-20,General,Field Service Remote Work,Admin
+1848,DONE,REACTIVE,19 - PHL - Andrew Feeney,2026-01-20 17:00:00,General,Field Service Remote Work,Admin
+1849,DONE,REACTIVE,"FE - 60 - Ryan Bryson,48 - DTW - Jonathan Matzke,19 - PHL - Andrew Feeney",2026-01-20 20:00:00,Marquis Extraction Technology Holdings LLC Site 1 (NA1_TBD_SYS1),FocusCube Palletizer (MARQUISX_SYS1)),Corrective (Remote Support)
+1850,DONE,REACTIVE,19 - PHL - Andrew Feeney,2026-01-28 20:00:00,"Kari-Out LLC, Site 1 (NA1_KARIOUTF_S1)",Palletizer SYS3 (KARIOUTF_SYS3),Corrective (On site)
+1851,DONE,OTHER,95 - SMF - Israel Perez,2026-02-13,General,Field Service Remote Work,"Deployment,Installation"
+1852,DONE,OTHER,95 - SMF - Israel Perez,2026-02-13,General,Field Service Remote Work,"Deployment,Installation"
+1853,DONE,OTHER,95 - SMF - Israel Perez,2026-02-20,General,Field Service Remote Work,OoO
+1854,DONE,REACTIVE,19 - PHL - Andrew Feeney,2026-01-20 12:00:00,General,Field Service Remote Work,Admin
+1857,DONE,REACTIVE,48 - DTW - Jonathan Matzke,2026-01-20 18:00:00,General,Field Service Remote Work,Admin
+1858,DONE,REACTIVE,48 - DTW - Jonathan Matzke,2026-01-31 06:00:00,"Pinnacle Industrial Enterprises, Inc. Site 1 (NA1_PINNACLE)",Atlas 0007 Palletizer (PINNACLE_SYS1),Inspection
+1859,DONE,REACTIVE,95 - SMF - Israel Perez,2026-01-20,"Venus Laboratories Inc. dba Earth Friendly Products, Cypress CA Site 4 (NA4_VENUSPS2_S4)",SYS11 Focus Palletizer (Cypress CA) (VENUSPS2_SYS11),Corrective (Remote Support)
+1860,DONE,REACTIVE,FE - Erick Pedraza,2026-01-20 16:00:00,Georgia Nut Site 1 (NA2_GEONUT_S1),SYS1 Susie The Robot (GEONUT_SYS1),Preventive
+1861,DONE,REACTIVE,FE - Erick Pedraza,2026-01-20 16:00:00,Georgia Nut Site 1 (NA2_GEONUT_S1),SYS2 Sourcelink Palletizer (GEONUT_SYS2),Preventive
+1862,DONE,REACTIVE,"FE - 84 - Rootbeer Weaver,60 - ORD - Charlson Price",2026-03-29 11:00:00,"Harvest Food Group, Inc Site 1 (NA2_HARVESTF_S1)",SYS2 HCM Systems Case Packer (HARVESTF_SYS2),Corrective (On site)
+1863,DONE,REACTIVE,"FE - 84 - Rootbeer Weaver,60 - ORD - Charlson Price",2026-02-28 11:00:00,"Harvest Food Group, Inc Site 1 (NA2_HARVESTF_S1)",SYS3 Palletizer (HARVESTF_SYS3),Corrective (On site)
+1864,DONE,REACTIVE,60 - ORD - Charlson Price,2026-01-21,General,Field Service Remote Work,Admin
+1865,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-01-24 11:00:00,Formic Office (NA2_FORMIC_S1),ATLAS 0017 Palletizer (HSBAKING_SYS2),Installation
+1867,DONE,REACTIVE,"60 - ORD - Charlson Price,55 - MSP - Kevin Magner",2026-01-24,"Pharmaceutical Specialties, Inc. Site 1  (NA2_PHARMACE_S1)",SYS1 BeRobox Palletizer (PHARMACE_SYS1),Corrective (Remote Support)
+1868,DONE,REACTIVE,48 - DTW - Jonathan Matzke,2026-01-21 19:00:00,General,Field Service Remote Work,Admin
+1869,DONE,REACTIVE,60 - ORD - Charlson Price,2026-02-07 11:00:00,"Matt Pak, Inc. Site 1 (NA2_MATTPAK_S1)",ATLAS 0005 Palletizer (MATTPAK_SYS3),Corrective (On site)
+1870,OPEN,PREVENTIVE,FE - Erick Pedraza,2026-04-01 11:00:00,,,Preventive
+1871,OPEN,PREVENTIVE,FE - Erick Pedraza,2026-04-01 11:00:00,Create-A-Pack Foods Inc Site 1 (NA2_CREATEAP_S1),SYS1 Rotary 8 (CREATEAP_SYS1),Preventive
+1872,OPEN,PREVENTIVE,FE - Erick Pedraza,2026-04-01 11:00:00,Create-A-Pack Foods Inc Site 1 (NA2_CREATEAP_S1),SYS2 Rotary 4 (CREATEAP_SYS2),Preventive
+1873,OPEN,PREVENTIVE,FE - Erick Pedraza,2026-04-01 11:00:00,Create-A-Pack Foods Inc Site 1 (NA2_CREATEAP_S1),SYS3 Rotary 24 (CREATEAP_SYS3),Preventive
+1874,OPEN,PREVENTIVE,FE - Erick Pedraza,2026-04-01 11:00:00,Create-A-Pack Foods Inc Site 1 (NA2_CREATEAP_S1),SYS4 (CREATEAP_SYS4),Preventive
+1875,OPEN,PREVENTIVE,"60 - ORD - Charlson Price,60 - ORD - Hector Martinez",2026-04-08,Georgia Nut Site 1 (NA2_GEONUT_S1),SYS2 Sourcelink Palletizer (GEONUT_SYS2),Preventive
+1876,OPEN,PREVENTIVE,"60 - ORD - Charlson Price,60 - ORD - Hector Martinez",2026-04-08,Georgia Nut Site 1 (NA2_GEONUT_S1),SYS1 Susie The Robot (GEONUT_SYS1),Preventive
+1877,DONE,REACTIVE,"FE - Erick Pedraza,60 - ORD - Charlson Price",2026-03-28 08:00:00,"PMA Friction Products, Inc Site 1 (NA2_PMAFRICT_S1)",SYS1 Matrix Press Tender (PMAFRICT_SYS1),Corrective (On site)
+1879,DONE,REACTIVE,48 - DTW - Jonathan Matzke,2026-01-22 18:00:00,General,Field Service Remote Work,Admin
+1880,DONE,REACTIVE,"FE - Erick Pedraza,FE - 84 - Rootbeer Weaver,60 - ORD - Charlson Price",2026-02-28 11:00:00,"Harvest Food Group, Inc Site 1 (NA2_HARVESTF_S1)",SYS1 HCM Systems Palletizer (HARVESTF_SYS1),Corrective (On site)
+1881,DONE,REACTIVE,60 - ORD - Charlson Price,2026-01-22,General,Field Service Remote Work,Admin
+1882,DONE,REACTIVE,FE - 60 - Ryan Bryson,2026-01-25,"Coastal Wipers, Inc. (NA2_COASTWIP_S1)",Focus Palletizer (COASTALW_SYS1),Programming
+1885,DONE,REACTIVE,FE - 60 - Ryan Bryson,2026-01-25,"Spray Products Corporation, Site1 (NA1_SPRAYPRO_S1)",ATLAS 0013 (SPRAYPRO_SYS2),Programming
+1889,DONE,REACTIVE,48 - DTW - Jonathan Matzke,2026-01-23 17:30:00,General,Field Service Remote Work,Admin
+1890,DONE,REACTIVE,19 - PHL - Andrew Feeney,2026-01-26 17:00:00,General,Field Service Remote Work,Admin
+1891,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-01-24 12:00:00,"Monogram Food Solutions, LLC (NA1_MONOGRAM_S1)",Atlas 0012 Palletizer (MONOGRAM_SYS1),Corrective (On site)
+1892,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-01-27 16:00:00,General,,Admin
+1893,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-01-27 09:00:00,General,,Admin
+1894,DONE,REACTIVE,48 - DTW - Jonathan Matzke,2026-01-26 20:00:00,General,Field Service Remote Work,Admin
+1895,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-01-27 09:00:00,"Ver-Tech Laboratories, Inc. Site 1 (NA2_VERTECHL_S1)",SYS1 Palletizer (VERTECHL_SYS1),Corrective (On site)
+1897,DONE,REACTIVE,60 - ORD - Charlson Price,2026-01-26,General,Field Service Remote Work,Admin
+1899,DONE,REACTIVE,60 - ORD - Charlson Price,2026-01-26,Georgia Nut Site 1 (NA2_GEONUT_S1),Atlas 0008 Palletizer (GEONUT_SYS3),Corrective (On site)
+1900,DONE,REACTIVE,"Tyler Matijevich,FE - Shawn Castelino,FE - Panos Malamis,FE - Luis Rodriguez",2026-02-07,Formic Office (NA2_FORMIC_S1),ATLAS 0018 Palletizer (FRESCMEX_SYS3),Refurbish / Commissioning
+1901,DONE,REACTIVE,"Tyler Matijevich,FE - Shawn Castelino,FE - Panos Malamis,FE - Luis Rodriguez",2026-02-07,Formic Office (NA2_FORMIC_S1),ATLAS 0019 Palletizer (FRESCMEX_SYS2),Refurbish / Commissioning
+1902,DONE,REACTIVE,60 - ORD - Charlson Price,2026-01-31,Georgia Nut Site 1 (NA2_GEONUT_S1),SYS1 Susie The Robot (GEONUT_SYS1),Corrective (On site)
+1903,DONE,REACTIVE,48 - DTW - Jonathan Matzke,2026-01-27 18:00:00,General,Field Service Remote Work,Admin
+1904,DONE,REACTIVE,48 - DTW - Jonathan Matzke,2026-01-27 11:00:00,General,Field Service Remote Work,Admin
+1905,DONE,REACTIVE,95 - SMF - Israel Perez,2026-02-06,"Venus Laboratories Inc. dba Earth Friendly Products, Cypress CA Site 4 (NA4_VENUSPS2_S4)",SYS4 Focus Palletizer (Cypress CA) (VENUSPS2_SYS4),"Corrective (On site),Corrective (Remote Support)"
+1906,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-01-28 09:00:00,General,,Admin
+1907,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-01-28 09:00:00,Pioneer Flour Site 1 (NA2_PNRFLOUR),Atlas 0009 Palletizer (PNRFLOUR_SYS1),Corrective (Remote Support)
+1908,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-01-27 16:00:00,General,,Admin
+1909,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-01-28 09:00:00,Cameron's Coffee and Distribution Company Site1 (NA2_CAMERONS_S1),SYS6 BeRobox Palletizer (CAMERONS_SYS6),Programming
+1910,DONE,REACTIVE,60 - ORD - Charlson Price,2026-02-14,Georgia Nut Site 1 (NA2_GEONUT_S1),SYS2 Sourcelink Palletizer (GEONUT_SYS2),Corrective (On site)
+1911,DONE,REACTIVE,"60 - ORD - Charlson Price,FE - 60 - Ryan Bryson",2026-01-30,"Matt Pak, Inc. Site 1 (NA2_MATTPAK_S1)",ATLAS 0005 Palletizer (MATTPAK_SYS3),Corrective (On site)
+1912,DONE,REACTIVE,48 - DTW - Jonathan Matzke,2026-01-29,CPI Card Group Inc. (Indiana) Site 1 (NA1_CPICARDG_S1),SYS2 BeRobox PALTZ Palletizer (CPICARDG_SYS2),Corrective (Remote Support)
+1914,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-01-29 09:00:00,"Ver-Tech Laboratories, Inc. Site 1 (NA2_VERTECHL_S1)",SYS1 Palletizer (VERTECHL_SYS1),Corrective (On site)
+1915,DONE,REACTIVE,"FE - Erick Pedraza,60 - ORD - Charlson Price",2026-01-28,"PMA Friction Products, Inc Site 1 (NA2_PMAFRICT_S1)",SYS1 Matrix Press Tender (PMAFRICT_SYS1),Corrective (On site)
+1916,DONE,REACTIVE,95 - SMF - Israel Perez,2026-01-27,Rumiano Cheese Co. Site 1 (NA4_RUMIANOC_S1),SYS1 Palletizer (RUMIANOC_SYS1),Corrective (Remote Support)
+1917,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-01-28 16:00:00,General,,Admin
+1918,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-01-27 10:00:00,Marquis Extraction Technology Holdings LLC Site 1 (NA1_TBD_SYS1),FocusCube Palletizer (MARQUISX_SYS1)),Corrective (Remote Support)
+1919,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-01-28 15:00:00,,,Inventory
+1920,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-02-03 09:00:00,"Pharmaceutical Specialties, Inc. Site 1  (NA2_PHARMACE_S1)",SYS1 BeRobox Palletizer (PHARMACE_SYS1),Corrective (On site)
+1921,DONE,REACTIVE,FE - Erick Pedraza,2026-01-27 09:00:00,Sheet Metal Supply LTD Site 1 (NA2_SHEETMET_S1),SYS1 Tile Bender (SHEETMET_SYS1),Programming
+1923,DONE,REACTIVE,60 - ORD - Charlson Price,2026-01-31,"Harvest Food Group, Inc Site 1 (NA2_HARVESTF_S1)",SYS3 Palletizer (HARVESTF_SYS3),Corrective (On site)
+1924,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-01-28 16:00:00,"Statesboro Logistics Solutions, LLC Site 1 (NA1_STATESBO_S1)",SYS1 Focus Palletizer (STATESBO_SYS1),Corrective (Remote Support)
+1925,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-01-30 16:00:00,"Iatric Manufacturing Solutions LLC, Site 1 (NA1_IATRICMA_S1)",Iatric Manufacturing SYS2 (IATRICMA_SYS2),Corrective (Remote Support)
+1926,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-01-29 09:00:00,General,,Admin
+1927,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-01-30 15:00:00,"Sunrise Family Farms, Inc. (NA1_SUNRISEF_S1)",SYS1 Palletizer (SUNRFARM_SYS1),Corrective (Remote Support)
+1928,DONE,REACTIVE,60 - ORD - Charlson Price,2026-01-29,General,Field Service Remote Work,Admin
+1929,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-01-30 09:00:00,General,,Admin
+1934,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-01-31 09:00:00,"Warner Manufacturing Company, Site1 (NA2_WARNERMA_S1)",SYS1 Machine Tending Cell (WARNERMA_SYS1),Corrective (On site)
+1936,DONE,OTHER,95 - SMF - Israel Perez,2026-01-30,General,,Admin
+1937,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-02-02 15:00:00,"Love Beets Production, LLC Site 1 (NA1_LOVEBEET_S1)",SYS2 Focus Palletizer (LOVEBEET_SYS2),Corrective (Remote Support)
+1938,DONE,REACTIVE,60 - ORD - Charlson Price,2026-01-30,"Harvest Food Group, Inc Site 1 (NA2_HARVESTF_S1)",SYS1 HCM Systems Palletizer (HARVESTF_SYS1),Corrective (On site)
+1943,DONE,REACTIVE,19 - PHL - Andrew Feeney,2026-01-30 17:00:00,General,Field Service Remote Work,Admin
+1947,DONE,REACTIVE,19 - PHL - Andrew Feeney,2026-02-10 20:00:00,General,Field Service Remote Work,OoO
+1948,DONE,REACTIVE,FE - Shawn Castelino,2026-02-06 09:00:00,Formic Office (NA2_FORMIC_S1),ATLAS 0019 Palletizer (FRESCMEX_SYS2),Deployment
+1949,DONE,REACTIVE,FE - Shawn Castelino,2026-02-06,Formic Office (NA2_FORMIC_S1),ATLAS 0019 Palletizer (FRESCMEX_SYS2),Deployment
+1950,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-01-30 16:00:00,General,,Admin
+1951,DONE,REACTIVE,60 - ORD - Charlson Price,2026-01-30,General,,Admin
+1952,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-01-31 09:00:00,Pioneer Flour Site 1 (NA2_PNRFLOUR),Atlas 0009 Palletizer (PNRFLOUR_SYS1),Admin
+1953,DONE,REACTIVE,95 - SMF - Israel Perez,2026-02-03,Pioneer Flour Site 1 (NA2_PNRFLOUR),Atlas 0009 Palletizer (PNRFLOUR_SYS1),Corrective (On site)
+1954,DONE,REACTIVE,48 - DTW - Jonathan Matzke,2026-02-02 17:00:00,General,Field Service Remote Work,Admin
+1955,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-02-02 16:00:00,General,,Admin
+1956,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-02-02 16:00:00,,,Inventory
+1957,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-02-02 16:00:00,Van Ness Plastic Molding Company Inc. Site 1 (NA1_VANNESSP_S1),SYS1 RG Group Material Handling Cell (VANNESSP_SYS1),Inventory
+1958,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-02-02 16:00:00,Van Ness Plastic Molding Company Inc. Site 1 (NA1_VANNESSP_S1),SYS2 RG Group Material Handling Cell (VANNESSP_SYS2),Inventory
+1959,DONE,REACTIVE,FE - Erick Pedraza,2026-02-07 11:00:00,Taylor Farms,CompactIndustrial Palletizer (TYLRFMIL_SYS1),Corrective (On site)
+1960,DONE,REACTIVE,48 - DTW - Jonathan Matzke,2026-02-13 08:00:00,"Pinnacle Industrial Enterprises, Inc. Site 1 (NA1_PINNACLE)",Atlas 0007 Palletizer (PINNACLE_SYS1),Inventory
+1961,DONE,REACTIVE,48 - DTW - Jonathan Matzke,2026-02-15 11:00:00,"Boxed Water is Better LLC MI, Site 1 (NA1_TBD_S1)",SL20 Palletizer (BOXEDWAT_SYS1),Installation
+1966,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-03-27 16:00:00,"Garden of Light, Inc. Site 1 (NA1_GARDENOF_S1)",SYS2 Palletizer (GARDENOF_SYS2),Installation
+1967,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-02-06 16:00:00,"Sunrise Family Farms, Inc. (NA1_SUNRISEF_S1)",SYS1 Palletizer (SUNRFARM_SYS1),Corrective (On site)
+1968,DONE,REACTIVE,FE - Erick Pedraza,2026-01-30 17:58:00,Sheet Metal Supply LTD Site 1 (NA2_SHEETMET_S1),SYS1 Tile Bender (SHEETMET_SYS1),Corrective (On site)
+1972,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-02-03 10:30:00,Formic Office (NA2_FORMIC_S1),Atlas 0014 Palletizer (HSBAKING_SYS1),Corrective (Remote Support)
+1973,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-02-04 09:00:00,General,,Admin
+1974,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-02-03 16:00:00,General,,Admin
+1975,DONE,REACTIVE,FE - Erick Pedraza,2026-02-08 09:00:00,Georgia Nut Site 1 (NA2_GEONUT_S1),Atlas 0008 Palletizer (GEONUT_SYS3),Corrective (On site)
+1977,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-02-03 16:00:00,"Love Beets Production, LLC Site 1 (NA1_LOVEBEET_S1)",SYS2 Focus Palletizer (LOVEBEET_SYS2),Corrective (Remote Support)
+1978,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-02-03 16:00:00,"CAAP Co., Inc. (NA4_CAAPCO_S1)",SYS1 BeRobox Palletizer Paltz 2366 (CAAPCO_SYS1),Inventory
+1979,DONE,REACTIVE,Parts - Vince Schiavone,,"S&F Foods, Inc. Site 1 (NA1_SNFFOODS_S1)",,Inventory
+1980,DONE,REACTIVE,Parts - Vince Schiavone,,"S&F Foods, Inc. Site 1 (NA1_SNFFOODS_S1)",,Inventory
+1981,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-02-05 09:00:00,General,,Admin
+1985,DONE,REACTIVE,19 - PHL - Andrew Feeney,2026-02-03 16:00:00,General,,Admin
+1986,DONE,REACTIVE,19 - PHL - Andrew Feeney,2026-02-02 17:00:00,General,,Admin
+1987,DONE,REACTIVE,48 - DTW - Jonathan Matzke,2026-03-20 11:00:00,"Boxed Water is Better LLC MI, Site 1 (NA1_TBD_S1)",SL20 Palletizer (BOXEDWAT_SYS1),Installation
+1988,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-02-04 16:00:00,General,,Admin
+1989,DONE,REACTIVE,FE - Erick Pedraza,2026-02-04,Formic Technologies (NA2_FORMIC),Woodridge Warehouse,Admin
+1990,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-02-07 09:00:00,"Precision Paper Converters, LLC Site1 (NA2_PRECISIO_S1)",SYS1 Focus Palletizer (PRECISIO_SYS1),Corrective (On site)
+1991,DONE,REACTIVE,60 - ORD - Charlson Price,2026-02-04,General,Field Service Remote Work,Admin
+1992,DONE,REACTIVE,FE - Erick Pedraza,2026-02-04,"Connie's Pizza, Inc. Site 1 (NA2_CONNIESP_S1)",Palletizer SYS1 (CONNIESP_SYS1),Corrective (Remote Support)
+1993,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-02-04 16:00:00,"Bonded Pac, LLC Site 1 (NA1_BONDEDPR_S1)",,Inventory
+1994,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-02-09 16:00:00,"Bonded Pac, LLC Site 1 (NA1_BONDEDPR_S1)",Palletizer SYS1 (BONDEDPR_SYS1),Corrective (Remote Support)
+1995,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-02-05 09:00:00,"Mariani Nut Company, Inc (NA1_MARIANIN_S1)",Palletizer SYS1 (MARIANIN_SYS1),Corrective (Remote Support)
+1997,DONE,REACTIVE,60 - ORD - Charlson Price,2026-02-07,"Connie's Pizza, Inc. Site 1 (NA2_CONNIESP_S1)",Palletizer SYS1 (CONNIESP_SYS1),Programming
+1998,DONE,REACTIVE,60 - ORD - Charlson Price,2026-02-05,Georgia Nut Site 1 (NA2_GEONUT_S1),SYS2 Sourcelink Palletizer (GEONUT_SYS2),Corrective (On site)
+1999,DONE,REACTIVE,60 - ORD - Charlson Price,2026-02-05,Georgia Nut Site 1 (NA2_GEONUT_S1),SYS2 Sourcelink Palletizer (GEONUT_SYS2),Corrective (On site)
+2000,DONE,REACTIVE,60 - ORD - Charlson Price,2026-02-05,General,Field Service Remote Work,Admin
+2003,DONE,REACTIVE,FE - Shawn Castelino,2026-02-05,"Boxed Water is Better LLC UT, Site 2 (NA1_TBD_S2)",SL20 Palletizer (BOXDWAUT_SYS1),Deployment
+2004,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-02-06 16:00:00,Abimar Foods Inc. Site 1 (NA2_ABIMARFO_S1),SYS1 Case Packer (ABIMARFO_SYS1),Inventory
+2005,DONE,REACTIVE,48 - DTW - Jonathan Matzke,2026-02-10 08:00:00,CPI Card Group Inc. (Indiana) Site 1 (NA1_CPICARDG_S1),SYS2 BeRobox PALTZ Palletizer (CPICARDG_SYS2),Inventory
+2006,DONE,REACTIVE,FE - 60 - Ryan Bryson,2026-02-09,Pioneer Flour Site 1 (NA2_PNRFLOUR),Atlas 0009 Palletizer (PNRFLOUR_SYS1),Programming
+2007,DONE,REACTIVE,FE - 60 - Ryan Bryson,2026-02-09,Formic Office (NA2_FORMIC_S1),ATLAS 0017 Palletizer (HSBAKING_SYS2),Programming
+2008,DONE,REACTIVE,FE - 60 - Ryan Bryson,2026-02-09,Formic Office (NA2_FORMIC_S1),Atlas 0016 Palletizer (HAVILAND_SYS1),Programming
+2009,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-02-06 16:00:00,General,,Admin
+2010,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-02-12 16:00:00,"Love Beets Production, LLC Site 1 (NA1_LOVEBEET_S1)",SYS3 Focus Palletizer (LOVEBEET_SYS3),Corrective (On site)
+2012,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-02-09 16:00:00,General,,Admin
+2013,DONE,REACTIVE,FE - 30 - Nathan Brown,2026-02-03,"ALTA Foods ""LLC"" Site 1 (NA1_ALTAFOOD_S1)",SYS1 Palletizer (ALTAFOOD_SYS1),Corrective (On site)
+2014,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-03-18 08:00:00,"Once Again Nut Butter Collective Inc, Site1 (NA1_ONCEAGAI_S1)",SYS2 Case Packer (ONCEAGAI_SYS2),Corrective (On site)
+2015,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-02-07 09:00:00,"Heritage Specialty Foods, LLC (NA1_HRTGFOOD_S1)",Palletizer SYS1 (HRTGFOOD_SYS1),Corrective (Remote Support)
+2016,DONE,REACTIVE,30 - ATL - Augustine Asante,2026-02-07,,,Preventive
+2017,DONE,REACTIVE,30 - ATL - Augustine Asante,2026-02-07,Valentine Enterprises Inc Site 1 (NA1_VALENTIN_S1),SYS1 IPLA Palletizer (VALENTIN_SYS1),Preventive
+2018,DONE,REACTIVE,30 - ATL - Augustine Asante,2026-02-07,Valentine Enterprises Inc Site 1 (NA1_VALENTIN_S1),SYS2 Raumak Boxer (VALENTIN_SYS2),Preventive
+2019,DONE,REACTIVE,"FE - 84 - Rootbeer Weaver,60 - ORD - Charlson Price",2026-02-28,"Harvest Food Group, Inc Site 1 (NA2_HARVESTF_S1)",SYS2 HCM Systems Case Packer (HARVESTF_SYS2),Corrective (On site)
+2020,DONE,REACTIVE,"FE - 84 - Rootbeer Weaver,60 - ORD - Charlson Price",2026-02-28 10:00:00,"Harvest Food Group, Inc Site 1 (NA2_HARVESTF_S1)",SYS1 HCM Systems Palletizer (HARVESTF_SYS1),Corrective (On site)
+2021,DONE,REACTIVE,48 - DTW - Jonathan Matzke,2026-02-09 17:00:00,General,Field Service Remote Work,Admin
+2022,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-02-10 09:00:00,General,,Admin
+2023,DONE,PREVENTIVE,02 - BOS - Brad Rasberry,2026-04-05 00:00:00,General,Field Service Remote Work,Production Support
+2025,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-02-19 09:00:00,Cameron's Coffee and Distribution Company Site1 (NA2_CAMERONS_S1),SYS3 Focus Palletizer (CAMERONS_SYS3),Corrective (On site)
+2026,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-02-09 16:00:00,"Thompson Plastics, Inc Site 1 (NA1_THOMSONP_S1)",,Inventory
+2027,DONE,REACTIVE,95 - SMF - Israel Perez,2026-02-09,Ciuti International Inc. Site1 (NA4_CIUTIINT_S1),SYS1 Focus Palletizer (CIUTIINT_SYS1),Corrective (Remote Support)
+2028,OPEN,OTHER,19 - PHL - Andrew Feeney,2026-03-08 11:00:00,General,Field Service Remote Work,"Deployment,Installation"
+2037,DONE,REACTIVE,Parts - Vince Schiavone,,,,Inventory
+2038,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-02-10 16:00:00,General,,Admin
+2039,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-02-21 09:00:00,"Ver-Tech Laboratories, Inc. Site 1 (NA2_VERTECHL_S1)",Case Packer SYS2 (VERTECHL_SYS2),Corrective (Remote Support)
+2040,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-02-10 16:00:00,"CAAP Co., Inc. (NA4_CAAPCO_S1)",SYS1 BeRobox Palletizer Paltz 2366 (CAAPCO_SYS1),Corrective (Remote Support)
+2041,DONE,REACTIVE,60 - ORD - Charlson Price,2026-02-28,"Connie's Pizza, Inc. Site 1 (NA2_CONNIESP_S1)",Palletizer SYS1 (CONNIESP_SYS1),Continuous Improvement
+2043,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-02-11 09:00:00,General,,Admin
+2044,DONE,REACTIVE,48 - DTW - Jonathan Matzke,2026-02-20,Haviland Products Company (NA1_HAVILAND_S1),Atlas 0016 Palletizer (HAVILAND_SYS1),Inventory
+2045,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-02-12 09:00:00,General,,Admin
+2046,DONE,REACTIVE,60 - ORD - Charlson Price,2026-02-10,"Mariani Nut Company, Inc (NA1_MARIANIN_S1)",Palletizer SYS1 (MARIANIN_SYS1),Corrective (Remote Support)
+2047,DONE,REACTIVE,60 - ORD - Charlson Price,2026-02-10,General,Field Service Remote Work,Admin
+2048,DONE,REACTIVE,19 - PHL - Andrew Feeney,2026-02-11 17:00:00,General,Field Service Remote Work,Admin
+2049,DONE,REACTIVE,60 - ORD - Charlson Price,2026-02-11,General,Field Service Remote Work,Admin
+2050,DONE,REACTIVE,95 - SMF - Israel Perez,2026-02-27,Mariani Packing Company Inc. Site1 (NA4_MARIANIP_S1),Palletizer SYS2 (MARIANIP_SYS2),"Corrective (On site),Corrective (Remote Support)"
+2051,DONE,REACTIVE,19 - PHL - Andrew Feeney,2026-02-12 17:00:00,General,Field Service Remote Work,Admin
+2054,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-02-13 09:00:00,General,,Admin
+2055,DONE,REACTIVE,60 - ORD - Charlson Price,2026-03-29 11:00:00,Urban Farmer,Urban Farmer Focus,Installation
+2056,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-02-13 16:00:00,General,Field Service Remote Work,Admin
+2057,DONE,REACTIVE,Parts - Vince Schiavone,,Mariani Packing Company Inc. Site1 (NA4_MARIANIP_S1),Palletizer SYS2 (MARIANIP_SYS2),Inventory
+2058,DONE,REACTIVE,60 - ORD - Charlson Price,2026-02-12,General,Field Service Remote Work,Admin
+2059,DONE,REACTIVE,48 - DTW - Jonathan Matzke,2026-02-13 18:30:00,General,Field Service Remote Work,Admin
+2060,DONE,REACTIVE,48 - DTW - Jonathan Matzke,2026-02-17 18:00:00,General,Field Service Remote Work,Admin
+2061,DONE,REACTIVE,"Tyler Matijevich,FE - Shawn Castelino,FE - Panos Malamis,FE - Luis Rodriguez",2026-02-27 16:00:00,Formic Office (NA2_FORMIC_S1),ATLAS 0020 Palletizer (FRESCMEX_SYS4),Refurbish / Commissioning
+2062,DONE,REACTIVE,"Tyler Matijevich,FE - Shawn Castelino,FE - Panos Malamis,FE - Luis Rodriguez",2026-02-27 16:00:00,Formic Office (NA2_FORMIC_S1),ATLAS 0021 Palletizer (FRESCMEX_SYS1),Refurbish / Commissioning
+2063,DONE,REACTIVE,"FE - Erick Pedraza,FE - 84 - Rootbeer Weaver,95 - SMF - Israel Perez,60 - ORD - Charlson Price,95 - Jesse Moure,FE - 60 - Ryan Bryson,48 - DTW - Jonathan Matzke,02 - BOS - Brad Rasberry,19 - PHL - Andrew Feeney,55 - MSP - Kevin Magner,FE - 30 - Nathan Brown,75 - DFW- Alan Clement",2026-03-19 11:00:00,Formic Technologies (NA2_FORMIC),Woodridge Warehouse,Admin
+2067,DONE,REACTIVE,"FE - Erick Pedraza,60 - ORD - Charlson Price",2026-02-21,"Green Sustainable Packaging, Inc. Site1 (NA2_GREENSUS_S1)",Atlas 0001 Palletizer (GREENSUS_SYS2),Corrective (On site)
+2069,DONE,REACTIVE,48 - DTW - Jonathan Matzke,2026-02-13 16:30:00,"Wyandot Snacks, LLC Site 1 (NA1_WYANDOTS_S1)",ATLAS 0003 Palletizer (WYANDOTS_SYS1),Corrective (Remote Support)
+2070,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-02-16 16:00:00,General,,Admin
+2071,DONE,REACTIVE,60 - ORD - Charlson Price,2026-02-14,Formic Office (NA2_FORMIC_S1),ATLAS 0019 Palletizer (FRESCMEX_SYS2),Corrective (Remote Support)
+2072,DONE,REACTIVE,19 - PHL - Andrew Feeney,,General,Field Service Remote Work,Admin
+2073,DONE,REACTIVE,19 - PHL - Andrew Feeney,2026-02-13 17:00:00,General,Field Service Remote Work,Admin
+2074,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-02-20 13:00:00,General,Field Service Remote Work,Admin
+2075,DONE,REACTIVE,19 - PHL - Andrew Feeney,2026-02-16,"Wyandot Snacks, LLC Site 1 (NA1_WYANDOTS_S1)",Atlas 0004 Palletizer (WYANDOTS_SYS2),Corrective (Remote Support)
+2076,OPEN,PREVENTIVE,,2026-02-25,,,Preventive
+2077,OPEN,PREVENTIVE,95 - SMF - Uriel Alvarez,2026-02-25,Berber Food Manufacturing Inc. (Mi Rancho) Site 1 (NA4_MIRANCHO_S1),SYS1 BeRobox Palletizer (MEGA 1) (MIRANCHO_SYS1),Preventive
+2078,OPEN,PREVENTIVE,95 - SMF - Uriel Alvarez,2026-02-25,Berber Food Manufacturing Inc. (Mi Rancho) Site 1 (NA4_MIRANCHO_S1),SYS2 BeRobox Palletizer (MEGA 2) (MIRANCHO_SYS2),Preventive
+2079,OPEN,PREVENTIVE,95 - SMF - Uriel Alvarez,2026-02-25,Berber Food Manufacturing Inc. (Mi Rancho) Site 1 (NA4_MIRANCHO_S1),SYS3 BeRobox Palletizer (MEGA 3) (MIRANCHO_SYS3),Preventive
+2080,OPEN,PREVENTIVE,95 - SMF - Uriel Alvarez,2026-02-25,Berber Food Manufacturing Inc. (Mi Rancho) Site 1 (NA4_MIRANCHO_S1),SYS4 BeRobox Palletizer (MEGA 4) (MIRANCHO_SYS4),Preventive
+2081,OPEN,PREVENTIVE,95 - SMF - Uriel Alvarez,2026-02-25,Berber Food Manufacturing Inc. (Mi Rancho) Site 1 (NA4_MIRANCHO_S1),SYS5 TRF Palletizer (CHIP) (MIRANCHO_SYS5),Preventive
+2082,OPEN,PREVENTIVE,95 - SMF - Uriel Alvarez,2026-02-25,Berber Food Manufacturing Inc. (Mi Rancho) Site 1 (NA4_MIRANCHO_S1),SYS6 BeRobox Palletizer (Mega Line 5 flour) (MIRANCHO_SYS6),Preventive
+2083,OPEN,PREVENTIVE,95 - SMF - Uriel Alvarez,2026-02-25,Berber Food Manufacturing Inc. (Mi Rancho) Site 1 (NA4_MIRANCHO_S1),SYS7 BeRobox Palletizer (Chip Line 2) (MIRANCHO_SYS7),Preventive
+2084,OPEN,PREVENTIVE,95 - SMF - Uriel Alvarez,2026-02-25,Berber Food Manufacturing Inc. (Mi Rancho) Site 1 (NA4_MIRANCHO_S1),SYS8 BeRobox Palletizer (Corn Line 5) (MIRANCHO_SYS8),Preventive
+2085,OPEN,PREVENTIVE,95 - SMF - Uriel Alvarez,2026-02-25,Berber Food Manufacturing Inc. (Mi Rancho) Site 1 (NA4_MIRANCHO_S1),SYS9 BeRobox Palletizer (Corn Line 4) (MIRANCHO_SYS9),Preventive
+2086,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-02-17 16:00:00,General,,Admin
+2087,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-03-14 09:00:00,"Ver-Tech Laboratories, Inc. Site 1 (NA2_VERTECHL_S1)",Case Packer SYS2 (VERTECHL_SYS2),Corrective (Remote Support)
+2088,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-02-20 09:00:00,"Precision Paper Converters, LLC Site1 (NA2_PRECISIO_S1)",SYS1 Focus Palletizer (PRECISIO_SYS1),Continuous Improvement
+2089,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-02-18 09:00:00,General,,Admin
+2090,DONE,REACTIVE,75 - DFW- Alan Clement,2026-02-28 11:00:00,General,Field Service Remote Work,Admin
+2091,DONE,REACTIVE,75 - DFW- Alan Clement,2026-04-03 11:00:00,Pioneer Flour Site 1 (NA2_PNRFLOUR),Atlas 0009 Palletizer (PNRFLOUR_SYS1),Installation
+2092,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-02-20 15:00:00,General,Field Service Remote Work,Admin
+2093,DONE,REACTIVE,19 - PHL - Andrew Feeney,2026-02-17 20:00:00,General,Field Service Remote Work,Admin
+2094,DONE,REACTIVE,19 - PHL - Andrew Feeney,2026-02-18 20:00:00,General,Field Service Remote Work,Admin
+2095,DONE,REACTIVE,FE - Erick Pedraza,2026-02-17 14:00:00,"Venus Laboratories Inc. dba Earth Friendly Products, Addison IL Site 3 (NA2_VENUSCS1_S3)",SYS3 Focus Palletizer (Addison IL) (VENUSCS1_SYS3),Production Support
+2096,DONE,REACTIVE,FE - Erick Pedraza,2026-02-17,"Venus Laboratories Inc. dba Earth Friendly Products, Addison IL Site 3 (NA2_VENUSCS1_S3)",SYS6 Focus Palletizer (Addison IL) (VENUSCS1_SYS6),Production Support
+2097,DONE,REACTIVE,48 - DTW - Jonathan Matzke,2026-03-27 16:00:00,,,Continuous Improvement
+2098,DONE,REACTIVE,48 - DTW - Jonathan Matzke,2026-03-27 16:00:00,"Spray Products Corporation, Site1 (NA1_SPRAYPRO_S1)",ATLAS 0002 Palletizer (SPRAYPRO_SYS1),Continuous Improvement
+2099,DONE,REACTIVE,48 - DTW - Jonathan Matzke,2026-03-27 16:00:00,"Spray Products Corporation, Site1 (NA1_SPRAYPRO_S1)",ATLAS 0013 (SPRAYPRO_SYS2),Continuous Improvement
+2100,DONE,REACTIVE,48 - DTW - Jonathan Matzke,2026-02-19 18:00:00,"Wyandot Snacks, LLC Site 1 (NA1_WYANDOTS_S1)",ATLAS 0003 Palletizer (WYANDOTS_SYS1),Corrective (On site)
+2101,DONE,REACTIVE,48 - DTW - Jonathan Matzke,2026-02-26 08:00:00,Haviland Products Company (NA1_HAVILAND_S1),Atlas 0016 Palletizer (HAVILAND_SYS1),"Corrective (Remote Support),Production Support"
+2102,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-02-17 16:00:00,"Coastal Wipers, Inc. (NA2_COASTWIP_S1)",Focus Palletizer (COASTALW_SYS1),Corrective (Remote Support)
+2103,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-02-17 16:00:00,Mariani Packing Company Inc. Site1 (NA4_MARIANIP_S1),Palletizer SYS2 (MARIANIP_SYS2),Corrective (Remote Support)
+2104,DONE,REACTIVE,FE - Erick Pedraza,2026-02-17 15:58:00,"PMA Friction Products, Inc Site 1 (NA2_PMAFRICT_S1)",SYS1 Matrix Press Tender (PMAFRICT_SYS1),Production Support
+2105,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-02-18 16:00:00,General,,Admin
+2106,DONE,REACTIVE,FE - Erick Pedraza,2026-02-17 19:00:00,"PMA Friction Products, Inc Site 1 (NA2_PMAFRICT_S1)",SYS1 Matrix Press Tender (PMAFRICT_SYS1),Production Support
+2107,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-02-18 16:00:00,"Venus Wafers, Inc.",Atlas 0011 Palletizer (VENUSWAF_SYS1),Corrective (Remote Support)
+2108,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-02-18 16:00:00,"Venus Laboratories Inc. dba Earth Friendly Products, Cypress CA Site 4 (NA4_VENUSPS2_S4)",SYS9 Focus Palletizer (Cypress CA) (VENUSPS2_SYS9),Corrective (Remote Support)
+2109,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-02-19 16:00:00,General,,Admin
+2110,DONE,REACTIVE,60 - ORD - Charlson Price,2026-02-28,Taylor Farms,CompactIndustrial Palletizer (TYLRFMIL_SYS1),Corrective (On site)
+2111,DONE,REACTIVE,60 - ORD - Charlson Price,2026-02-18,General,Field Service Remote Work,Admin
+2112,DONE,REACTIVE,FE - Erick Pedraza,2026-02-18,Georgia Nut Site 1 (NA2_GEONUT_S1),Atlas 0008 Palletizer (GEONUT_SYS3),Corrective (On site)
+2116,DONE,REACTIVE,48 - DTW - Jonathan Matzke,2026-02-19 18:30:00,General,Field Service Remote Work,Admin
+2117,DONE,REACTIVE,19 - PHL - Andrew Feeney,2026-02-19 20:00:00,General,,Admin
+2118,DONE,REACTIVE,FE - Erick Pedraza,2026-02-22 14:30:00,Marquis Extraction Technology Holdings LLC Site 1 (NA1_TBD_SYS1),FocusCube Palletizer (MARQUISX_SYS1)),Programming
+2119,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-02-19 16:00:00,Louisville Distilling Company LLC dba Angel's Envy Site 1 (NA1_ANGELSEN_S1),SYS1 Angel's Envy Palletizer (ANGELSEN_SYS1),Corrective (Remote Support)
+2120,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-02-20 16:00:00,General,,Admin
+2121,DONE,REACTIVE,Parts - Vince Schiavone,2026-02-19,Abimar Foods Inc. Site 1 (NA2_ABIMARFO_S1),SYS2 Palletizer (ABIMARFO_SYS2),Inventory
+2122,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-02-19 16:00:00,"Coastal Wipers, Inc. (NA2_COASTWIP_S1)",Focus Palletizer (COASTALW_SYS1),Inventory
+2123,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-02-21 09:00:00,General,,Admin
+2124,DONE,REACTIVE,48 - DTW - Jonathan Matzke,2026-02-21 08:00:00,General,Field Service Remote Work,Admin
+2125,DONE,OTHER,48 - DTW - Jonathan Matzke,2026-02-20,General,Field Service Remote Work,Admin
+2126,DONE,REACTIVE,FE - 30 - Nathan Brown,2026-02-17 16:00:00,"Statesboro Logistics Solutions, LLC Site 1 (NA1_STATESBO_S1)",SYS1 Focus Palletizer (STATESBO_SYS1),Corrective (On site)
+2127,DONE,REACTIVE,FE - Erick Pedraza,2026-02-20 10:00:00,Georgia Nut Site 1 (NA2_GEONUT_S1),SYS1 Susie The Robot (GEONUT_SYS1),Corrective (Remote Support)
+2128,DONE,REACTIVE,FE - Erick Pedraza,2026-02-20 10:00:00,Georgia Nut Site 1 (NA2_GEONUT_S1),SYS2 Sourcelink Palletizer (GEONUT_SYS2),Corrective (Remote Support)
+2129,DONE,REACTIVE,60 - ORD - Charlson Price,2026-02-24,"Connie's Pizza, Inc. Site 1 (NA2_CONNIESP_S1)",Palletizer SYS1 (CONNIESP_SYS1),Corrective (On site)
+2130,DONE,CYCLE_COUNT,"Parts - Vince Schiavone,Parts - Clarence Young",2026-02-25,,,
+2131,DONE,CYCLE_COUNT,"Parts - Vince Schiavone,Parts - Clarence Young",2026-02-21,,,
+2132,DONE,CYCLE_COUNT,"Parts - Vince Schiavone,Parts - Clarence Young",2026-02-25,,,
+2133,DONE,REACTIVE,"Parts - Vince Schiavone,Parts - Clarence Young",2026-02-20,"Harvest Food Group, Inc Site 1 (NA2_HARVESTF_S1)",SYS2 HCM Systems Case Packer (HARVESTF_SYS2),Inventory
+2134,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-02-22 16:00:00,Formic Office (NA2_FORMIC_S1),ATLAS 0018 Palletizer (FRESCMEX_SYS3),Corrective (On site)
+2135,DONE,REACTIVE,FE - Erick Pedraza,2026-02-20 16:00:00,"Venus Laboratories Inc. dba Earth Friendly Products, Addison IL Site 3 (NA2_VENUSCS1_S3)",SYS3 Focus Palletizer (Addison IL) (VENUSCS1_SYS3),Corrective (On site)
+2139,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-02-23 18:00:00,HS Baking Enterprises LLC (NA2_HSBAKING),ATLAS 0017 Palletizer (HSBAKING_SYS2),Inventory
+2140,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-02-23 18:00:00,General,,Admin
+2141,DONE,REACTIVE,48 - DTW - Jonathan Matzke,2026-02-23 18:00:00,General,Field Service Remote Work,Admin
+2142,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-02-24 09:00:00,General,,Admin
+2144,DONE,REACTIVE,FE - Erick Pedraza,2026-02-23 10:00:00,Georgia Nut Site 1 (NA2_GEONUT_S1),Atlas 0008 Palletizer (GEONUT_SYS3),Corrective (Remote Support)
+2145,DONE,REACTIVE,FE - Erick Pedraza,2026-02-23 15:00:00,Compact Industries Inc Site 1 (NA2_COMPACT_S1),SYS1 Rosie (COMPACT_SYS1),Corrective (On site)
+2146,DONE,REACTIVE,FE - Erick Pedraza,2026-02-23 15:00:00,Compact Industries Inc Site 1 (NA2_COMPACT_S1),SYS2 WALL-E (COMPACT_SYS2),Corrective (On site)
+2147,DONE,OTHER,95 - SMF - Israel Perez,2026-02-23,General,,Admin
+2148,DONE,REACTIVE,60 - ORD - Charlson Price,2026-04-04,"Connie's Pizza, Inc. Site 1 (NA2_CONNIESP_S1)",Palletizer SYS1 (CONNIESP_SYS1),Corrective (On site)
+2153,DONE,OTHER,95 - SMF - Israel Perez,2026-02-23,"Mariani Nut Company, Inc (NA1_MARIANIN_S1)",Palletizer SYS2 (MARIANIN_SYS2),Programming
+2154,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-02-24 18:00:00,General,,Admin
+2155,ON HOLD,REACTIVE,95 - SMF - Israel Perez,2026-04-10,"Venus Laboratories Inc. dba Earth Friendly Products, Cypress CA Site 4 (NA4_VENUSPS2_S4)",SYS4 Focus Palletizer (Cypress CA) (VENUSPS2_SYS4),Continuous Improvement
+2156,DONE,REACTIVE,95 - SMF - Israel Perez,2026-02-27,"Mariani Nut Company, Inc (NA1_MARIANIN_S1)",Palletizer SYS1 (MARIANIN_SYS1),Corrective (On site)
+2157,DONE,REACTIVE,95 - SMF - Israel Perez,2026-02-27,Berber Food Manufacturing Inc. (Mi Rancho) Site 1 (NA4_MIRANCHO_S1),SYS9 BeRobox Palletizer (Corn Line 4) (MIRANCHO_SYS9),"Corrective (On site),Inspection"
+2158,DONE,REACTIVE,95 - SMF - Israel Perez,2026-02-27,Berber Food Manufacturing Inc. (Mi Rancho) Site 1 (NA4_MIRANCHO_S1),SYS8 BeRobox Palletizer (Corn Line 5) (MIRANCHO_SYS8),"Corrective (On site),Inspection"
+2159,DONE,REACTIVE,60 - ORD - Charlson Price,2026-02-23,General,Field Service Remote Work,Admin
+2160,DONE,REACTIVE,"FE - Erick Pedraza,60 - ORD - Charlson Price",2026-03-30,"Harvest Food Group, Inc Site 1 (NA2_HARVESTF_S1)",SYS1 HCM Systems Palletizer (HARVESTF_SYS1),Corrective (On site)
+2161,DONE,REACTIVE,48 - DTW - Jonathan Matzke,2026-02-24 18:00:00,General,Field Service Remote Work,Admin
+2162,DONE,REACTIVE,48 - DTW - Jonathan Matzke,2026-03-17 08:00:00,,,Inventory
+2163,DONE,REACTIVE,48 - DTW - Jonathan Matzke,2026-03-17 08:00:00,"Wyandot Snacks, LLC Site 1 (NA1_WYANDOTS_S1)",ATLAS 0003 Palletizer (WYANDOTS_SYS1),Inventory
+2164,DONE,REACTIVE,48 - DTW - Jonathan Matzke,2026-03-17 08:00:00,"Wyandot Snacks, LLC Site 1 (NA1_WYANDOTS_S1)",Atlas 0004 Palletizer (WYANDOTS_SYS2),Inventory
+2165,DONE,REACTIVE,19 - PHL - Andrew Feeney,2026-02-21 22:59:00,Pioneer Frozen Site 1 (NA2_ PNRFROZN),Atlas 0010 Palletizer (PNRFROZN_SYS1),Corrective (Remote Support)
+2166,DONE,REACTIVE,19 - PHL - Andrew Feeney,2026-02-22 18:00:00,Pioneer Frozen Site 1 (NA2_ PNRFROZN),Atlas 0010 Palletizer (PNRFROZN_SYS1),Corrective (On site)
+2167,DONE,REACTIVE,19 - PHL - Andrew Feeney,2026-02-23 12:00:00,Pioneer Frozen Site 1 (NA2_ PNRFROZN),Atlas 0010 Palletizer (PNRFROZN_SYS1),Corrective (On site)
+2168,DONE,REACTIVE,19 - PHL - Andrew Feeney,2026-02-24 20:00:00,Pioneer Frozen Site 1 (NA2_ PNRFROZN),Atlas 0010 Palletizer (PNRFROZN_SYS1),Corrective (On site)
+2169,DONE,REACTIVE,48 - DTW - Jonathan Matzke,2026-02-27 19:00:00,3D Machine Inc Site 1 (NA1_3DMACHIN_S1),SYS1 Baymax (3DMACHIN_SYS1),Corrective (On site)
+2170,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-02-25 17:00:00,General,,Admin
+2171,DONE,REACTIVE,FE - Erick Pedraza,2026-02-24,General,Field Service Remote Work,Admin
+2173,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-02-25 09:00:00,General,,Admin
+2174,DONE,REACTIVE,95 - SMF - Israel Perez,2026-02-27,Mariani Packing Company Inc. Site1 (NA4_MARIANIP_S1),Palletizer SYS2 (MARIANIP_SYS2),Corrective (On site)
+2175,DONE,REACTIVE,FE - Erick Pedraza,2026-02-24,Georgia Nut Site 1 (NA2_GEONUT_S1),Atlas 0008 Palletizer (GEONUT_SYS3),Corrective (Remote Support)
+2176,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-02-26 09:00:00,General,,Admin
+2177,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-02-26 09:00:00,Cameron's Coffee and Distribution Company Site1 (NA2_CAMERONS_S1),SYS2 BeRobox Palletizer (CAMERONS_SYS2),Continuous Improvement
+2178,DONE,REACTIVE,FE - Erick Pedraza,2026-02-25,General,,Admin
+2179,DONE,REACTIVE,"FE - Erick Pedraza,FE - 60 - Ryan Bryson",2026-02-28,HS Baking Enterprises LLC (NA2_HSBAKING),ATLAS 0017 Palletizer (HSBAKING_SYS2),Programming
+2180,DONE,REACTIVE,FE - Erick Pedraza,2026-02-25,,,Inspection
+2181,DONE,REACTIVE,FE - Erick Pedraza,2026-02-25,"Kari-Out LLC, Site 2 (NA1_KARIOUTF_S2)",Atlas 0006 Palletizer (KARIOUTF_SYS2),Inspection
+2182,DONE,REACTIVE,FE - Erick Pedraza,2026-02-25,"Kari-Out LLC, Site 1 (NA1_KARIOUTF_S1)",Palletizer SYS3 (KARIOUTF_SYS3),Inspection
+2183,DONE,REACTIVE,FE - Erick Pedraza,2026-02-25,"Kari-Out LLC, Site 1 (NA1_KARIOUTF_S1)",SYS1 BeRobox PALTZ Palletizer (KARIOUTF_SYS1),Inspection
+2184,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-03-10 16:00:00,"Love Beets Production, LLC Site 1 (NA1_LOVEBEET_S1)",SYS2 Focus Palletizer (LOVEBEET_SYS2),Continuous Improvement
+2188,DONE,REACTIVE,48 - DTW - Jonathan Matzke,2026-03-04 18:00:00,Haviland Products Company (NA1_HAVILAND_S1),Atlas 0016 Palletizer (HAVILAND_SYS1),Corrective (On site)
+2189,DONE,REACTIVE,75 - DFW- Alan Clement,2026-03-08 09:00:00,Pioneer Frozen Site 1 (NA2_ PNRFROZN),Atlas 0010 Palletizer (PNRFROZN_SYS1),Installation
+2190,DONE,REACTIVE,19 - PHL - Andrew Feeney,2026-02-25 17:30:00,,,Corrective (On site)
+2191,DONE,REACTIVE,19 - PHL - Andrew Feeney,2026-02-25 17:30:00,Pioneer Frozen Site 1 (NA2_ PNRFROZN),100144 Kuka 50 R2500-2 Arm 01653741,Corrective (On site)
+2192,DONE,REACTIVE,19 - PHL - Andrew Feeney,2026-02-25 17:30:00,Pioneer Frozen Site 1 (NA2_ PNRFROZN),Atlas 0010 Palletizer (PNRFROZN_SYS1),Corrective (On site)
+2193,DONE,REACTIVE,48 - DTW - Jonathan Matzke,2026-02-26,General,Field Service Remote Work,Admin
+2194,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-02-27 09:00:00,General,,Admin
+2195,DONE,REACTIVE,"FE - Erick Pedraza,60 - ORD - Charlson Price",2026-02-27,"Harvest Food Group, Inc Site 1 (NA2_HARVESTF_S1)",SYS2 HCM Systems Case Packer (HARVESTF_SYS2),Corrective (On site)
+2196,DONE,REACTIVE,"FE - Shawn Castelino,FE - Luis Rodriguez",2026-02-26 16:00:00,Formic Office (NA2_FORMIC_S1),ATLAS 0021 Palletizer (FRESCMEX_SYS1),Deployment
+2197,DONE,REACTIVE,FE - Shawn Castelino,2026-02-26 16:00:00,Fresca Mexican Foods LLC (NA_FRESCMEX_S1),ATLAS 0019 Palletizer (FRESCMEX_SYS2),Deployment
+2198,OPEN,REACTIVE,,2026-03-13,Formic Office (NA2_FORMIC_S1),Atlas 0015 Palletizer (Software Team),Programming
+2199,OPEN,REACTIVE,,2026-03-27,Formic Technologies (NA2_FORMIC),Talos 0001 (Unallocated),Programming
+2200,DONE,REACTIVE,19 - PHL - Andrew Feeney,2026-02-26 20:00:00,General,Field Service Remote Work,Corrective (Remote Support)
+2201,DONE,REACTIVE,19 - PHL - Andrew Feeney,2026-02-27 20:00:00,General,Field Service Remote Work,Corrective (Remote Support)
+2202,DONE,REACTIVE,FE - Erick Pedraza,2026-02-26 16:00:00,Georgia Nut Site 1 (NA2_GEONUT_S1),SYS1 Susie The Robot (GEONUT_SYS1),Corrective (On site)
+2203,DONE,REACTIVE,FE - Erick Pedraza,2026-02-26 16:00:00,Georgia Nut Site 1 (NA2_GEONUT_S1),Atlas 0008 Palletizer (GEONUT_SYS3),Corrective (On site)
+2204,DONE,REACTIVE,75 - DFW- Alan Clement,2026-02-27 09:00:00,"Satellite Industries, Inc, Site 1 (NA2_SATELLIT_S1)",Palletizer SYS1 (SATELLIT_SYS1),Corrective (On site)
+2205,DONE,REACTIVE,75 - DFW- Alan Clement,2026-02-27 09:00:00,Pioneer Flour Site 1 (NA2_PNRFLOUR),Atlas 0009 Palletizer (PNRFLOUR_SYS1),Corrective (On site)
+2206,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-02-28 09:00:00,General,,Admin
+2207,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-02-28 09:00:00,"Warner Manufacturing Company, Site1 (NA2_WARNERMA_S1)",SYS1 Machine Tending Cell (WARNERMA_SYS1),Corrective (Remote Support)
+2208,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-02-27 16:00:00,General,,Admin
+2211,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-03-02 16:00:00,General,,Admin
+2212,DONE,PREVENTIVE,FE - Erick Pedraza,2026-05-20 11:00:00,,,Preventive
+2213,DONE,PREVENTIVE,"FE - Erick Pedraza,60 - ORD - Charlson Price",2026-05-20 11:00:00,"Matt Pak, Inc. Site 1 (NA2_MATTPAK_S1)",SYS1 Palletizer (MATTPAK_SYS1),Preventive
+2214,DONE,PREVENTIVE,"FE - Erick Pedraza,60 - ORD - Charlson Price",2026-05-20 11:00:00,"Matt Pak, Inc. Site 1 (NA2_MATTPAK_S1)",SYS2 Palletizer (MATTPAK_SYS2),Preventive
+2215,DONE,PREVENTIVE,"FE - Erick Pedraza,60 - ORD - Charlson Price",2026-05-20 11:00:00,"Matt Pak, Inc. Site 1 (NA2_MATTPAK_S1)",ATLAS 0005 Palletizer (MATTPAK_SYS3),Preventive
+2219,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-03-03 09:00:00,"Venus Laboratories Inc. dba Earth Friendly Products, Cypress CA Site 4 (NA4_VENUSPS2_S4)",SYS9 Focus Palletizer (Cypress CA) (VENUSPS2_SYS9),Corrective (Remote Support)
+2221,DONE,REACTIVE,48 - DTW - Jonathan Matzke,2026-03-02 18:00:00,General,Field Service Remote Work,Admin
+2222,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-03-08 00:00:00,General,Field Service Remote Work,Admin
+2223,DONE,REACTIVE,60 - ORD - Charlson Price,2026-03-06,"Harvest Food Group, Inc Site 1 (NA2_HARVESTF_S1)",SYS2 HCM Systems Case Packer (HARVESTF_SYS2),Continuous Improvement
+2224,DONE,REACTIVE,"FE - Erick Pedraza,60 - ORD - Charlson Price",2026-03-12,"Harvest Food Group, Inc Site 1 (NA2_HARVESTF_S1)",SYS2 HCM Systems Case Packer (HARVESTF_SYS2),Corrective (On site)
+2225,DONE,REACTIVE,19 - PHL - Andrew Feeney,2026-03-02 20:00:00,General,,Admin
+2226,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-03-06 09:00:00,"Venus Laboratories Inc. dba Earth Friendly Products, Cypress CA Site 4 (NA4_VENUSPS2_S4)",SYS9 Focus Palletizer (Cypress CA) (VENUSPS2_SYS9),Corrective (On site)
+2227,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-03-02 16:00:00,"Heritage Specialty Foods, LLC (NA1_HRTGFOOD_S1)",Palletizer SYS1 (HRTGFOOD_SYS1),Inventory
+2230,DONE,REACTIVE,"Parts - Vince Schiavone,Tyler Matijevich,FE - Shawn Castelino,FE - Luis Rodriguez,Parts - Clarence Young",2026-03-09 16:00:00,Formic Technologies (NA2_FORMIC),ATLAS 0022 Palletizer (PNRFLOUR_SYS2),Refurbish / Commissioning
+2235,DONE,REACTIVE,FE - Erick Pedraza,2026-03-02,Pioneer Flour Site 1 (NA2_PNRFLOUR),Atlas 0009 Palletizer (PNRFLOUR_SYS1),Programming
+2236,DONE,REACTIVE,FE - Erick Pedraza,2026-03-02,"Heritage Specialty Foods, LLC (NA1_HRTGFOOD_S1)",Palletizer SYS1 (HRTGFOOD_SYS1),Corrective (Remote Support)
+2237,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-03-02 16:00:00,"Coastal Wipers, Inc. (NA2_COASTWIP_S1)",Focus Palletizer (COASTALW_SYS1),Inventory
+2238,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-03-03 16:00:00,General,,Admin
+2239,OPEN,REACTIVE,"Tyler Matijevich,FE - Shawn Castelino,FE - Panos Malamis,FE - Luis Rodriguez,Parts - Clarence Young",2026-03-16 16:00:00,Formic Office (NA2_FORMIC_S1),ATLAS 0024 Palletizer (Unallocated),Refurbish / Commissioning
+2240,DONE,REACTIVE,60 - ORD - Charlson Price,2026-03-03,"Harvest Food Group, Inc Site 1 (NA2_HARVESTF_S1)",SYS2 HCM Systems Case Packer (HARVESTF_SYS2),Corrective (On site)
+2241,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-03-05 17:00:00,"Coastal Wipers, Inc. (NA2_COASTWIP_S1)",Focus Palletizer (COASTALW_SYS1),Corrective (On site)
+2242,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-03-04 16:00:00,"CAAP Co., Inc. (NA4_CAAPCO_S1)",SYS1 BeRobox Palletizer Paltz 2366 (CAAPCO_SYS1),Corrective (On site)
+2243,DONE,REACTIVE,48 - DTW - Jonathan Matzke,2026-03-04 18:00:00,General,Field Service Remote Work,Admin
+2244,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-03-06 11:00:00,"Heritage Specialty Foods, LLC (NA1_HRTGFOOD_S1)",Palletizer SYS1 (HRTGFOOD_SYS1),Corrective (On site)
+2245,DONE,REACTIVE,60 - ORD - Charlson Price,2026-03-04,General,Field Service Remote Work,Admin
+2246,DONE,REACTIVE,48 - DTW - Jonathan Matzke,2026-03-10 18:00:00,"Boxed Water is Better LLC MI, Site 1 (NA1_TBD_S1)",SL20 Palletizer (BOXEDWAT_SYS1),"Corrective (On site),Corrective (Remote Support)"
+2247,DONE,REACTIVE,19 - PHL - Andrew Feeney,2026-03-03 20:00:00,General,,Admin
+2248,DONE,REACTIVE,19 - PHL - Andrew Feeney,,"T.M. Duche' Nut Co., Inc. Site1 (NA4_TMDUCHEN_S1)",SYS1 Focus Palletizer (TMDUCHEN_SYS1),Corrective (On site)
+2249,DONE,REACTIVE,19 - PHL - Andrew Feeney,2026-03-06 20:00:00,"T.M. Duche' Nut Co., Inc. Site1 (NA4_TMDUCHEN_S1)",SYS1 Focus Palletizer (TMDUCHEN_SYS1),Corrective (On site)
+2250,DONE,REACTIVE,"95 - Jesse Moure,FE - 60 - Ryan Bryson",2026-03-15 11:00:00,PTO,PTO,OoO
+2251,DONE,REACTIVE,FE - 60 - Ryan Bryson,2026-03-08 11:00:00,General,,Admin
+2252,DONE,REACTIVE,FE - 30 - Nathan Brown,2026-03-08 11:00:00,General,,Admin
+2253,DONE,REACTIVE,FE - 84 - Rootbeer Weaver,2026-03-08 11:00:00,General,,Admin
+2257,DONE,REACTIVE,FE - Erick Pedraza,2026-03-04,"Monogram Food Solutions, LLC (NA1_MONOGRAM_S1)",Atlas 0012 Palletizer (MONOGRAM_SYS1),Corrective (Remote Support)
+2258,DONE,REACTIVE,FE - 30 - Nathan Brown,2026-03-22 11:00:00,Louisville Distilling Company LLC dba Angel's Envy Site 1 (NA1_ANGELSEN_S1),SYS1 Angel's Envy Palletizer (ANGELSEN_SYS1),Installation
+2259,OPEN,REACTIVE,FE - 30 - Nathan Brown,2026-04-12 11:00:00,"Iatric Manufacturing Solutions LLC, Site 1 (NA1_IATRICMA_S1)",Iatric Manufacturing SYS2 (IATRICMA_SYS2),Continuous Improvement
+2260,DONE,REACTIVE,FE - 30 - Nathan Brown,2026-03-15 11:00:00,Van Ness Plastic Molding Company Inc. Site 1 (NA1_VANNESSP_S1),SYS2 RG Group Material Handling Cell (VANNESSP_SYS2),Inspection
+2261,DONE,REACTIVE,FE - Erick Pedraza,,Polar Hardware Site 1 (NA2_POLAR_S1),SYS2 Fred (POLAR_SYS2),Refurbish / Commissioning
+2263,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-03-16 11:00:00,General,Field Service Remote Work,OoO
+2264,DONE,REACTIVE,"FE - Erick Pedraza,75 - DFW- Alan Clement",2026-03-10,Georgia Nut Site 1 (NA2_GEONUT_S1),Atlas 0008 Palletizer (GEONUT_SYS3),Corrective (Remote Support)
+2265,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-03-06 09:00:00,Trident Seafoods Corporation Site 1 MN(NA2_TRIDENTS_S1),SYS3 Palletizer (TRIDENTS_SYS3),Corrective (Remote Support)
+2266,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-03-07 09:00:00,Cameron's Coffee and Distribution Company Site1 (NA2_CAMERONS_S1),SYS2 BeRobox Palletizer (CAMERONS_SYS2),Corrective (On site)
+2267,DONE,OTHER,FE - 84 - Rootbeer Weaver,2026-03-06,General,Field Service Remote Work,Admin
+2268,DONE,REACTIVE,"55 - MSP - Kevin Magner,FE - 30 - Nathan Brown",2026-03-13 21:00:00,Van Ness Plastic Molding Company Inc. Site 1 (NA1_VANNESSP_S1),SYS1 RG Group Material Handling Cell (VANNESSP_SYS1),Corrective (Remote Support)
+2269,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-03-06 18:00:00,"Coastal Wipers, Inc. (NA2_COASTWIP_S1)",Focus Palletizer (COASTALW_SYS1),Corrective (On site)
+2270,DONE,REACTIVE,19 - PHL - Andrew Feeney,2026-03-05 23:00:00,"T.M. Duche' Nut Co., Inc. Site1 (NA4_TMDUCHEN_S1)",SYS1 Focus Palletizer (TMDUCHEN_SYS1),Corrective (On site)
+2271,DONE,REACTIVE,"FE - Erick Pedraza,75 - DFW- Alan Clement",2026-03-11,Taylor Farms,CompactIndustrial Palletizer (TYLRFMIL_SYS1),Corrective (On site)
+2272,DONE,REACTIVE,95 - SMF - Uriel Alvarez,2026-03-07,Berber Food Manufacturing Inc. (Mi Rancho) Site 1 (NA4_MIRANCHO_S1),SYS6 BeRobox Palletizer (Mega Line 5 flour) (MIRANCHO_SYS6),Corrective (On site)
+2273,OPEN,REACTIVE,19 - PHL - Andrew Feeney,2026-03-07 22:00:00,Fresca Mexican Foods LLC (NA_FRESCMEX_S1),ATLAS 0019 Palletizer (FRESCMEX_SYS2),Corrective (On site)
+2275,OPEN,PREVENTIVE,48 - DTW - Jonathan Matzke,2026-06-03 11:00:00,"Spray Products Corporation, Site1 (NA1_SPRAYPRO_S1)",ATLAS 0002 Palletizer (SPRAYPRO_SYS1),Preventive
+2276,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-03-10 08:00:00,General,,Admin
+2277,DONE,REACTIVE,48 - DTW - Jonathan Matzke,2026-03-10 08:00:00,"Pinnacle Industrial Enterprises, Inc. Site 1 (NA1_PINNACLE)",Atlas 0007 Palletizer (PINNACLE_SYS1),Corrective (On site)
+2278,DONE,REACTIVE,"95 - Jesse Moure,FE - 60 - Ryan Bryson",2026-03-13 17:00:00,General,,Admin
+2279,DONE,REACTIVE,60 - ORD - Charlson Price,2026-03-15 11:00:00,General,,Admin
+2280,DONE,REACTIVE,FE - Erick Pedraza,2026-03-09 16:00:00,"PMA Friction Products, Inc Site 1 (NA2_PMAFRICT_S1)",SYS1 Matrix Press Tender (PMAFRICT_SYS1),Corrective (On site)
+2281,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-03-11 08:00:00,Create-A-Pack Foods Inc Site 1 (NA2_CREATEAP_S1),SYS1 Rotary 8 (CREATEAP_SYS1),Corrective (Remote Support)
+2282,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-03-13 08:00:00,,,Inventory
+2283,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-03-13 08:00:00,"Illume Holding Company LLC, Site 1 (NA2_ILLUMEHO_S1)",SYS1 Palletizer (ILLUMEHO_SYS1),Inventory
+2284,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-03-13 08:00:00,"Illume Holding Company LLC, Site 1 (NA2_ILLUMEHO_S1)",SYS2 Palletizer (ILLUMEHO_SYS2),Inventory
+2285,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-03-11 08:00:00,General,,Admin
+2286,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-03-12 08:00:00,General,,Admin
+2287,DONE,REACTIVE,48 - DTW - Jonathan Matzke,2026-03-10 18:00:00,General,,Admin
+2289,DONE,REACTIVE,48 - DTW - Jonathan Matzke,2026-04-01 14:30:00,"Wyandot Snacks, LLC Site 1 (NA1_WYANDOTS_S1)",Atlas 0004 Palletizer (WYANDOTS_SYS2),Inventory
+2290,DONE,OTHER,48 - DTW - Jonathan Matzke,2026-03-12 09:30:00,Haviland Products Company (NA1_HAVILAND_S1),Atlas 0016 Palletizer (HAVILAND_SYS1),Inventory
+2291,DONE,REACTIVE,48 - DTW - Jonathan Matzke,2026-03-13 18:00:00,General,Field Service Remote Work,Admin
+2292,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-03-13 16:00:00,General,,Admin
+2293,DONE,REACTIVE,FE - 30 - Nathan Brown,2026-03-15 11:00:00,General,,Admin
+2295,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-03-19 08:00:00,"Once Again Nut Butter Collective Inc, Site1 (NA1_ONCEAGAI_S1)",SYS1 Palletizer (ONCEAGAI_SYS1),Corrective (On site)
+2296,DONE,REACTIVE,60 - ORD - Charlson Price,2026-03-12,"Mariani Nut Company, Inc (NA1_MARIANIN_S1)",Palletizer SYS2 (MARIANIN_SYS2),Corrective (Remote Support)
+2298,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-03-11 16:00:00,"Monogram Food Solutions, LLC (NA1_MONOGRAM_S1)",Atlas 0012 Palletizer (MONOGRAM_SYS1),Corrective (On site)
+2299,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-03-11 16:00:00,General,,Admin
+2300,DONE,REACTIVE,60 - ORD - Charlson Price,2026-03-12,"PMA Friction Products, Inc Site 1 (NA2_PMAFRICT_S1)",SYS1 Matrix Press Tender (PMAFRICT_SYS1),Corrective (On site)
+2304,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-03-13 09:00:00,General,,Admin
+2305,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-03-14 09:00:00,"Ver-Tech Laboratories, Inc. Site 1 (NA2_VERTECHL_S1)",SYS1 Palletizer (VERTECHL_SYS1),Corrective (On site)
+2307,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-03-12 16:00:00,General,,Admin
+2308,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-03-12 16:00:00,"Love Beets Production, LLC Site 1 (NA1_LOVEBEET_S1)",SYS2 Focus Palletizer (LOVEBEET_SYS2),Corrective (Remote Support)
+2309,OPEN,REACTIVE,75 - DFW- Alan Clement,,Fresca Mexican Foods LLC (NA_FRESCMEX_S1),ATLAS 0019 Palletizer (FRESCMEX_SYS2),Corrective (On site)
+2310,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-03-13 09:00:00,Fresca Mexican Foods LLC (NA_FRESCMEX_S1),ATLAS 0019 Palletizer (FRESCMEX_SYS2),Corrective (Remote Support)
+2312,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-03-13 16:00:00,"Coastal Wipers, Inc. (NA2_COASTWIP_S1)",Focus Palletizer (COASTALW_SYS1),Corrective (Remote Support)
+2313,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-03-06 16:00:00,"Coastal Wipers, Inc. (NA2_COASTWIP_S1)",Focus Palletizer (COASTALW_SYS1),Preventive
+2315,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-03-14 09:00:00,General,,Admin
+2317,DONE,REACTIVE,19 - PHL - Andrew Feeney,2026-03-16 20:00:00,"Mariani Nut Company, Inc (NA1_MARIANIN_S1)",Palletizer SYS2 (MARIANIN_SYS2),"Corrective (On site),Corrective (Remote Support)"
+2318,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-03-17 09:00:00,General,,Admin
+2319,DONE,REACTIVE,FE - 84 - Rootbeer Weaver,2026-03-22,General,,Admin
+2320,DONE,REACTIVE,60 - ORD - Charlson Price,2026-03-16,Georgia Nut Site 1 (NA2_GEONUT_S1),Atlas 0008 Palletizer (GEONUT_SYS3),Corrective (On site)
+2321,DONE,REACTIVE,48 - DTW - Jonathan Matzke,2026-03-16 18:00:00,"Wyandot Snacks, LLC Site 1 (NA1_WYANDOTS_S1)",Atlas 0004 Palletizer (WYANDOTS_SYS2),Corrective (On site)
+2322,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-03-28 09:00:00,"Satellite Industries, Inc, Site 1 (NA2_SATELLIT_S1)",Palletizer SYS1 (SATELLIT_SYS1),Corrective (Remote Support)
+2323,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-03-18 09:00:00,General,,Admin
+2324,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-03-28 09:00:00,"Precision Paper Converters, LLC Site1 (NA2_PRECISIO_S1)",SYS1 Focus Palletizer (PRECISIO_SYS1),Programming
+2325,DONE,REACTIVE,75 - DFW- Alan Clement,2026-03-18,Fresca Mexican Foods LLC (NA_FRESCMEX_S1),ATLAS 0018 Palletizer (FRESCMEX_SYS3),Corrective (On site)
+2326,DONE,REACTIVE,75 - DFW- Alan Clement,2026-03-18,General,,Admin
+2327,DONE,REACTIVE,FE - Erick Pedraza,2026-03-18,Taylor Farms,CompactIndustrial Palletizer (TYLRFMIL_SYS1),Corrective (Remote Support)
+2328,DONE,REACTIVE,FE - 60 - Ryan Bryson,2026-03-22 17:00:00,General,,Admin
+2329,IN PROGRESS,REACTIVE,02 - BOS - Brad Rasberry,2026-03-17 16:00:00,,,Inventory
+2330,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-03-17 16:00:00,Van Ness Plastic Molding Company Inc. Site 1 (NA1_VANNESSP_S1),SYS1 RG Group Material Handling Cell (VANNESSP_SYS1),Inventory
+2331,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-03-17 16:00:00,Van Ness Plastic Molding Company Inc. Site 1 (NA1_VANNESSP_S1),SYS2 RG Group Material Handling Cell (VANNESSP_SYS2),Inventory
+2332,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-03-19 09:00:00,General,,Admin
+2333,DONE,REACTIVE,FE - Erick Pedraza,2026-03-18,"Venus Laboratories Inc. dba Earth Friendly Products, Addison IL Site 3 (NA2_VENUSCS1_S3)",SYS6 Focus Palletizer (Addison IL) (VENUSCS1_SYS6),Corrective (On site)
+2334,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-03-19 09:00:00,Formic Technologies (NA2_FORMIC),Woodridge Warehouse,Admin
+2335,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-03-24 09:00:00,"Ver-Tech Laboratories, Inc. Site 1 (NA2_VERTECHL_S1)",SYS1 Palletizer (VERTECHL_SYS1),Corrective (On site)
+2336,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-04-01 09:00:00,Trident Seafoods Corporation Site 1 MN(NA2_TRIDENTS_S1),SYS3 Palletizer (TRIDENTS_SYS3),Corrective (On site)
+2337,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-03-23 17:00:00,"Monogram Food Solutions, LLC (NA1_MONOGRAM_S1)",Atlas 0012 Palletizer (MONOGRAM_SYS1),Corrective (On site)
+2338,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-03-19 17:00:00,General,,Admin
+2339,DONE,REACTIVE,19 - PHL - Andrew Feeney,2026-03-19 19:00:00,General,Field Service Remote Work,Admin
+2340,DONE,REACTIVE,19 - PHL - Andrew Feeney,2026-03-20 22:00:00,General,Field Service Remote Work,Admin
+2341,DONE,REACTIVE,19 - PHL - Andrew Feeney,2026-03-18 19:00:00,General,Field Service Remote Work,Admin
+2342,DONE,REACTIVE,19 - PHL - Andrew Feeney,2026-03-17 19:00:00,General,Field Service Remote Work,Corrective (On site)
+2343,DONE,REACTIVE,19 - PHL - Andrew Feeney,2026-03-09 19:00:00,Formic Office (NA2_FORMIC_S1),ATLAS 0020 Palletizer (FRESCMEX_SYS4),"Corrective (On site),Deployment"
+2344,DONE,REACTIVE,19 - PHL - Andrew Feeney,2026-03-11 19:00:00,Formic Office (NA2_FORMIC_S1),ATLAS 0020 Palletizer (FRESCMEX_SYS4),Corrective (On site)
+2345,DONE,REACTIVE,19 - PHL - Andrew Feeney,2026-03-12 19:00:00,General,Field Service Remote Work,Corrective (Remote Support)
+2346,DONE,REACTIVE,19 - PHL - Andrew Feeney,2026-03-10 19:00:00,Formic Office (NA2_FORMIC_S1),ATLAS 0020 Palletizer (FRESCMEX_SYS4),"Corrective (On site),Deployment"
+2347,DONE,REACTIVE,19 - PHL - Andrew Feeney,2026-03-13 19:00:00,General,Field Service Remote Work,Corrective (Remote Support)
+2348,DONE,REACTIVE,19 - PHL - Andrew Feeney,2026-03-23 19:00:00,Van Ness Plastic Molding Company Inc. Site 1 (NA1_VANNESSP_S1),SYS1 RG Group Material Handling Cell (VANNESSP_SYS1),Corrective (On site)
+2349,DONE,REACTIVE,FE - 60 - Ryan Bryson,2026-03-30 17:00:00,General,,Admin
+2350,DONE,REACTIVE,"FE - 84 - Rootbeer Weaver,60 - ORD - Charlson Price",2026-03-24,"PMA Friction Products, Inc Site 1 (NA2_PMAFRICT_S1)",SYS1 Matrix Press Tender (PMAFRICT_SYS1),Corrective (On site)
+2351,DONE,REACTIVE,60 - ORD - Charlson Price,2026-03-23,General,Field Service Remote Work,Admin
+2353,DONE,REACTIVE,48 - DTW - Jonathan Matzke,2026-03-23,General,Field Service Remote Work,Admin
+2354,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-03-22 16:00:00,"Love Beets Production, LLC Site 1 (NA1_LOVEBEET_S1)",SYS2 Focus Palletizer (LOVEBEET_SYS2),Corrective (Remote Support)
+2355,DONE,REACTIVE,FE - 30 - Nathan Brown,2026-03-29 11:00:00,General,,Admin
+2356,DONE,REACTIVE,FE - 60 - Ryan Bryson,2026-03-23,"Monogram Food Solutions, LLC (NA1_MONOGRAM_S1)",Atlas 0012 Palletizer (MONOGRAM_SYS1),Programming
+2359,OPEN,REACTIVE,"FE - Erick Pedraza,Tyler Matijevich,FE - Shawn Castelino,FE - Panos Malamis,FE - Luis Rodriguez,Parts - Clarence Young",2026-04-17 16:00:00,Formic Office (NA2_FORMIC_S1),ATLAS 0025 Palletizer (Unallocated),Refurbish / Commissioning
+2360,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-03-23 16:00:00,General,,Admin
+2361,DONE,REACTIVE,19 - PHL - Andrew Feeney,2026-03-23 20:00:00,General,,Admin
+2363,DONE,REACTIVE,75 - DFW- Alan Clement,2026-03-23,General,,Admin
+2364,IN PROGRESS,REACTIVE,"FE - 60 - Ryan Bryson,FE - 30 - Nathan Brown",2026-04-24,Fresca Mexican Foods LLC (NA_FRESCMEX_S1),ATLAS 0020 Palletizer (FRESCMEX_SYS4),Programming
+2365,DONE,REACTIVE,FE - 84 - Rootbeer Weaver,2026-03-28,General,,Admin
+2366,DONE,REACTIVE,"FE - 84 - Rootbeer Weaver,55 - MSP - Kevin Magner",2026-03-24 09:00:00,"Ver-Tech Laboratories, Inc. Site 1 (NA2_VERTECHL_S1)",Case Packer SYS2 (VERTECHL_SYS2),"Corrective (On site),Corrective (Remote Support)"
+2367,DONE,REACTIVE,75 - DFW- Alan Clement,2026-03-24,"Satellite Industries, Inc, Site 1 (NA2_SATELLIT_S1)",Palletizer SYS1 (SATELLIT_SYS1),Corrective (On site)
+2368,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-03-24 16:00:00,General,,Admin
+2370,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-03-24 09:00:00,General,,Admin
+2371,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-03-21 09:00:00,Formic Technologies (NA2_FORMIC),Woodridge Warehouse,Admin
+2372,DONE,REACTIVE,19 - PHL - Andrew Feeney,2026-03-24 20:00:00,Fresca Mexican Foods LLC (NA_FRESCMEX_S1),ATLAS 0019 Palletizer (FRESCMEX_SYS2),Corrective (On site)
+2373,DONE,REACTIVE,"19 - PHL - Andrew Feeney,75 - DFW- Alan Clement",2026-03-25 20:00:00,Fresca Mexican Foods LLC (NA_FRESCMEX_S1),ATLAS 0019 Palletizer (FRESCMEX_SYS2),Corrective (On site)
+2374,DONE,REACTIVE,19 - PHL - Andrew Feeney,2026-03-26 20:00:00,Fresca Mexican Foods LLC (NA_FRESCMEX_S1),ATLAS 0019 Palletizer (FRESCMEX_SYS2),Corrective (On site)
+2375,DONE,REACTIVE,19 - PHL - Andrew Feeney,2026-03-27 20:00:00,Fresca Mexican Foods LLC (NA_FRESCMEX_S1),ATLAS 0019 Palletizer (FRESCMEX_SYS2),Corrective (On site)
+2376,DONE,REACTIVE,19 - PHL - Andrew Feeney,2026-03-28 20:00:00,Fresca Mexican Foods LLC (NA_FRESCMEX_S1),ATLAS 0019 Palletizer (FRESCMEX_SYS2),Corrective (On site)
+2377,IN PROGRESS,REACTIVE,FE - 84 - Rootbeer Weaver,2026-04-07,"Harvest Food Group, Inc Site 1 (NA2_HARVESTF_S1)",SYS2 HCM Systems Case Packer (HARVESTF_SYS2),"Continuous Improvement,Customer Performed Work,Inspection"
+2378,IN PROGRESS,REACTIVE,FE - 84 - Rootbeer Weaver,2026-04-07,Louisville Distilling Company LLC dba Angel's Envy Site 1 (NA1_ANGELSEN_S1),SYS1 Angel's Envy Palletizer (ANGELSEN_SYS1),"Continuous Improvement,Corrective (Remote Support),Inspection"
+2379,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-03-24 09:00:00,"Ver-Tech Laboratories, Inc. Site 1 (NA2_VERTECHL_S1)",SYS1 Palletizer (VERTECHL_SYS1),Corrective (On site)
+2380,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-03-25 09:00:00,"Satellite Industries, Inc, Site 1 (NA2_SATELLIT_S1)",Palletizer SYS1 (SATELLIT_SYS1),Corrective (Remote Support)
+2382,DONE,REACTIVE,95 - SMF - Israel Perez,2026-04-10,"Venus Laboratories Inc. dba Earth Friendly Products, Cypress CA Site 4 (NA4_VENUSPS2_S4)",SYS10 Focus Palletizer (Cypress CA) (VENUSPS2_SYS10),Corrective (Remote Support)
+2383,DONE,REACTIVE,95 - SMF - Israel Perez,2026-04-10,"Venus Laboratories Inc. dba Earth Friendly Products, Cypress CA Site 4 (NA4_VENUSPS2_S4)",SYS4 Focus Palletizer (Cypress CA) (VENUSPS2_SYS4),Corrective (Remote Support)
+2384,DONE,REACTIVE,95 - SMF - Israel Perez,2026-03-27,"Venus Laboratories Inc. dba Earth Friendly Products, Lacy WA Site 2 (NA4_VENUSPS1_S2)",SYS2 Focus Palletizer (Lacey WA) (VENUSPS1_SYS2),Corrective (Remote Support)
+2385,DONE,REACTIVE,95 - SMF - Israel Perez,2026-03-24,General,,Admin
+2386,DONE,REACTIVE,95 - SMF - Israel Perez,2026-03-25,General,,Admin
+2387,DONE,REACTIVE,95 - SMF - Israel Perez,,General,,Admin
+2388,DONE,REACTIVE,95 - SMF - Israel Perez,,General,,Admin
+2389,DONE,REACTIVE,95 - SMF - Israel Perez,,General,,Admin
+2392,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-03-25 09:00:00,General,,Admin
+2393,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-03-26 09:00:00,General,,Admin
+2394,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-03-25 10:30:00,General,Field Service Remote Work,Admin
+2395,DONE,REACTIVE,FE - 30 - Nathan Brown,2026-04-05,Louisville Distilling Company LLC dba Angel's Envy Site 1 (NA1_ANGELSEN_S1),SYS1 Angel's Envy Palletizer (ANGELSEN_SYS1),Continuous Improvement
+2396,DONE,REACTIVE,95 - SMF - Israel Perez,2026-04-03,Ciuti International Inc. Site1 (NA4_CIUTIINT_S1),SYS1 Focus Palletizer (CIUTIINT_SYS1),Corrective (Remote Support)
+2397,DONE,REACTIVE,FE - 60 - Ryan Bryson,2026-03-28,"Kari-Out LLC, Site 2 (NA1_KARIOUTF_S2)",Atlas 0006 Palletizer (KARIOUTF_SYS2),Programming
+2398,DONE,REACTIVE,FE - 60 - Ryan Bryson,2026-03-28,"Heritage Specialty Foods, LLC (NA1_HRTGFOOD_S1)",Palletizer SYS1 (HRTGFOOD_SYS1),Programming
+2399,IN PROGRESS,REACTIVE,FE - 60 - Ryan Bryson,2026-03-28,,,Programming
+2400,IN PROGRESS,REACTIVE,FE - 60 - Ryan Bryson,2026-03-28,"Spray Products Corporation, Site1 (NA1_SPRAYPRO_S1)",ATLAS 0002 Palletizer (SPRAYPRO_SYS1),Programming
+2401,IN PROGRESS,REACTIVE,FE - 60 - Ryan Bryson,2026-03-28,"Spray Products Corporation, Site1 (NA1_SPRAYPRO_S1)",ATLAS 0013 (SPRAYPRO_SYS2),Programming
+2403,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-03-26 09:00:00,Fresca Mexican Foods LLC (NA_FRESCMEX_S1),ATLAS 0019 Palletizer (FRESCMEX_SYS2),Admin
+2404,DONE,REACTIVE,60 - ORD - Charlson Price,2026-03-25,General,Field Service Remote Work,Admin
+2405,DONE,REACTIVE,75 - DFW- Alan Clement,2026-03-26,General,,Admin
+2406,DONE,REACTIVE,"Parts - Vince Schiavone,19 - PHL - Andrew Feeney",2026-03-26,"Rockline Industries Inc, Site1 (NA1_ROCKLINE_S1)",SYS2 BeRobox PALTZ Palletizer (Line 1) (ROCKLINE_SYS2),Corrective (Remote Support)
+2407,DONE,PREVENTIVE,60 - ORD - Charlson Price,2026-03-26,Urban Farmer,Urban Farmer Focus,Preventive
+2409,DONE,REACTIVE,19 - PHL - Andrew Feeney,2026-04-03 18:00:00,MAINTEX,MAINTEXX_SYS1,Installation
+2410,OPEN,REACTIVE,"FE - Erick Pedraza,Tyler Matijevich,FE - Shawn Castelino,FE - Panos Malamis,FE - Luis Rodriguez,Parts - Clarence Young",2026-04-17 16:00:00,Formic Office (NA2_FORMIC_S1),ATLAS 0023 Palletizer (Unallocated),Refurbish / Commissioning
+2411,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-03-26 16:00:00,General,,Admin
+2412,DONE,REACTIVE,75 - DFW- Alan Clement,2026-03-27,"Spray Products Corporation, Site1 (NA1_SPRAYPRO_S1)",ATLAS 0002 Palletizer (SPRAYPRO_SYS1),Corrective (Remote Support)
+2414,DONE,REACTIVE,75 - DFW- Alan Clement,2026-03-27,General,,Admin
+2415,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-03-27 16:00:00,General,,Admin
+2416,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-03-31 16:00:00,"Garden of Light, Inc. Site 1 (NA1_GARDENOF_S1)",SYS2 Palletizer (GARDENOF_SYS2),Production Support
+2417,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-03-28 09:00:00,General,,Admin
+2418,DONE,REACTIVE,FE - 60 - Ryan Bryson,2026-04-06 17:00:00,General,,Admin
+2419,DONE,REACTIVE,19 - PHL - Andrew Feeney,2026-03-28 00:00:00,"Venus Laboratories Inc. dba Earth Friendly Products, Cypress CA Site 4 (NA4_VENUSPS2_S4)",SYS4 Focus Palletizer (Cypress CA) (VENUSPS2_SYS4),Corrective (On site)
+2420,IN PROGRESS,REACTIVE,19 - PHL - Andrew Feeney,2026-03-28,"Venus Laboratories Inc. dba Earth Friendly Products, Cypress CA Site 4 (NA4_VENUSPS2_S4)",SYS10 Focus Palletizer (Cypress CA) (VENUSPS2_SYS10),Corrective (On site)
+2421,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-03-29 16:00:00,General,,Admin
+2422,DONE,REACTIVE,FE - 84 - Rootbeer Weaver,,Formic Office (NA2_FORMIC_S1),,Admin
+2423,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-03-30 16:00:00,,,Inventory
+2424,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-03-30 16:00:00,"Spray Products Corporation, Site1 (NA1_SPRAYPRO_S1)",ATLAS 0002 Palletizer (SPRAYPRO_SYS1),Inventory
+2425,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-03-30 16:00:00,"Spray Products Corporation, Site1 (NA1_SPRAYPRO_S1)",ATLAS 0013 (SPRAYPRO_SYS2),Inventory
+2426,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-03-30 16:00:00,General,,Admin
+2427,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-03-31 09:00:00,General,,Admin
+2428,DONE,REACTIVE,60 - ORD - Charlson Price,2026-03-30,Compact Industries Inc Site 1 (NA2_COMPACT_S1),SYS2 WALL-E (COMPACT_SYS2),Corrective (On site)
+2430,DONE,REACTIVE,95 - SMF - Israel Perez,2026-04-03,Berber Food Manufacturing Inc. (Mi Rancho) Site 1 (NA4_MIRANCHO_S1),SYS1 BeRobox Palletizer (MEGA 1) (MIRANCHO_SYS1),Corrective (Remote Support)
+2431,DONE,REACTIVE,95 - SMF - Israel Perez,2026-04-03,Ciuti International Inc. Site1 (NA4_CIUTIINT_S1),SYS2 Focus Palletizer (CIUTIINT_SYS2),Corrective (Remote Support)
+2432,DONE,REACTIVE,75 - DFW- Alan Clement,2026-03-31,General,,Admin
+2433,DONE,REACTIVE,95 - SMF - Israel Perez,2026-03-31,Fresca Mexican Foods LLC (NA_FRESCMEX_S1),ATLAS 0018 Palletizer (FRESCMEX_SYS3),Corrective (Remote Support)
+2434,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-03-30 16:00:00,Fresca Mexican Foods LLC (NA_FRESCMEX_S1),ATLAS 0018 Palletizer (FRESCMEX_SYS3),Corrective (Remote Support)
+2435,DONE,REACTIVE,95 - SMF - Israel Perez,2026-03-30,"Mariani Nut Company, Inc (NA1_MARIANIN_S1)",Palletizer SYS2 (MARIANIN_SYS2),Continuous Improvement
+2436,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-03-31 16:00:00,"Love Beets Production, LLC Site 1 (NA1_LOVEBEET_S1)",SYS2 Focus Palletizer (LOVEBEET_SYS2),Corrective (Remote Support)
+2437,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-03-31 16:00:00,"Garden of Light, Inc. Site 1 (NA1_GARDENOF_S1)",SYS1 Palletizer (GARDENOF_SYS1),Corrective (Remote Support)
+2438,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-03-31 16:00:00,General,,Admin
+2439,IN PROGRESS,REACTIVE,FE - 60 - Ryan Bryson,2026-04-02,Haviland Products Company (NA1_HAVILAND_S1),Atlas 0016 Palletizer (HAVILAND_SYS1),Programming
+2440,DONE,REACTIVE,60 - ORD - Charlson Price,2026-03-31,Urban Farmer,Urban Farmer Focus,Corrective (On site)
+2441,DONE,REACTIVE,95 - SMF - Israel Perez,2026-04-03,Ciuti International Inc. Site1 (NA4_CIUTIINT_S1),SYS1 Focus Palletizer (CIUTIINT_SYS1),Corrective (Remote Support)
+2443,DONE,REACTIVE,95 - SMF - Israel Perez,2026-04-01,General,,Admin
+2444,OPEN,REACTIVE,95 - SMF - Israel Perez,2026-04-02,General,,Admin
+2445,OPEN,REACTIVE,95 - SMF - Israel Perez,2026-04-03,General,,Admin
+2447,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-04-02 09:00:00,General,,Admin
+2448,DONE,REACTIVE,60 - ORD - Charlson Price,2026-04-01,"Harvest Food Group, Inc Site 1 (NA2_HARVESTF_S1)",SYS1 HCM Systems Palletizer (HARVESTF_SYS1),Corrective (On site)
+2449,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-04-01 16:30:00,General,,Admin
+2450,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-04-01 16:00:00,Urban Farmer,Urban Farmer Focus,Corrective (Remote Support)
+2451,DONE,REACTIVE,"60 - ORD - Charlson Price,60 - ORD - Hector Martinez",2026-04-01,"Harvest Food Group, Inc Site 1 (NA2_HARVESTF_S1)",SYS2 HCM Systems Case Packer (HARVESTF_SYS2),Corrective (On site)
+2452,DONE,REACTIVE,95 - SMF - Israel Perez,2026-04-10,"Taffy Town, Inc. Site 1 (NA3_TAFFYTOW_S1)",SYS1 Palletizer (TAFFYTOW_SYS1),Corrective (Remote Support)
+2453,DONE,REACTIVE,60 - ORD - Charlson Price,2026-04-01,Urban Farmer,Urban Farmer Focus,Corrective (On site)
+2454,DONE,REACTIVE,60 - ORD - Charlson Price,2026-04-01,"Heritage Specialty Foods, LLC (NA1_HRTGFOOD_S1)",Palletizer SYS1 (HRTGFOOD_SYS1),Corrective (Remote Support)
+2455,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-04-02 09:00:00,"Precision Paper Converters, LLC Site1 (NA2_PRECISIO_S1)",SYS1 Focus Palletizer (PRECISIO_SYS1),Production Support
+2456,IN PROGRESS,REACTIVE,"60 - ORD - Charlson Price,60 - ORD - Hector Martinez",2026-04-10,Sheet Metal Supply LTD Site 1 (NA2_SHEETMET_S1),SYS1 Tile Bender (SHEETMET_SYS1),Corrective (On site)
+2457,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-04-03 09:00:00,General,,Admin
+2458,DONE,REACTIVE,60 - ORD - Charlson Price,2026-04-02,General,Field Service Remote Work,Admin
+2461,OPEN,REACTIVE,60 - ORD - Hector Martinez,2026-04-10 09:00:00,General,,Admin
+2462,DONE,REACTIVE,FE - 60 - Ryan Bryson,2026-04-02,"Lone Star Bakery, Inc. Site 1 (NA2_LONESTAR-S1)",SYS1 Palletizer (LONESTAR_SYS1),Corrective (Remote Support)
+2463,DONE,REACTIVE,95 - SMF - Israel Perez,2026-04-02,"T.M. Duche' Nut Co., Inc. Site1 (NA4_TMDUCHEN_S1)",SYS1 Focus Palletizer (TMDUCHEN_SYS1),Corrective (Remote Support)
+2464,DONE,REACTIVE,FE - 60 - Ryan Bryson,2026-04-02 09:00:00,"Heritage Specialty Foods, LLC (NA1_HRTGFOOD_S1)",Palletizer SYS1 (HRTGFOOD_SYS1),Corrective (Remote Support)
+2465,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-04-03 18:00:00,"Ver-Tech Laboratories, Inc. Site 1 (NA2_VERTECHL_S1)",SYS1 Palletizer (VERTECHL_SYS1),Corrective (Remote Support)
+2466,DONE,REACTIVE,Parts - Vince Schiavone,,Sheet Metal Supply LTD Site 1 (NA2_SHEETMET_S1),SYS1 Tile Bender (SHEETMET_SYS1),Inventory
+2467,OPEN,REACTIVE,"FE - Erick Pedraza,Tyler Matijevich,FE - Shawn Castelino,FE - Panos Malamis,FE - Luis Rodriguez,Parts - Clarence Young",2026-04-17 16:00:00,Formic Office (NA2_FORMIC_S1),ATLAS 0024 Palletizer (Unallocated),Refurbish / Commissioning
+2468,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-04-03 16:00:00,"Once Again Nut Butter Collective Inc, Site1 (NA1_ONCEAGAI_S1)",SYS1 Palletizer (ONCEAGAI_SYS1),Inventory
+2469,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-04-03 16:00:00,Trident Seafoods Corporation Site 1 MN(NA2_TRIDENTS_S1),SYS3 Palletizer (TRIDENTS_SYS3),Corrective (Remote Support)
+2470,DONE,REACTIVE,60 - ORD - Charlson Price,2026-04-03,General,Field Service Remote Work,Admin
+2471,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-04-03 16:00:00,General,,Admin
+2472,DONE,PREVENTIVE,FE - 30 - Nathan Brown,2026-04-05 17:00:00,General,,Admin
+2473,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-04-04 09:00:00,General,,Admin
+2475,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-04-03 16:00:00,"Sunrise Family Farms, Inc. (NA1_SUNRISEF_S1)",SYS1 Palletizer (SUNRFARM_SYS1),Inventory
+2476,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-04-04 09:00:00,Fresca Mexican Foods LLC (NA_FRESCMEX_S1),ATLAS 0020 Palletizer (FRESCMEX_SYS4),Programming
+2477,DONE,REACTIVE,60 - ORD - Charlson Price,2026-04-06,Urban Farmer,Urban Farmer Focus,Corrective (On site)
+2479,DONE,OTHER,60 - ORD - Hector Martinez,2026-04-03 09:00:00,"PMA Friction Products, Inc Site 1 (NA2_PMAFRICT_S1)",SYS1 Matrix Press Tender (PMAFRICT_SYS1),Preventive
+2480,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-04-06 16:30:00,General,,Admin
+2481,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-04-07 09:00:00,General,,Admin
+2482,IN PROGRESS,REACTIVE,"FE - 84 - Rootbeer Weaver,75 - DFW- Alan Clement",2026-04-08 11:00:00,Abimar Foods Inc. Site 1 (NA2_ABIMARFO_S1),SYS1 Case Packer (ABIMARFO_SYS1),Corrective (On site)
+2484,DONE,REACTIVE,19 - PHL - Andrew Feeney,,General,Field Service Remote Work,Admin
+2485,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-04-06 12:30:00,MAINTEX,MAINTEXX_SYS1,Corrective (Remote Support)
+2486,DONE,REACTIVE,95 - SMF - Israel Perez,2026-04-06,Ciuti International Inc. Site1 (NA4_CIUTIINT_S1),SYS2 Focus Palletizer (CIUTIINT_SYS2),Corrective (Remote Support)
+2487,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-04-07 16:30:00,General,,Admin
+2489,IN PROGRESS,REACTIVE,75 - DFW- Alan Clement,2026-04-08,Formic Technologies (NA2_FORMIC),ATLAS 0022 Palletizer (PNRFLOUR_SYS2),Admin
+2490,OPEN,REACTIVE,"FE - Erick Pedraza,Tyler Matijevich,FE - Shawn Castelino,FE - Panos Malamis,FE - Luis Rodriguez,Parts - Clarence Young",2026-04-17 16:00:00,Formic Office (NA2_FORMIC_S1),ATLAS 0024 Palletizer (Unallocated),Refurbish / Commissioning
+2491,OPEN,REACTIVE,95 - SMF - Israel Perez,2026-04-10,Ciuti International Inc. Site1 (NA4_CIUTIINT_S1),SYS2 Focus Palletizer (CIUTIINT_SYS2),Corrective (On site)
+2499,DONE,REACTIVE,55 - MSP - Kevin Magner,2026-04-08 09:00:00,General,,Admin
+2500,DONE,REACTIVE,02 - BOS - Brad Rasberry,2026-04-07 12:30:00,HS Baking Enterprises LLC (NA2_HSBAKING),Atlas 0014 Palletizer (HSBAKING_SYS1),Corrective (Remote Support)
+2501,OPEN,REACTIVE,02 - BOS - Brad Rasberry,2026-04-08 16:30:00,General,,Admin
+2502,OPEN,OTHER,95 - SMF - Israel Perez,2026-04-07,General,,Admin
+2503,DONE,REACTIVE,FE - 84 - Rootbeer Weaver,2026-04-07,General,,Admin
+2504,IN PROGRESS,REACTIVE,55 - MSP - Kevin Magner,2026-04-09 09:00:00,General,,Admin
+2505,OPEN,REACTIVE,60 - ORD - Charlson Price,2026-04-08,General,Field Service Remote Work,Admin
+2506,OPEN,REACTIVE,FE - 60 - Ryan Bryson,2026-04-13 17:00:00,General,,Admin
+2507,DONE,REACTIVE,FE - 60 - Ryan Bryson,2026-04-07,"S&F Foods, Inc. Site 1 (NA1_SNFFOODS_S1)",SYS1 Palletizer (SNFFOODS_SYS1),Corrective (On site)
+2524,IN PROGRESS,REACTIVE,FE - 60 - Ryan Bryson,2026-04-11,Fresca Mexican Foods LLC (NA_FRESCMEX_S1),ATLAS 0020 Palletizer (FRESCMEX_SYS4),Programming
+2530,DONE,REACTIVE,19 - PHL - Andrew Feeney,2026-04-07,General,Field Service Remote Work,Admin
+2531,DONE,REACTIVE,19 - PHL - Andrew Feeney,2026-04-07 16:30:00,"Apex Display Group, LLC Site 1 (NA1_APEXDISP_S1)",SYS1 Apex Display Palletizer (APEXDISP_SYS1),Corrective (On site)
+2532,IN PROGRESS,REACTIVE,19 - PHL - Andrew Feeney,,General,Field Service Remote Work,Admin
+2533,OPEN,REACTIVE,19 - PHL - Andrew Feeney,2026-04-09,General,Field Service Remote Work,Admin

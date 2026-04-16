@@ -1,0 +1,109 @@
+Fix the Analytics Dashboard chart for FO priority so it shows the correct metric.
+
+Current problem:
+The chart is not showing the average time tickets have been open for the FO team by priority level. I want a weekly trend line that includes every FO ticket that was open at any point during each week, even if the ticket was still open at the end of that week.
+
+What the chart should show:
+For each week in the selected range, show the average open age in hours of FO team tickets, grouped by priority level.
+
+Correct inclusion rule:
+A ticket must be included in a weekly bucket if it was open at any time during that week.
+
+A ticket counts for a week when:
+opened_at is before the end of the week
+and
+closed_at is null or closed_at is on or after the start of the week
+
+This means:
+
+Include tickets opened and closed within the same week
+Include tickets opened before the week and still open during the week
+Include tickets opened before the week and still open at the end of the week
+Include tickets that closed during the week
+Exclude tickets that were fully closed before the week started
+Exclude tickets opened after the week ended
+
+How to calculate the value for each included ticket in a week:
+For each ticket included in a weekly bucket, calculate its open age in hours using:
+effective_end = closed_at if the ticket closed during that week
+otherwise effective_end = end_of_week or now, whichever is earlier
+
+Then:
+open_age_hours = effective_end - opened_at
+
+Important:
+Do not only use tickets closed in that week.
+Do not only use tickets still open at the end of the week.
+Do not average pre-aggregated data.
+Compute this from raw ticket data.
+
+Grouping:
+
+Filter to FO team tickets only
+Group results by FO priority level
+Show separate lines for P1, P2, P3, P4, and Other if needed
+X axis should be weekly buckets across the selected time range
+Y axis should be average open age in hours
+
+Expected business meaning:
+This chart should answer:
+“In each week, for FO tickets by priority, how long had the tickets in that week been open on average?”
+
+Acceptance criteria:
+
+A ticket that stays open across multiple weeks should appear in every week it overlaps
+A still-open ticket should be included using end_of_week or now as the cutoff
+A ticket closed during a week should still be included in that week
+Weekly values must be calculated from ticket-level data, not from status snapshots that drop unresolved tickets
+The chart title and tooltip should clearly reflect that this is average open age of tickets present in that week
+Tooltips should show week start, priority, ticket count included, and average open age in hours
+Missing priority data should be handled cleanly
+The result should be easy to validate with a small manual sample
+
+Please also:
+
+Review the current query and chart transformation logic
+Fix any logic that only counts closed tickets or only counts end-of-week open tickets
+Add comments in the code explaining the weekly overlap logic
+Rename labels if needed so the chart is not misleading
+
+Use this sample logic:
+For each week:
+week_start = start of week
+week_end = end of week
+
+Include ticket if:
+ticket.opened_at < week_end
+and
+(ticket.closed_at is null or ticket.closed_at >= week_start)
+
+For each included ticket:
+effective_end =
+
+ticket.closed_at if ticket.closed_at is between week_start and week_end
+otherwise min(week_end, now) if still open past the week or still open now
+
+open_age_hours =
+difference in hours between ticket.opened_at and effective_end
+
+Weekly chart value for each priority =
+average of open_age_hours for all included tickets in that week and priority
+
+Add a simple test case or debug output with a few example tickets to prove the logic is correct.
+
+Example cases to validate:
+
+Ticket opened Monday and closed Wednesday of the same week should count in that week
+Ticket opened Friday and still open two weeks later should count in each overlapping week
+Ticket opened before the week and closed during the week should count in that week
+Ticket closed before the week should not count
+Ticket opened after the week should not count
+
+At the end, show me:
+
+What was wrong with the old logic
+What query or transformation was changed
+How the new calculation works
+A quick validation example against sample tickets
+
+This should be implemented cleanly in the existing dashboard without changing the rest of the analytics layout.

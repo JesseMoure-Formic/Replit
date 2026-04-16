@@ -1,0 +1,122 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-sans: 'Geist', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    --font-mono: 'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+    --background: 170 30% 5%;
+    --foreground: 150 10% 94%;
+    
+    --card: 170 25% 8%;
+    --card-foreground: 150 10% 94%;
+    
+    --popover: 170 25% 8%;
+    --popover-foreground: 150 10% 94%;
+    
+    --primary: 34 100% 50%;
+    --primary-foreground: 0 0% 100%;
+    
+    --secondary: 170 15% 14%;
+    --secondary-foreground: 150 10% 94%;
+    
+    --muted: 170 15% 14%;
+    --muted-foreground: 160 6% 58%;
+    
+    --accent: 170 15% 14%;
+    --accent-foreground: 150 10% 94%;
+    
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 170 15% 16%;
+    --input: 170 15% 16%;
+    --ring: 34 100% 50%;
+
+    --radius: 0.5rem;
+
+    --elevate-1: rgba(255, 255, 255, 0.04);
+    --elevate-2: rgba(255, 255, 255, 0.08);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply tracking-tight font-medium;
+  }
+}
+
+@layer utilities {
+  .hover-elevate {
+    position: relative;
+    z-index: 0;
+  }
+  .hover-elevate::after {
+    content: "";
+    pointer-events: none;
+    position: absolute;
+    inset: 0px;
+    border-radius: inherit;
+    z-index: 999;
+    transition: background-color 0.2s ease;
+  }
+  .hover-elevate:hover::after {
+    background-color: var(--elevate-1);
+  }
+  .hover-elevate:active::after {
+    background-color: var(--elevate-2);
+  }
+  
+  .glass-header {
+    @apply bg-[#091517]/95 backdrop-blur-md border-b border-white/10;
+  }
+
+  .rich-text-editor-content .ProseMirror {
+    @apply px-3 py-2 text-sm outline-none min-h-[inherit];
+    color: hsl(var(--foreground));
+  }
+  .rich-text-editor-content .ProseMirror p {
+    @apply my-1;
+  }
+  .rich-text-editor-content .ProseMirror ul {
+    @apply list-disc pl-5 my-1;
+  }
+  .rich-text-editor-content .ProseMirror ol {
+    @apply list-decimal pl-5 my-1;
+  }
+  .rich-text-editor-content .ProseMirror li {
+    @apply my-0.5;
+  }
+  .rich-text-editor-content .ProseMirror strong {
+    @apply font-semibold;
+  }
+  .rich-text-editor-content .ProseMirror em {
+    @apply italic;
+  }
+  .rich-text-editor-content .ProseMirror p.is-editor-empty:first-child::before {
+    content: attr(data-placeholder);
+    @apply text-muted-foreground pointer-events-none float-left h-0;
+  }
+
+  /* iOS fix: text selection handles can't be dragged inside overflow:auto containers
+     unless we explicitly declare these properties. Without them, react-remove-scroll
+     (used by Radix Dialog) intercepts touchmove events and breaks selection dragging. */
+  textarea,
+  input[type="text"],
+  input[type="search"],
+  input[type="email"],
+  input[type="password"],
+  [contenteditable="true"] {
+    -webkit-user-select: text;
+    user-select: text;
+    touch-action: auto;
+  }
+}
